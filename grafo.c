@@ -13,7 +13,7 @@ int pertenceA(vertice u,vertice *Stack, int size);
 void print_ordem(const char* name, vertice *lista, int size);
 int append(vertice v, vertice *lista, int size);
 vertice *PosOrdem(grafo G, int Transpose);
-int Pos(grafo G, vertice r, vertice *visitado, vertice *Stack, int Transpose);
+int Pos(grafo G, vertice r, vertice *visitado, vertice *Stack, int Transpose, int *sz_scc);
 
 
 //------------------------------------------------------------------------------
@@ -323,30 +323,41 @@ grafo decompoe(grafo g) {
 			}
 	*/
 
+	vertice r = agfstnode(g);
+	r = agnxtnode(g, r);
+	Agedge_t *o = agfstout(g, r);
+	Agedge_t *i = agfstin (g, r);
+	printf("%s<(%s)>%s\n",agnameof(agtail(i)), agnameof(r), agnameof(aghead(o))); 
+
+	// printf("r: (%s) tail: (%s) head: (%s)\n",agnameof(r), agnameof(agtail(e)), agnameof(aghead(e)));
+	// printf("r: out neighbours is %d\n", agdegree(g, r, 0, 1));
+	// printf("r: in neighbours is %d\n", agdegree(g, r, 1, 0));
+	// return 0;
+
 	int size = n_vertices(g);
 	vertice *stack = PosOrdem(g, 0);
-	print_ordem("STACK", stack, size);
+	print_ordem("\t\tSTACK POS ORDEM", stack, size);
 
-	// int ssc = 0;
-	// vertice *SSC = calloc(size, sizeof(vertice));
-	// vertice *visitados = calloc(size, sizeof(vertice));
+	int scc = 0;
+	int out = 0;
+	vertice **SCC = calloc(size, sizeof(vertice));
+	vertice *visitados = calloc(size, sizeof(vertice));
+	vertice *component = calloc(size, sizeof(vertice));
 
-	// grafo T;
-	// T = trasposto G 
-
-	// vertice v;
+	vertice v;
+	int tam = 0;
 	// printf("POP: ");
-	// for(int i = size-1; i >= 0; i--){
-	// 	v = stack[i];
-	// 	// if !visited[v]
-	// 	SSC = DFS(T, v);
-	// 	ssc++;
-	// 	printf("%s ", agnameof(v));
-	// }	printf("\n");
+	for(int i = size-1; i >= 0; i--){
+		v = stack[i];
+		memset(component, 0, size*sizeof(vertice));
+		if(!pertenceA(v, visitados, (int)size)){
+			Pos(g, v, visitados, component, 1, &out);
+			print_ordem("COMPONENTE FORTE", component, size);
+			scc++;
+		}
+	}	
 
-
-
-
+	printf("existem %d componentes fortemente conexos\n", scc);
 
 	return g;
 }
@@ -374,7 +385,7 @@ void print_ordem(const char* name, vertice *lista, int size)
 
 int append(vertice v, vertice *lista, int size)
 {
-	printf("append (%s)...", agnameof(v));
+	// printf("append (%s)...", agnameof(v));
 	// print_ordem("Dando append em", lista, size);
 	if(!pertenceA(v, lista, size)){
 		// printf("%s nao pertence a lista\n", agnameof(v));
@@ -383,12 +394,12 @@ int append(vertice v, vertice *lista, int size)
 			{
 				lista[i] = v;
 				// printf("deu append em %s\n", agnameof(v));
-				print_ordem("ok", lista, size);				
+				// print_ordem("ok", lista, size);				
 				return 1;
 			}
 	}
 
-	print_ordem("nao", lista, size);
+	// print_ordem("nao", lista, size);
 	return 0;
 }
 
@@ -401,27 +412,21 @@ vertice *PosOrdem(grafo G, int Transpose)
 	
 	for(vertice v = agfstnode(G); v; v = agnxtnode(G, v))
 		if(!pertenceA(v, visitado, (int)size))
-			out = Pos(G, v, visitado, stack, Transpose);
+			out = Pos(G, v, visitado, stack, Transpose, &out);
 
   printf("pos ordem retornou %d\n", out);
 
-	print_ordem("STACK", stack, (int)size);
 	return stack;
 }
 
-int Pos(grafo G, vertice r, vertice *visitado, vertice *Stack, int Transpose)
+int Pos(grafo G, vertice r, vertice *visitado, vertice *Stack, int Transpose, int *sz_scc)
 {
 	Agedge_t* (*first)(Agraph_t*, Agnode_t*);
 	Agedge_t* (*next)(Agraph_t*, Agedge_t*);
 	int size = n_vertices(G);
-	// Agedge_t *e = agfstout(G, r);
-	// printf("r: (%s) tail: (%s) head: (%s)\n",agnameof(r), agnameof(agtail(e)), agnameof(aghead(e)));
-	// printf("r: out neighbours is %d\n", agdegree(G, r, 0, 1));
-	// printf("r: in neighbours is %d\n", agdegree(G, r, 1, 0));
 
 	if(!append(r, visitado, size))
 		return 0;
-
 
 	// define caminho a percorrer
 	if(Transpose){
@@ -438,14 +443,18 @@ int Pos(grafo G, vertice r, vertice *visitado, vertice *Stack, int Transpose)
 	vertice v = r;
 
 	for(Agedge_t *e = first(G, r); e; e = next(G, e)){
-		v = aghead(e);
-		printf("vizinho de r (%s) : %s\n",agnameof(r), agnameof(v));
+		// v = (Transpose) ? agtail(e) : aghead(e);
+		if(Transpose) v = agtail(e);
+		else v = aghead(e);
+		// printf("vizinho de r (%s) : %s\n",agnameof(r), agnameof(v));
 		if(!pertenceA(v, Stack, size)){
-			Pos(G, v, visitado, Stack, Transpose);
+			// printf("coloca %s na stack\n", agnameof(v));
+			*sz_scc++;
+			Pos(G, v, visitado, Stack, Transpose, sz_scc);
 		}
 	}
 
-	printf("PUSH ");
+	// printf("PUSH ");
 	append(r, Stack, size);
 
 	return 1;
