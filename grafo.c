@@ -8,7 +8,9 @@
 void DFSearch(int i, int size, int *visitado, int **matriz_adjacencia);
 // funcoes & struct auxiliar para computar bipartidade de um grafo
 int colorGraph(int **matrix, int color[], int size, int pos, int c);
-int PosOrdem(grafo G, vertice v, int *tempo, vertice *visitado, vertice *Stack);
+vertice *PosOrdem(grafo G);
+int Pos(grafo G, vertice v, vertice *visitado, vertice *Stack);
+
 
 
 //------------------------------------------------------------------------------
@@ -327,12 +329,15 @@ grafo decompoe(grafo g) {
 
 int pertenceA(vertice u,vertice *Stack, int size)
 {
+	// printf("checando...");
 	for(int i = 0; i < size; i++)
-		if(Stack[i] == u)	
+		if(Stack[i] == u)	{
+			// printf("ok\n");
 			return 1;
+		}
 
+	// printf("ok\n");
 	return 0;
-
 }
 
 void print_ordem(char* name, vertice *lista, int size){
@@ -346,63 +351,70 @@ void print_ordem(char* name, vertice *lista, int size){
 
 int append(vertice v, vertice *lista, int size)
 {
-	print_ordem("Dando append em", lista, size);
+	printf("append (%s)...", agnameof(v));
+	// print_ordem("Dando append em", lista, size);
 	if(!pertenceA(v, lista, size)){
-		printf("%s nao pertence a lista\n", agnameof(v));
+		// printf("%s nao pertence a lista\n", agnameof(v));
 		for(int i = 0; i < size; i++)
 			if(lista[i] == NULL)
 			{
 				lista[i] = v;
-				printf("deu append em %s\n", agnameof(v));
+				// printf("deu append em %s\n", agnameof(v));
+				print_ordem("ok", lista, size);				
 				return 1;
 			}
 	}
 
+	print_ordem("nao", lista, size);
 	return 0;
 }
 
-int PosOrdem(grafo G, vertice v, int *tempo, vertice *visitado, vertice *Stack)
+vertice *PosOrdem(grafo G)
 {
-	// int size = n_vertices(G);
-	int neigh_saida = agdegree(G, v, 0, 1);
-	// printf("nodo: %s\n", agnameof(v));
-	// printf("\ttem %d vizinhos de saida\n",   agdegree(G, v, 0, 1));
-	// printf("\ttem %d vizinhos de entrada\n", agdegree(G, v, 1, 0));
-	vertice u = v;
 	int size = n_vertices(G);
-	// agcopyattr(v, u);
-	// visitado[*tempo] = v;
-	// if(!append(v, visitado, size))
-	// 	return -1;
+  vertice *stack = calloc(size, sizeof(vertice));
+  vertice *visitado = calloc(size, sizeof(vertice));
+	int out;
+	
+	for(vertice v = agfstnode(G); v; v = agnxtnode(G, v))
+		if(!pertenceA(v, visitado, size))
+			out = Pos(G, v, visitado, stack);
 
-	append(v, visitado, size);
+  printf("pos ordem retornou %d\n", out);
 
-	for(int i = 0; i < neigh_saida; i++)
-	{
-		Agedge_t *e = agfstout(G, u);
-		u = aghead(e);
-		// u = agnxtnode(G, u);
-		printf("\n%d; root(%s) name of node: %s\n",i,agnameof(v), agnameof(u));
-		if(!pertenceA(u, visitado, size)){
-			printf("%s nao pertence a stack, recursivo\n", agnameof(u));
-			PosOrdem(G, u, tempo, visitado, Stack);
+	print_ordem("STACK", stack, size);
+	return stack;
+}
+
+int Pos(grafo G, vertice r, vertice *visitado, vertice *Stack)
+{
+	int size = n_vertices(G);
+	int vizinho_saida;
+	// Agedge_t *e = agfstout(G, r);
+	// printf("r: (%s) tail: (%s) head: (%s)\n",agnameof(r), agnameof(agtail(e)), agnameof(aghead(e)));
+	// printf("r: out neighbours is %d\n", agdegree(G, r, 0, 1));
+	// printf("r: in neighbours is %d\n", agdegree(G, r, 1, 0));
+
+	if(!append(r, visitado, size))
+		return 0;
+
+	// for(vertice j = agfstnode(G); j; j = aghead(agnxtout(G, j)))
+	// 	printf("vizinhos de r: %s\n", agnameof(j));
+	vertice v = r;
+
+	for(Agedge_t *e = agfstout(G, r); e; e = agnxtout(G, e)){
+		v = aghead(e);
+		printf("vizinho de r (%s) : %s\n",agnameof(r), agnameof(v));
+		if(!pertenceA(v, Stack, size)){
+			Pos(G, v, visitado, Stack);
 		}
 	}
-	// Stack[*tempo] = v;
-	// *tempo++;
-	append(v, Stack, size);
-	// for(u = v; u; agnxtout(G, u)){
-	// 	if(i++ == size)
-	// 		break;
-	// }
 
-	print_ordem("Stack", Stack, size);
-
-
+	printf("PUSH ");
+	append(r, Stack, size);
 
 	return 1;
 }
-
 // ======= Funcoes Auxiliares Decompoe ======= //
 /*
 void BuscaProfundidade(grafo G)
