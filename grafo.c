@@ -8,6 +8,7 @@
 void DFSearch(int i, int size, int *visitado, int **matriz_adjacencia);
 // funcoes & struct auxiliar para computar bipartidade de um grafo
 int colorGraph(int **matrix, int color[], int size, int pos, int c);
+int PosOrdem(grafo G, vertice v, int *tempo, vertice *visitado, vertice *Stack);
 
 
 //------------------------------------------------------------------------------
@@ -324,8 +325,134 @@ grafo decompoe(grafo g) {
 }
 
 
+int pertenceA(vertice u,vertice *Stack, int size)
+{
+	for(int i = 0; i < size; i++)
+		if(Stack[i] == u)	
+			return 1;
+
+	return 0;
+
+}
+
+void print_ordem(char* name, vertice *lista, int size){
+	printf("%s: [", name);
+	for(int i = 0; i < size; i++)
+		if(lista[i] != NULL)
+			printf(" %s", agnameof(lista[i]));
+	printf(" ]\n");
+
+}
+
+int append(vertice v, vertice *lista, int size)
+{
+	print_ordem("Dando append em", lista, size);
+	if(!pertenceA(v, lista, size)){
+		printf("%s nao pertence a lista\n", agnameof(v));
+		for(int i = 0; i < size; i++)
+			if(lista[i] == NULL)
+			{
+				lista[i] = v;
+				printf("deu append em %s\n", agnameof(v));
+				return 1;
+			}
+	}
+
+	return 0;
+}
+
+int PosOrdem(grafo G, vertice v, int *tempo, vertice *visitado, vertice *Stack)
+{
+	// int size = n_vertices(G);
+	int neigh_saida = agdegree(G, v, 0, 1);
+	// printf("nodo: %s\n", agnameof(v));
+	// printf("\ttem %d vizinhos de saida\n",   agdegree(G, v, 0, 1));
+	// printf("\ttem %d vizinhos de entrada\n", agdegree(G, v, 1, 0));
+	vertice u = v;
+	int size = n_vertices(G);
+	// agcopyattr(v, u);
+	// visitado[*tempo] = v;
+	// if(!append(v, visitado, size))
+	// 	return -1;
+
+	append(v, visitado, size);
+
+	for(int i = 0; i < neigh_saida; i++)
+	{
+		Agedge_t *e = agfstout(G, u);
+		u = aghead(e);
+		// u = agnxtnode(G, u);
+		printf("\n%d; root(%s) name of node: %s\n",i,agnameof(v), agnameof(u));
+		if(!pertenceA(u, visitado, size)){
+			printf("%s nao pertence a stack, recursivo\n", agnameof(u));
+			PosOrdem(G, u, tempo, visitado, Stack);
+		}
+	}
+	// Stack[*tempo] = v;
+	// *tempo++;
+	append(v, Stack, size);
+	// for(u = v; u; agnxtout(G, u)){
+	// 	if(i++ == size)
+	// 		break;
+	// }
+
+	print_ordem("Stack", Stack, size);
 
 
+
+	return 1;
+}
+
+// ======= Funcoes Auxiliares Decompoe ======= //
+/*
+void BuscaProfundidade(grafo G)
+{
+	grafo T; // copia de G ?
+
+	int size = n_vertices(G);
+	vertice *PosOrdem = calloc(size, sizeof(vertice));
+	int *visitado = malloc( ((unsigned int) size) *sizeof(int));
+
+	// inicializa todo vertice como nao visitado
+	for(int i = 0; i < size; i++)
+		visitado[i] = 0;
+
+
+	int tempo = 0; // define ordem (pre/pos)
+	for(vertice u = agfstnode(G); u; u = agnxtnode(G, u)){
+		// if(!visitado[u])
+			BuscaProfunda(G, u, &tempo, visitado, PosOrdem);
+	}
+
+	printf("visitado: ");
+	for(int i = 0; i < size; i++)
+		printf("%d ", visitado[i]);
+	printf("\n");
+}
+
+void BuscaProfunda(grafo G, vertice r, int *t, int *visitado, vertice PosOrdem)
+{
+// Mark the current node as visited and print it
+	// visited[v] = 1;
+
+	// Recur for all the vertices adjacent to this vertex
+	// list<int>::iterator i;
+	// for(i = adj[v].begin(); i != adj[v].end(); ++i)
+	
+	// 	if(!visited[*i])
+	// 		fillOrder(*i, visited, Stack);
+
+	
+
+	// All vertices reachable from v are processed by now, push v
+  //   cout << v << " Stack\n";
+	// Stack.push(v);
+
+	// Todos os vertices alcancaveis de v foram processados, stack.append(v)
+	// Stack[*tempo] = v;
+	// *tempo++;
+}
+*/
 
 
 
