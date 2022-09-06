@@ -319,9 +319,12 @@ grafo decompoe(grafo g) {
 	if(!size)		// se size == 0, nao retorna grafo
 		return NULL;																				
 
+	if(!agisdirected(g))
+		return NULL;
+
 	// stack que guarda ordem de vertices processados em uma DFS
 	vertice *stack = PosOrdem(g, 0);
-	print_ordem("\t\tSTACK POS ORDEM", stack, (int)size);
+	// print_ordem("\t\tSTACK POS ORDEM", stack, (int)size);
 
 	// variaveis para re-processar vertices da stack
 	// vertice **SCC = calloc(size, sizeof(vertice));
@@ -390,17 +393,17 @@ int append(vertice v, vertice *lista, int size)
 
 vertice *PosOrdem(grafo G, int Transpose)
 {
-	int out;
+	int out = 0;
 	int size = n_vertices(G);
-  vertice *stack 		= calloc((unsigned long int) size, sizeof(vertice));	// cast para evitar warning
-  vertice *visitado = calloc((unsigned long int) size, sizeof(vertice));	// cast para evitar warning
+	vertice *stack 		= calloc((unsigned long int) size, sizeof(vertice));	// cast para evitar warning
+	vertice *visitado = calloc((unsigned long int) size, sizeof(vertice));	// cast para evitar warning
 	
 	// para todo nodo v in G nao visitado, DFS(G, v)
 	for(vertice v = agfstnode(G); v; v = agnxtnode(G, v))
 		if(!pertenceA(v, visitado, (int)size))
 			Pos(G, v, visitado, stack, Transpose, &out);			// percurso de DFS(G, v) salvo na stack
 
-  printf("pos ordem retornou %d\n", out);
+  	// printf("pos ordem retornou %d\n", out);
 
 	return stack;
 }
