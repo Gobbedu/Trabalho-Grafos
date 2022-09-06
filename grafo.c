@@ -5,16 +5,15 @@
 
 //------------------------------------------------------------------------------
 // funcao auxiliar para computar conectividade de um grafo
-void DFSearch(int i, int size, int *visitado, int **matriz_adjacencia);
-// funcoes & struct auxiliar para computar bipartidade de um grafo
-int colorGraph(int **matrix, int color[], int size, int pos, int c);
+// void DFSearch(int i, int size, int *visitado, int **matriz_adjacencia);
+// // funcoes & struct auxiliar para computar bipartidade de um grafo
+// int colorGraph(int **matrix, int color[], int size, int pos, int c);
 
-int pertenceA(vertice u,vertice *Stack, int size);
-void print_ordem(const char* name, vertice *lista, int size);
-int append(vertice v, vertice *lista, int size);
-vertice *PosOrdem(grafo G, int Transpose);
-int Pos(grafo G, vertice r, vertice *visitado, vertice *Stack, int Transpose, int *sz_scc);
-
+// int pertenceA(vertice u,vertice *Stack, int size);
+// void print_ordem(const char* name, vertice *lista, int size);
+// int append(vertice v, vertice *lista, int size);
+// vertice *PosOrdem(grafo G, int Transpose);
+// int Pos(grafo G, vertice r, vertice *visitado, vertice *Stack, int Transpose, int *sz_scc);
 
 //------------------------------------------------------------------------------
 grafo le_grafo(void) {
@@ -22,6 +21,10 @@ grafo le_grafo(void) {
 }
 //------------------------------------------------------------------------------
 void destroi_grafo(grafo g) {
+	// deleta subgrafos, se algum
+	for(grafo sub = agfstsubg(g); sub; sub = agnxtsubg(sub))
+    	agdelsubg(g, sub);
+	
 	agclose(g);
 }
 //------------------------------------------------------------------------------
@@ -130,6 +133,17 @@ int completo(grafo g) {
 	return (Eg == (Vg*(Vg-1))/2);
 }
 
+// ======= Funcao Auxiliar Conexo ======= //
+static void DFSearch(int i, int size, int *visitado, int **matriz_adjacencia)
+{  
+	visitado[i] = 1;    // marca i como visitado
+
+	// recorrencia para todo vertice adjacente a i
+	for(int j = 0; j < size; j++){
+		if (matriz_adjacencia[i][j] == 1 && !visitado[j])
+			DFSearch(j, size, visitado, matriz_adjacencia);
+	}
+}
 // -----------------------------------------------------------------------------
 // grafo tem um unico componente (pedacos separados no grafo)
 int conexo(grafo g) {
@@ -156,9 +170,32 @@ int conexo(grafo g) {
 	return n_componentes;
 }
 
+// ======== Funcao auxiliar Bipartido ======== //
+static int colorGraph(int **matrix, int color[], int size, int pos, int c)
+{
+		if(color[pos] != -1 && color[pos] !=c)
+				return 0;
+				 
+		// color this pos as c and all its neighbours and 1-c
+		color[pos] = c;
+		int ans = 1;
+		for(int i=0;i<size;i++){
+				if(matrix[pos][i]){
+						if(color[i] == -1)
+								ans &= colorGraph(matrix,color,size,i,1-c);
+								 
+						if(color[i] !=-1 && color[i] != 1-c)
+								return 0;
+				}
+				if (!ans)
+						return 0;
+		}
+		 
+		return 1;
+}
 // -----------------------------------------------------------------------------
 int bipartido(grafo g) {
-	int **ma, *color, size;
+	int **ma, *color, size, cor, pos;
 	size = n_vertices(g);
 	ma = matriz_adjacencia(g);
 	color = malloc(((unsigned int) size) * sizeof(int));
@@ -167,11 +204,12 @@ int bipartido(grafo g) {
 			color[i] = -1;
 				
 	//start is vertex 0;
-	int pos = 0;
+	pos = 0;
 	// two colors 1 and 0
-	return colorGraph(ma,color,size,pos,1);
-		
-	return 0;
+	cor = colorGraph(ma,color,size,pos,1);
+
+	free(color);
+	return cor;
 }
 
 // -----------------------------------------------------------------------------
@@ -308,56 +346,10 @@ grafo complemento(grafo g) {
 	return g;
 }
 
-//------------------------------------------------------------------------------
-grafo decompoe(grafo g) {
-	int tam;
-	vertice v;
-	int scc = 0;
-	
-	// numero de vertices no grafo
-	unsigned long int size = (unsigned long int) n_vertices(g);		
-	if(!size)		// se size == 0, nao retorna grafo
-		return NULL;																				
-
-	if(!agisdirected(g))
-		return NULL;
-
-	// stack que guarda ordem de vertices processados em uma DFS
-	vertice *stack = PosOrdem(g, 0);
-	// print_ordem("\t\tSTACK POS ORDEM", stack, (int)size);
-
-	// variaveis para re-processar vertices da stack
-	// vertice **SCC = calloc(size, sizeof(vertice));
-	vertice *visitados = calloc(size, sizeof(vertice));
-	vertice *component = calloc(size, sizeof(vertice));
-
-	// rodar DFS com o vertice no topo da stack
-	for(int i = (int)size-1; i >= 0; i--){
-		tam = 0;
-		v = stack[i];																						// v = stack.pop()
-		memset(component, 0, size*sizeof(vertice));							// stack contem componente forte
-		if(!pertenceA(v, visitados, (int)size)){
-			Pos(g, v, visitados, component, 1, &tam);							// DFS no grafo transposto
-			print_ordem("COMPONENTE FORTE", component, tam);
-			// >> as infos dos vertices ainda estao na lista <<
-			// vertice r = component[0];
-			// Agedge_t *o = agfstout(g, r);
-			// Agedge_t *in = agfstin (g, r);
-			// if(o && in && r)
-			// printf("%s<(%s)>%s\n",agnameof(agtail(in)), agnameof(r), agnameof(aghead(o))); 
-			scc++;																								// numero de componentes fortes
-		}
-	}
-
-	printf("Existem %d componentes fortemente conexos\n", scc);
-
-	return g;
-}
-
 // ======= Funcoes Auxiliares Decompoe ======= //
 // retorna 1 se vertice u pertence a lista de vertices Stack de tamanho maximo size
 // 0 cc
-int pertenceA(vertice u,vertice *Stack, int size)
+static int pertenceA(vertice u,vertice *Stack, int size)
 {
 	for(int i = 0; i < size; i++)
 		if(Stack[i] == u)	{
@@ -366,9 +358,9 @@ int pertenceA(vertice u,vertice *Stack, int size)
 
 	return 0;
 }
-
+/*
 // imprime uma lista de tamanho size de vertices
-void print_ordem(const char* name, vertice *lista, int size)
+static void print_ordem(const char* name, vertice *lista, int size)
 {
 	printf("%s: [", name);
 	for(int i = 0; i < size; i++)
@@ -376,9 +368,9 @@ void print_ordem(const char* name, vertice *lista, int size)
 			printf(" %s", agnameof(lista[i]));
 	printf(" ]\n");
 }
-
+*/
 // retorna 1 se conseguiu dar append do vertice v na lista, 0 cc
-int append(vertice v, vertice *lista, int size)
+static int append(vertice v, vertice *lista, int size)
 {
 	if(!pertenceA(v, lista, size)){
 		for(int i = 0; i < size; i++)
@@ -391,24 +383,8 @@ int append(vertice v, vertice *lista, int size)
 	return 0;
 }
 
-vertice *PosOrdem(grafo G, int Transpose)
-{
-	int out = 0;
-	int size = n_vertices(G);
-	vertice *stack 		= calloc((unsigned long int) size, sizeof(vertice));	// cast para evitar warning
-	vertice *visitado = calloc((unsigned long int) size, sizeof(vertice));	// cast para evitar warning
-	
-	// para todo nodo v in G nao visitado, DFS(G, v)
-	for(vertice v = agfstnode(G); v; v = agnxtnode(G, v))
-		if(!pertenceA(v, visitado, (int)size))
-			Pos(G, v, visitado, stack, Transpose, &out);			// percurso de DFS(G, v) salvo na stack
-
-  	// printf("pos ordem retornou %d\n", out);
-
-	return stack;
-}
-
-int Pos(grafo G, vertice r, vertice *visitado, vertice *Stack, int Transpose, int *sz_scc)
+// chamada recursiva para DFS de posOrdem
+static int Pos(grafo G, vertice r, vertice *visitado, vertice *Stack, int Transpose, int *sz_scc)
 {
 	Agedge_t* (*first)(Agraph_t*, Agnode_t*);
 	Agedge_t* (*next)(Agraph_t*, Agedge_t*);
@@ -444,43 +420,72 @@ int Pos(grafo G, vertice r, vertice *visitado, vertice *Stack, int Transpose, in
 	return 1;
 }
 
-// ======= Funcao Auxiliar Conexo ======= //
-void DFSearch(int i, int size, int *visitado, int **matriz_adjacencia)
-{  
-	visitado[i] = 1;    // marca i como visitado
-
-	// recorrencia para todo vertice adjacente a i
-	for(int j = 0; j < size; j++){
-		if (matriz_adjacencia[i][j] == 1 && !visitado[j])
-			DFSearch(j, size, visitado, matriz_adjacencia);
-	}
-}
-
-
-// ======== Funcao auxiliar Bipartido ======== //
-int colorGraph(int **matrix, int color[], int size, int pos, int c)
+// retorna percurso de DFS em pos-ordem
+static vertice *PosOrdem(grafo G, int Transpose)
 {
-		if(color[pos] != -1 && color[pos] !=c)
-				return 0;
-				 
-		// color this pos as c and all its neighbours and 1-c
-		color[pos] = c;
-		int ans = 1;
-		for(int i=0;i<size;i++){
-				if(matrix[pos][i]){
-						if(color[i] == -1)
-								ans &= colorGraph(matrix,color,size,i,1-c);
-								 
-						if(color[i] !=-1 && color[i] != 1-c)
-								return 0;
-				}
-				if (!ans)
-						return 0;
-		}
-		 
-		return 1;
+	// vertice v;
+	// agbindrec(v, agnameof(v), )
+
+	int out = 0;
+	int size = n_vertices(G);
+	vertice *stack 		= calloc((unsigned long int) size, sizeof(vertice));	// cast para evitar warning
+	vertice *visitado = calloc((unsigned long int) size, sizeof(vertice));	// cast para evitar warning
+	
+	// para todo nodo v in G nao visitado, DFS(G, v)
+	for(vertice v = agfstnode(G); v; v = agnxtnode(G, v))
+		if(!pertenceA(v, visitado, (int)size))
+			Pos(G, v, visitado, stack, Transpose, &out);			// percurso de DFS(G, v) salvo na stack
+
+  	// printf("pos ordem retornou %d\n", out);
+	free(visitado);
+	return stack;
 }
 
+//------------------------------------------------------------------------------
+grafo decompoe(grafo g) {
+	int tam;
+	vertice v;
+	int scc = 0;
+	// numero de vertices no grafo
+	unsigned long int size = (unsigned long int) n_vertices(g);		
+
+	// se tem 0 vertices ou nao direcionado
+	if(!size || !agisdirected(g))
+		return g;																				
+
+	// stack que guarda ordem de vertices processados em uma DFS
+	vertice *stack = PosOrdem(g, 0);
+	// print_ordem("STACK POS ORDEM", stack, (int)size);
+
+	vertice *visitados = calloc(size, sizeof(vertice));
+	vertice *component = calloc(size, sizeof(vertice));
+
+	// aloca subgrafos para cada componente forte
+	grafo *sub = calloc((long unsigned int)size, sizeof(grafo));
+
+	// rodar DFS com o vertice no topo da stack
+	for(int i = (int)size-1; i >= 0; i--){
+		tam = 0;
+		v = stack[i];																						// v = stack.pop()
+		memset(component, 0, size*sizeof(vertice));		// stack contem componente forte
+		if(!pertenceA(v, visitados, (int)size)){
+			Pos(g, v, visitados, component, 1, &tam);	// DFS no grafo transposto
+			sub[i] = agsubg(g, NULL, TRUE);				// cria subgrafo
+			for(int j = 0; j < tam; j++)
+				agsubnode(sub[i], component[j], TRUE);	// subgrafo <- vertices componente
+
+			scc++;																								// numero de componentes fortes
+			// print_ordem("COMPONENTE FORTE", component, tam);
+		}
+	}
+	
+	free(visitados);
+	free(component);
+	free(stack);
+	free(sub);
+
+	return g;
+}
 
 
 // testes para decifrar a lib cgraph
