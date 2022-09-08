@@ -1,19 +1,13 @@
 #include "grafo.h"
 #include <stdio.h>  // stdin stdout stderr printf
 #include <math.h>   // infinity
-#include <stdlib.h>
+#include <stdlib.h>	// malloc, calloc, free
 
 //------------------------------------------------------------------------------
 // funcao auxiliar para computar conectividade de um grafo
 // void DFSearch(int i, int size, int *visitado, int **matriz_adjacencia);
 // // funcoes & struct auxiliar para computar bipartidade de um grafo
 // int colorGraph(int **matrix, int color[], int size, int pos, int c);
-
-// int pertenceA(vertice u,vertice *Stack, int size);
-// void print_ordem(const char* name, vertice *lista, int size);
-// int append(vertice v, vertice *lista, int size);
-// vertice *PosOrdem(grafo G, int Transpose);
-// int Pos(grafo G, vertice r, vertice *visitado, vertice *Stack, int Transpose, int *sz_scc);
 
 //------------------------------------------------------------------------------
 grafo le_grafo(void) {
@@ -445,7 +439,7 @@ static vertice *PosOrdem(grafo G, int Transpose)
 grafo decompoe(grafo g) {
 	int tam;
 	vertice v;
-	int scc = 0;
+	
 	// numero de vertices no grafo
 	unsigned long int size = (unsigned long int) n_vertices(g);		
 
@@ -466,16 +460,24 @@ grafo decompoe(grafo g) {
 	// rodar DFS com o vertice no topo da stack
 	for(int i = (int)size-1; i >= 0; i--){
 		tam = 0;
-		v = stack[i];																						// v = stack.pop()
-		memset(component, 0, size*sizeof(vertice));		// stack contem componente forte
-		if(!pertenceA(v, visitados, (int)size)){
-			Pos(g, v, visitados, component, 1, &tam);	// DFS no grafo transposto
-			sub[i] = agsubg(g, NULL, TRUE);				// cria subgrafo
-			for(int j = 0; j < tam; j++)
-				agsubnode(sub[i], component[j], TRUE);	// subgrafo <- vertices componente
+		v = stack[i];						// v = stack.pop()
+		// stack contem componente forte
+		memset(component, 0, size*sizeof(vertice));		
+		if(!pertenceA(v, visitados, (int)size))
+		{	// se v nao foi visitado ainda
+			// DFS no grafo transposto
+			Pos(g, v, visitados, component, 1, &tam);	
+			// cria subgrafo
+			sub[i] = agsubg(g, NULL, TRUE);				
 
-			scc++;																								// numero de componentes fortes
-			// print_ordem("COMPONENTE FORTE", component, tam);
+			// monta subgrafo com 'tam' vertices no componente forte
+			for(int j = 0; j < tam; j++)
+			{	// adiciona vertices componente
+				agsubnode(sub[i], component[j], TRUE);
+				// adiciona aresta sse vizinho pertence ao componente
+				for(Agedge_t *e = agfstout(g, component[j]); e && pertenceA(aghead(e), component, tam); e = agnxtout(g, e))
+					agsubedge(sub[i], e, TRUE);												
+			}
 		}
 	}
 	
