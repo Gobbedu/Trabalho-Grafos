@@ -288,55 +288,40 @@ int **matriz_adjacencia(grafo g) {
 // -----------------------------------------------------------------------------
 grafo complemento(grafo g) {
 	unsigned int size = (unsigned int) n_vertices(g);
-	int **ma = matriz_adjacencia(g);
-	int i, j, i_add, i_rm;
-	
-	size = (size*(size-1));
-	i_add = 0;
-	i_rm = 0;
+	size = (size*(size-1));	// todas as arestas possiveis
 
-	Agnode_t *u, *v, **u_add, **v_add, **u_rm, **v_rm;
-	u_add = malloc(size*sizeof(Agnode_t*));
-	v_add = malloc(size*sizeof(Agnode_t*));
-	u_rm  = malloc(size*sizeof(Agnode_t*));
-	v_rm  = malloc(size*sizeof(Agnode_t*));
-	Agedge_t *e;
+	int remove, add;
+	vertice *uadd = calloc(size, sizeof(vertice));
+	vertice *vadd = calloc(size, sizeof(vertice));
 
-	// GUARDA OPERACOES
-	for(u = agfstnode(g); u; u = agnxtnode(g, u)){
-		for(v = agfstnode(g); v; v = agnxtnode(g, v)){
-		// se {u, v} sao nodos diferentes e exite aresta
-			if(AGID(u) != AGID(v))
-			{
-				e = agedge(g, u, v, NULL, 0);   // busca aresta
-				if(!e){
-					u_add[i_add] = u;      // aresta nn existe
-					v_add[i_add] = v;      // aresta nn existe
-					i_add++;
-				}
-				else{
-					u_rm[i_rm] = u;      // aresta existe
-					v_rm[i_rm] = v;      // aresta existe
-					i_rm++;
-				}
+	add = 0;
+	remove = 0;
+	// guarda arestas que nao existem
+	for(vertice n = agfstnode(g); n; n = agnxtnode(g, n)){
+		for(vertice v = agfstnode(g); v; v = agnxtnode(g, v)){	
+			if(AGID(n) != AGID(v) && !agedge(g, n, v, NULL, FALSE)){
+				uadd[add] = n;
+				vadd[add] = v;
+				add++;
 			}
 		}
 	}
-
-	// REALIZA OPERACOES
-	for(i = 0; i < i_add; i++)
-		agedge(g, u_add[i], v_add[i], NULL, 1); // create edges
-	for(j = 0; j < i_rm-1; j++){
-		e = agedge(g, u_rm[j], v_rm[j], NULL, 0);
-		if(e)
-			agdeledge(g, e);                      // delete edges
+	// remove arestas que existem
+	Agedge_t *e, *aux;
+	for(vertice n = agfstnode(g); n; n = agnxtnode(g, n)){
+		for(e = agfstedge(g, n); e; e = aux){
+			aux = agnxtedge(g, e, n);
+			agdeledge(g, e);
+			remove++;
+		}
 	}
 
-	free(ma);
-	free(u_add);
-	free(v_add);
-	free(u_rm);
-	free(v_rm);
+	// cria arestas que nao existiam
+	for(int i = 0; i < add; i++){
+		if(!agedge(g, uadd[i], vadd[i], NULL, FALSE))
+			agedge(g, uadd[i], vadd[i], NULL, TRUE);
+	}
+
 	return g;
 }
 
