@@ -1,4 +1,6 @@
-# Função Decompoe apresenta Erro
+-------------------------------------------
+Função Decompoe apresenta Erro
+-------------------------------------------
 
 Feito por:
     EDUARDO GOBBO WILLI VASCONCELLOS GONÇALVES
