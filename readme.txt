@@ -1,6 +1,8 @@
+# Função Decompoe apresenta Erro
+
 Feito por:
-    EDUARDO GOBBO WILLI VASCONCELLOS GONÇALVES - GRR20203892
-    ERICK ECKERMANN CARDOSO - GRR20203892
+    EDUARDO GOBBO WILLI VASCONCELLOS GONÇALVES
+    ERICK ECKERMANN CARDOSO
 
     A Função decompoe(grafo g) foi implementada seguindo o algoritmo de Kosaraju.
 Neste algoritmo é realizado um total de duas buscas em profundidade, sendo que a primeira delas 
