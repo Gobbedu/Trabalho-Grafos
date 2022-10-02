@@ -1,0 +1,11 @@
+strict digraph clrs_componentes {
+	g -> h;
+	h -> i;
+	i -> g;
+	d -> e;
+	e -> d;
+	a -> b;
+	b -> c;
+	c -> a;
+	f -> f;
+}

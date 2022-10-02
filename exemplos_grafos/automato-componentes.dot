@@ -1,0 +1,63 @@
+strict digraph automato_componentes {
+	graph [fontname="Helvetica,Arial,sans-serif",
+		rankdir=LR
+	];
+	node [fontname="Helvetica,Arial,sans-serif",
+		shape=circle
+	];
+	edge [fontname="Helvetica,Arial,sans-serif"];
+	4	[shape=doublecircle];
+
+	graph [fontname="Helvetica,Arial,sans-serif",
+		rankdir=LR
+	];
+	node [fontname="Helvetica,Arial,sans-serif",
+		shape=circle
+	];
+	edge [fontname="Helvetica,Arial,sans-serif"];
+	8	[shape=doublecircle];
+	8 -> 6	[label="S(b)"];
+	8 -> 5	[label="S(a)"];
+	6 -> 6	[label="S(b)"];
+	6 -> 5	[label="S(a)"];
+	5 -> 5	[label="S(a)"];
+	5 -> 7	[label="S(b)"];
+	7 -> 8	[label="S(b)"];
+	7 -> 5	[label="S(a)"];
+
+	graph [fontname="Helvetica,Arial,sans-serif",
+		rankdir=LR
+	];
+	node [fontname="Helvetica,Arial,sans-serif",
+		shape=circle
+	];
+	edge [fontname="Helvetica,Arial,sans-serif"];
+	2;
+
+	graph [fontname="Helvetica,Arial,sans-serif",
+		rankdir=LR
+	];
+	node [fontname="Helvetica,Arial,sans-serif",
+		shape=circle
+	];
+	edge [fontname="Helvetica,Arial,sans-serif"];
+	3	[shape=doublecircle];
+
+	graph [fontname="Helvetica,Arial,sans-serif",
+		rankdir=LR
+	];
+	node [fontname="Helvetica,Arial,sans-serif",
+		shape=circle
+	];
+	edge [fontname="Helvetica,Arial,sans-serif"];
+	1;
+
+	graph [fontname="Helvetica,Arial,sans-serif",
+		rankdir=LR
+	];
+	node [fontname="Helvetica,Arial,sans-serif",
+		shape=circle
+	];
+	edge [fontname="Helvetica,Arial,sans-serif"];
+	0	[shape=doublecircle];
+}

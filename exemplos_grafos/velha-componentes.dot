@@ -1,0 +1,16435 @@
+strict digraph velha_componentes {
+	"..XOXOXOX"	[X=1];
+
+
+	XXOOXOXOX	[X=1];
+
+
+	OXXOXOXOX	[X=1];
+
+
+	"X..OXOXOX"	[X=1];
+
+
+	XOOXXOXOX	[X=1];
+
+
+	OXOXXOXOX	[E=1];
+
+
+	"X.O.XOXOX"	[X=1];
+
+
+	OOXXXOXOX	[X=1];
+
+
+	".OX.XOXOX"	[X=1];
+
+
+	"XO..XOXOX"	[X=1];
+
+
+	"O.X.XOXOX"	[X=1];
+
+
+	".OXXOOXOX"	[O=1];
+
+
+	OXXXOOXOX	[E=1];
+
+
+	XXOXOOXOX	[X=1];
+
+
+	"X..XOOXOX"	[X=1];
+
+
+	"X.OX.OXOX"	[X=1];
+
+
+	"XO.X.OXOX"	[X=1];
+
+
+	".XXOOOXOX"	[O=1];
+
+
+	"X.XOOOXOX"	[O=1];
+
+
+	"XOX.OOXOX"	[O=1];
+
+
+	XOXOXOXOX	[X=1];
+
+
+	"XX.OOOXOX"	[O=1];
+
+
+	"..XOOXXOX"	[X=1];
+
+
+	XXOOOXXOX	[E=1];
+
+
+	OXXOOXXOX	[X=1];
+
+
+	"XO.OOXXOX"	[O=1];
+
+
+	".OOXOXXOX"	[O=1];
+
+
+	OXOXOXXOX	[E=1];
+
+
+	"XOO.OXXOX"	[O=1];
+
+
+	".O..OXXOX"	[O=1];
+
+
+	"OO.XOXXOX"	[O=1];
+
+
+	"O.X.OXXOX"	[X=1];
+
+
+	"X.OXO.XOX"	[X=1];
+
+
+	".O.XO.XOX"	[O=1];
+
+
+	"OOXXO.XOX"	[O=1];
+
+
+	"XOXOO.XOX"	[O=1];
+
+
+	".OX.O.XOX"	[O=1];
+
+
+	"XO..O.XOX"	[O=1];
+
+
+	XOOOXXXOX	[X=1];
+
+
+	OXOOXXXOX	[E=1];
+
+
+	OOXOXXXOX	[X=1];
+
+
+	".OXO.XXOX"	[X=1];
+
+
+	"O.XO.XXOX"	[X=1];
+
+
+	"X.OOX.XOX"	[X=1];
+
+
+	".OXOX.XOX"	[X=1];
+
+
+	"XO.OX.XOX"	[X=1];
+
+
+	"O.XOX.XOX"	[X=1];
+
+
+	"OOO.XXXOX"	[O=1];
+
+
+	"OOOX.XXOX"	[O=1];
+
+
+	"OOOXX.XOX"	[O=1];
+
+
+	"XOO.X.XOX"	[X=1];
+
+
+	"XOOX..XOX"	[X=1];
+
+
+	"OOX..XXOX"	[X=1];
+
+
+	"OOX.X.XOX"	[X=1];
+
+
+	"..XOXXOOX"	[X=1];
+
+
+	XXOOXXOOX	[X=1];
+
+
+	"OX.OXXOOX"	[O=1];
+
+
+	"X..OXXOOX"	[X=1];
+
+
+	"..OXXXOOX"	[X=1];
+
+
+	OXOXXXOOX	[X=1];
+
+
+	"X.O.XXOOX"	[X=1];
+
+
+	".O.XXXOOX"	[X=1];
+
+
+	".OX.XXOOX"	[X=1];
+
+
+	"XO..XXOOX"	[X=1];
+
+
+	"O..XXXOOX"	[X=1];
+
+
+	"O.X.XXOOX"	[X=1];
+
+
+	"..XXOXOOX"	[X=1];
+
+
+	".XOXOXOOX"	[O=1];
+
+
+	OXXXOXOOX	[X=1];
+
+
+	"X.OXOXOOX"	[O=1];
+
+
+	"XO.XOXOOX"	[O=1];
+
+
+	XOOXXXOOX	[X=1];
+
+
+	".OXX.XOOX"	[X=1];
+
+
+	"O.XX.XOOX"	[X=1];
+
+
+	"..X..XOOX"	[X=1];
+
+
+	".XX.OXOOX"	[X=1];
+
+
+	XXXOOXOOX	[X=1];
+
+
+	"XXO.OXOOX"	[O=1];
+
+
+	".XXO.XOOX"	[X=1];
+
+
+	"OXX..XOOX"	[X=1];
+
+
+	"X.X.OXOOX"	[X=1];
+
+
+	"X.XO.XOOX"	[X=1];
+
+
+	"XOX..XOOX"	[X=1];
+
+
+	"XOOXOX.OX"	[O=1];
+
+
+	".O.XOX.OX"	[O=1];
+
+
+	"O.XXOX.OX"	[X=1];
+
+
+	"..X.OX.OX"	[X=1];
+
+
+	".XXOOX.OX"	[X=1];
+
+
+	"OXX.OX.OX"	[X=1];
+
+
+	"X.XOOX.OX"	[X=1];
+
+
+	"XO..OX.OX"	[O=1];
+
+
+	"X.OOXX.OX"	[X=1];
+
+
+	".OXOXX.OX"	[X=1];
+
+
+	"XO.OXX.OX"	[X=1];
+
+
+	"O.XOXX.OX"	[X=1];
+
+
+	"..XO.X.OX"	[X=1];
+
+
+	"OXXO.X.OX"	[X=1];
+
+
+	"XOXO.X.OX"	[X=1];
+
+
+	".OOXXX.OX"	[X=1];
+
+
+	"XOO.XX.OX"	[X=1];
+
+
+	"O.OXXX.OX"	[X=1];
+
+
+	"OO.XXX.OX"	[X=1];
+
+
+	"OOX.XX.OX"	[X=1];
+
+
+	"OOXX.X.OX"	[X=1];
+
+
+	".OX..X.OX"	[X=1];
+
+
+	"O.X..X.OX"	[X=1];
+
+
+	XOXXXOOOX	[X=1];
+
+
+	OXXXXOOOX	[E=1];
+
+
+	XXOXXOOOX	[X=1];
+
+
+	"X..XXOOOX"	[X=1];
+
+
+	"X.OXX.OOX"	[X=1];
+
+
+	OOXXXXOOX	[X=1];
+
+
+	"XO.XX.OOX"	[X=1];
+
+
+	XXXOXOOOX	[X=1];
+
+
+	"X.X.XOOOX"	[X=1];
+
+
+	"OXXOX.OOX"	[O=1];
+
+
+	"X.XOX.OOX"	[X=1];
+
+
+	"XOX.X.OOX"	[X=1];
+
+
+	"XX..XOOOX"	[X=1];
+
+
+	"XX.OX.OOX"	[X=1];
+
+
+	"XXO.X.OOX"	[X=1];
+
+
+	"X...X.OOX"	[X=1];
+
+
+	"X.OXXO.OX"	[X=1];
+
+
+	"XO.XXO.OX"	[X=1];
+
+
+	"X.XOXO.OX"	[X=1];
+
+
+	"XOX.XO.OX"	[X=1];
+
+
+	"XX.OXO.OX"	[X=1];
+
+
+	"XXO.XO.OX"	[X=1];
+
+
+	"X...XO.OX"	[X=1];
+
+
+	"XOXOX..OX"	[X=1];
+
+
+	"XXOOX..OX"	[X=1];
+
+
+	"X..OX..OX"	[X=1];
+
+
+	"XOOXX..OX"	[X=1];
+
+
+	"X.O.X..OX"	[X=1];
+
+
+	"XO..X..OX"	[X=1];
+
+
+	XXXXOOOOX	[X=1];
+
+
+	"XOXXO.OOX"	[O=1];
+
+
+	"XXOXO.OOX"	[O=1];
+
+
+	"XOXXOO.OX"	[O=1];
+
+
+	".OXXO..OX"	[O=1];
+
+
+	"XO.XO..OX"	[O=1];
+
+
+	"XXX..OOOX"	[X=1];
+
+
+	"XXX.O.OOX"	[X=1];
+
+
+	"XXXO..OOX"	[X=1];
+
+
+	"XXX.OO.OX"	[X=1];
+
+
+	"XXXO.O.OX"	[X=1];
+
+
+	"XXXOO..OX"	[X=1];
+
+
+	"XOX.O..OX"	[O=1];
+
+
+	XOXOXOOXX	[X=1];
+
+
+	"O.XOXOOXX"	[O=1];
+
+
+	".X.OXOOXX"	[X=1];
+
+
+	"X..OXOOXX"	[X=1];
+
+
+	XOOXXOOXX	[X=1];
+
+
+	OXOXXOOXX	[X=1];
+
+
+	".XO.XOOXX"	[X=1];
+
+
+	"X.O.XOOXX"	[X=1];
+
+
+	OOXXXOOXX	[E=1];
+
+
+	"XO..XOOXX"	[X=1];
+
+
+	"OX..XOOXX"	[X=1];
+
+
+	XOXXOOOXX	[E=1];
+
+
+	OXXXOOOXX	[E=1];
+
+
+	".XOXOOOXX"	[O=1];
+
+
+	"X.OXOOOXX"	[O=1];
+
+
+	".XXOOOOXX"	[O=1];
+
+
+	"X.XOOOOXX"	[O=1];
+
+
+	"OXXO.OOXX"	[O=1];
+
+
+	"XX.OOOOXX"	[O=1];
+
+
+	"XXO.OOOXX"	[O=1];
+
+
+	XXOOXOOXX	[X=1];
+
+
+	"..XOOXOXX"	[X=1];
+
+
+	".XOOOXOXX"	[O=1];
+
+
+	"OX.OOXOXX"	[O=1];
+
+
+	"X.OOOXOXX"	[O=1];
+
+
+	XOXOOXOXX	[X=1];
+
+
+	"..O.OXOXX"	[O=1];
+
+
+	".OOXOXOXX"	[O=1];
+
+
+	OOXXOXOXX	[X=1];
+
+
+	".OX.OXOXX"	[X=1];
+
+
+	"XOO.OXOXX"	[O=1];
+
+
+	"O.OXOXOXX"	[O=1];
+
+
+	"O.X.OXOXX"	[X=1];
+
+
+	"OXO.OXOXX"	[O=1];
+
+
+	"..OXO.OXX"	[O=1];
+
+
+	"XOOXO.OXX"	[O=1];
+
+
+	"OXOXO.OXX"	[O=1];
+
+
+	"OXXOO.OXX"	[O=1];
+
+
+	"XXOOO.OXX"	[O=1];
+
+
+	".XO.O.OXX"	[O=1];
+
+
+	"X.O.O.OXX"	[O=1];
+
+
+	XOOOXXOXX	[X=1];
+
+
+	"O.OOXXOXX"	[O=1];
+
+
+	"OXOO.XOXX"	[O=1];
+
+
+	"OO.OXXOXX"	[O=1];
+
+
+	".OXO.XOXX"	[X=1];
+
+
+	"O..O.XOXX"	[O=1];
+
+
+	".XOOX.OXX"	[X=1];
+
+
+	"X.OOX.OXX"	[X=1];
+
+
+	"OOXOX.OXX"	[O=1];
+
+
+	"XO.OX.OXX"	[X=1];
+
+
+	"O..OX.OXX"	[O=1];
+
+
+	"O.XO..OXX"	[O=1];
+
+
+	"OX.O..OXX"	[O=1];
+
+
+	"OOO.XXOXX"	[O=1];
+
+
+	"OOOX.XOXX"	[O=1];
+
+
+	"OOOXX.OXX"	[O=1];
+
+
+	"XOO.X.OXX"	[X=1];
+
+
+	"OXO.X.OXX"	[X=1];
+
+
+	"OOX..XOXX"	[X=1];
+
+
+	"..OXOXO.X"	[O=1];
+
+
+	".OXXOXO.X"	[X=1];
+
+
+	"XOOXOXO.X"	[O=1];
+
+
+	"O.XXOXO.X"	[X=1];
+
+
+	"OXOXOXO.X"	[O=1];
+
+
+	"..X.OXO.X"	[X=1];
+
+
+	".XXOOXO.X"	[X=1];
+
+
+	"XXOOOXO.X"	[O=1];
+
+
+	".XO.OXO.X"	[O=1];
+
+
+	"OXX.OXO.X"	[X=1];
+
+
+	"X.XOOXO.X"	[X=1];
+
+
+	"X.O.OXO.X"	[O=1];
+
+
+	"XOX.OXO.X"	[X=1];
+
+
+	"OXOOXXO.X"	[O=1];
+
+
+	"X.OOXXO.X"	[X=1];
+
+
+	".OXOXXO.X"	[X=1];
+
+
+	"XO.OXXO.X"	[X=1];
+
+
+	"O..OXXO.X"	[O=1];
+
+
+	"..XO.XO.X"	[X=1];
+
+
+	"OX.O.XO.X"	[O=1];
+
+
+	"XOXO.XO.X"	[X=1];
+
+
+	".OOXXXO.X"	[X=1];
+
+
+	"XOO.XXO.X"	[X=1];
+
+
+	"O.OXXXO.X"	[X=1];
+
+
+	"OO.XXXO.X"	[X=1];
+
+
+	"OOX.XXO.X"	[X=1];
+
+
+	"OOXX.XO.X"	[X=1];
+
+
+	".OX..XO.X"	[X=1];
+
+
+	"O.X..XO.X"	[X=1];
+
+
+	"X.OXXOO.X"	[X=1];
+
+
+	"XO.XXOO.X"	[X=1];
+
+
+	"OXXOXOO.X"	[O=1];
+
+
+	"X.XOXOO.X"	[X=1];
+
+
+	"XOX.XOO.X"	[X=1];
+
+
+	"XX.OXOO.X"	[X=1];
+
+
+	"XXO.XOO.X"	[X=1];
+
+
+	"X...XOO.X"	[X=1];
+
+
+	"XOXOX.O.X"	[X=1];
+
+
+	"O.XOX.O.X"	[O=1];
+
+
+	"XXOOX.O.X"	[X=1];
+
+
+	"OX.OX.O.X"	[O=1];
+
+
+	"X..OX.O.X"	[X=1];
+
+
+	"XOOXX.O.X"	[X=1];
+
+
+	"X.O.X.O.X"	[X=1];
+
+
+	"XO..X.O.X"	[X=1];
+
+
+	"XXOXOOO.X"	[O=1];
+
+
+	".XOXO.O.X"	[O=1];
+
+
+	"X.OXO.O.X"	[O=1];
+
+
+	"XXX.OOO.X"	[X=1];
+
+
+	"XXXO.OO.X"	[X=1];
+
+
+	"XXXOO.O.X"	[X=1];
+
+
+	"OXXO..O.X"	[O=1];
+
+
+	"XXO.O.O.X"	[O=1];
+
+
+	"....OOXXX"	[X=1];
+
+
+	"..OXOOXXX"	[X=1];
+
+
+	OXOXOOXXX	[X=1];
+
+
+	XOOXOOXXX	[X=1];
+
+
+	".O.XOOXXX"	[X=1];
+
+
+	OOXXOOXXX	[X=1];
+
+
+	"O..XOOXXX"	[X=1];
+
+
+	"..XOOO.XX"	[O=1];
+
+
+	".OX.OOXXX"	[X=1];
+
+
+	"XOXOOO.XX"	[O=1];
+
+
+	"O.X.OOXXX"	[X=1];
+
+
+	"OXXOOO.XX"	[O=1];
+
+
+	".X.OOO.XX"	[O=1];
+
+
+	".XO.OOXXX"	[X=1];
+
+
+	"XXOOOO.XX"	[O=1];
+
+
+	"OX..OOXXX"	[X=1];
+
+
+	"X..OOO.XX"	[O=1];
+
+
+	"X.O.OOXXX"	[X=1];
+
+
+	"XO..OOXXX"	[X=1];
+
+
+	"...O.OXXX"	[X=1];
+
+
+	"..OOXOXXX"	[X=1];
+
+
+	".XOOXO.XX"	[X=1];
+
+
+	"X.OOXO.XX"	[X=1];
+
+
+	".O.OXOXXX"	[X=1];
+
+
+	OOXOXOXXX	[X=1];
+
+
+	"XO.OXO.XX"	[X=1];
+
+
+	"O..OXOXXX"	[X=1];
+
+
+	"OX.OXO.XX"	[X=1];
+
+
+	".OXO.OXXX"	[X=1];
+
+
+	"O.XO.OXXX"	[X=1];
+
+
+	".XOO.OXXX"	[X=1];
+
+
+	"OX.O.OXXX"	[X=1];
+
+
+	"X.OO.OXXX"	[X=1];
+
+
+	"XO.O.OXXX"	[X=1];
+
+
+	"..O..OXXX"	[X=1];
+
+
+	".OO.XOXXX"	[X=1];
+
+
+	"OOOXXO.XX"	[O=1];
+
+
+	"XOO.XO.XX"	[X=1];
+
+
+	"O.O.XOXXX"	[X=1];
+
+
+	"OXO.XO.XX"	[X=1];
+
+
+	".OOX.OXXX"	[X=1];
+
+
+	"O.OX.OXXX"	[X=1];
+
+
+	"OXO..OXXX"	[X=1];
+
+
+	"XOO..OXXX"	[X=1];
+
+
+	".O...OXXX"	[X=1];
+
+
+	"OO..XOXXX"	[X=1];
+
+
+	"OO.X.OXXX"	[X=1];
+
+
+	"OOX..OXXX"	[X=1];
+
+
+	"O....OXXX"	[X=1];
+
+
+	"X.OXOOX.X"	[X=1];
+
+
+	"XO.XOOX.X"	[X=1];
+
+
+	"..XOOOX.X"	[O=1];
+
+
+	"XOXOOOX.X"	[O=1];
+
+
+	"OXXOOOX.X"	[O=1];
+
+
+	".X.OOOX.X"	[O=1];
+
+
+	"XXOOOOX.X"	[O=1];
+
+
+	"X..OOOX.X"	[O=1];
+
+
+	OXOOXOXXX	[X=1];
+
+
+	"X.OOXOX.X"	[X=1];
+
+
+	".OXOXOX.X"	[X=1];
+
+
+	"XO.OXOX.X"	[X=1];
+
+
+	"O.XOXOX.X"	[X=1];
+
+
+	"OOOXXOX.X"	[O=1];
+
+
+	"XOO.XOX.X"	[X=1];
+
+
+	"XOOX.OX.X"	[X=1];
+
+
+	"OOX.XOX.X"	[X=1];
+
+
+	"XOXOXO..X"	[X=1];
+
+
+	"XXOOXO..X"	[X=1];
+
+
+	"X..OXO..X"	[X=1];
+
+
+	"XOOXXO..X"	[X=1];
+
+
+	"X.O.XO..X"	[X=1];
+
+
+	"XO..XO..X"	[X=1];
+
+
+	".XXOOO..X"	[O=1];
+
+
+	"X.XOOO..X"	[O=1];
+
+
+	"XX.OOO..X"	[O=1];
+
+
+	"...OO.XXX"	[X=1];
+
+
+	"..OOOXXXX"	[X=1];
+
+
+	OXOOOXXXX	[X=1];
+
+
+	XOOOOXXXX	[X=1];
+
+
+	".O.OOXXXX"	[X=1];
+
+
+	".OXOOX.XX"	[X=1];
+
+
+	"O..OOXXXX"	[X=1];
+
+
+	"O.XOOX.XX"	[X=1];
+
+
+	".OXOO.XXX"	[X=1];
+
+
+	"O.XOO.XXX"	[X=1];
+
+
+	".XOOO.XXX"	[X=1];
+
+
+	"OX.OO.XXX"	[X=1];
+
+
+	"X.OOO.XXX"	[X=1];
+
+
+	"XO.OO.XXX"	[X=1];
+
+
+	"..O.O.XXX"	[X=1];
+
+
+	".OO.OXXXX"	[X=1];
+
+
+	"OOOXOX.XX"	[O=1];
+
+
+	"O.O.OXXXX"	[X=1];
+
+
+	".OOXO.XXX"	[X=1];
+
+
+	"O.OXO.XXX"	[X=1];
+
+
+	"OXO.O.XXX"	[X=1];
+
+
+	"XOO.O.XXX"	[X=1];
+
+
+	".O..O.XXX"	[X=1];
+
+
+	"OO..OXXXX"	[X=1];
+
+
+	"OOX.OX.XX"	[X=1];
+
+
+	"OO.XO.XXX"	[X=1];
+
+
+	"OOX.O.XXX"	[X=1];
+
+
+	"O...O.XXX"	[X=1];
+
+
+	".OXOOXX.X"	[X=1];
+
+
+	"O.XOOXX.X"	[X=1];
+
+
+	"OOOXOXX.X"	[O=1];
+
+
+	"XOOXO.X.X"	[X=1];
+
+
+	"OOX.OXX.X"	[X=1];
+
+
+	"..XOOX..X"	[X=1];
+
+
+	"OXXOOX..X"	[X=1];
+
+
+	"XOXOOX..X"	[X=1];
+
+
+	"OOXXOX..X"	[X=1];
+
+
+	".OX.OX..X"	[X=1];
+
+
+	"O.X.OX..X"	[X=1];
+
+
+	"..OO..XXX"	[X=1];
+
+
+	".OOO.XXXX"	[X=1];
+
+
+	"OOOOXX.XX"	[O=1];
+
+
+	"O.OO.XXXX"	[X=1];
+
+
+	".OOOX.XXX"	[X=1];
+
+
+	"XOOOX..XX"	[X=1];
+
+
+	"O.OOX.XXX"	[X=1];
+
+
+	"OXOOX..XX"	[X=1];
+
+
+	"OXOO..XXX"	[X=1];
+
+
+	"XOOO..XXX"	[X=1];
+
+
+	".O.O..XXX"	[X=1];
+
+
+	"OO.O.XXXX"	[X=1];
+
+
+	"OOXO.X.XX"	[X=1];
+
+
+	"OO.OX.XXX"	[X=1];
+
+
+	"OOXO..XXX"	[X=1];
+
+
+	"O..O..XXX"	[X=1];
+
+
+	"OOOOXXX.X"	[O=1];
+
+
+	"XOOOX.X.X"	[X=1];
+
+
+	"OOXO.XX.X"	[X=1];
+
+
+	"OOXOX.X.X"	[X=1];
+
+
+	"XOOOXX..X"	[X=1];
+
+
+	"OOXOXX..X"	[X=1];
+
+
+	".OXO.X..X"	[X=1];
+
+
+	"O.XO.X..X"	[X=1];
+
+
+	"X.OOX...X"	[X=1];
+
+
+	"XO.OX...X"	[X=1];
+
+
+	".OO...XXX"	[X=1];
+
+
+	"OOO..X.XX"	[O=1];
+
+
+	"OOO.X..XX"	[O=1];
+
+
+	"OOOX...XX"	[O=1];
+
+
+	"O.O...XXX"	[X=1];
+
+
+	"OOO..XX.X"	[O=1];
+
+
+	"OOO.X.X.X"	[O=1];
+
+
+	"OOOX..X.X"	[O=1];
+
+
+	"OOO.XX..X"	[O=1];
+
+
+	"OOOX.X..X"	[O=1];
+
+
+	"OOOXX...X"	[O=1];
+
+
+	"XOO.X...X"	[X=1];
+
+
+	"OO....XXX"	[X=1];
+
+
+	"OOX..X..X"	[X=1];
+
+
+	"..XOXOXXO"	[X=1];
+
+
+	".X.OXOXXO"	[X=1];
+
+
+	"X.OOXOXXO"	[O=1];
+
+
+	XOXOXOXXO	[X=1];
+
+
+	"..O.XOXXO"	[O=1];
+
+
+	".OOXXOXXO"	[O=1];
+
+
+	OOXXXOXXO	[X=1];
+
+
+	".OX.XOXXO"	[X=1];
+
+
+	"XOO.XOXXO"	[O=1];
+
+
+	"O.OXXOXXO"	[O=1];
+
+
+	"O.X.XOXXO"	[X=1];
+
+
+	"OX..XOXXO"	[X=1];
+
+
+	XOXXOOXXO	[X=1];
+
+
+	"O.XXOOXXO"	[O=1];
+
+
+	".XOXOOXXO"	[O=1];
+
+
+	"OX.XOOXXO"	[O=1];
+
+
+	"X..XOOXXO"	[X=1];
+
+
+	"..OX.OXXO"	[O=1];
+
+
+	"XO.X.OXXO"	[X=1];
+
+
+	"OXOX.OXXO"	[O=1];
+
+
+	".XXOOOXXO"	[O=1];
+
+
+	"OXX.OOXXO"	[O=1];
+
+
+	"X.XOOOXXO"	[O=1];
+
+
+	OXXOXOXXO	[X=1];
+
+
+	"XX.OOOXXO"	[O=1];
+
+
+	"XXO.OOXXO"	[O=1];
+
+
+	"XXOO.OXXO"	[O=1];
+
+
+	".XO..OXXO"	[O=1];
+
+
+	"X.O..OXXO"	[O=1];
+
+
+	XOXOOXXXO	[E=1];
+
+
+	"O.XOOXXXO"	[O=1];
+
+
+	XXOOOXXXO	[E=1];
+
+
+	"OX.OOXXXO"	[O=1];
+
+
+	XOOXOXXXO	[X=1];
+
+
+	"O.OXOXXXO"	[O=1];
+
+
+	"OXO.OXXXO"	[O=1];
+
+
+	"OO.XOXXXO"	[O=1];
+
+
+	"OOX.OXXXO"	[O=1];
+
+
+	"O...OXXXO"	[O=1];
+
+
+	"OXOXO.XXO"	[O=1];
+
+
+	"X.OXO.XXO"	[X=1];
+
+
+	"OOXXO.XXO"	[O=1];
+
+
+	"XO.XO.XXO"	[X=1];
+
+
+	"O..XO.XXO"	[O=1];
+
+
+	"OXXOO.XXO"	[O=1];
+
+
+	"O.X.O.XXO"	[O=1];
+
+
+	"OX..O.XXO"	[O=1];
+
+
+	XOOOXXXXO	[E=1];
+
+
+	OXOOXXXXO	[X=1];
+
+
+	OOXOXXXXO	[X=1];
+
+
+	".XOOX.XXO"	[X=1];
+
+
+	".OXOX.XXO"	[X=1];
+
+
+	"O.XOX.XXO"	[X=1];
+
+
+	"OX.OX.XXO"	[X=1];
+
+
+	"OOO.XXXXO"	[O=1];
+
+
+	"OOOX.XXXO"	[O=1];
+
+
+	"OOOXX.XXO"	[O=1];
+
+
+	"OXO.X.XXO"	[X=1];
+
+
+	"XOOX..XXO"	[X=1];
+
+
+	"OOX.X.XXO"	[X=1];
+
+
+	XOXOXXOXO	[E=1];
+
+
+	"O.XOXXOXO"	[O=1];
+
+
+	".X.OXXOXO"	[X=1];
+
+
+	XXOOXXOXO	[X=1];
+
+
+	"..OXXXOXO"	[X=1];
+
+
+	".XO.XXOXO"	[X=1];
+
+
+	XOOXXXOXO	[X=1];
+
+
+	".O.XXXOXO"	[X=1];
+
+
+	OOXXXXOXO	[X=1];
+
+
+	"O..XXXOXO"	[X=1];
+
+
+	"OX..XXOXO"	[X=1];
+
+
+	XOXXOXOXO	[E=1];
+
+
+	"O.XXOXOXO"	[O=1];
+
+
+	".XOXOXOXO"	[O=1];
+
+
+	"OX.XOXOXO"	[O=1];
+
+
+	"X.OXOXOXO"	[O=1];
+
+
+	OXOXXXOXO	[X=1];
+
+
+	XXXOOXOXO	[X=1];
+
+
+	"OXX.OXOXO"	[O=1];
+
+
+	"OXXO.XOXO"	[O=1];
+
+
+	"XXO.OXOXO"	[O=1];
+
+
+	"OXOXOX.XO"	[O=1];
+
+
+	"OOXXOX.XO"	[O=1];
+
+
+	"O..XOX.XO"	[O=1];
+
+
+	"OXXOOX.XO"	[O=1];
+
+
+	"O.X.OX.XO"	[O=1];
+
+
+	"OX..OX.XO"	[O=1];
+
+
+	".XOOXX.XO"	[X=1];
+
+
+	"OX.OXX.XO"	[X=1];
+
+
+	".OOXXX.XO"	[X=1];
+
+
+	"O.OXXX.XO"	[X=1];
+
+
+	"OXO.XX.XO"	[X=1];
+
+
+	"OO.XXX.XO"	[X=1];
+
+
+	XOXXXOOXO	[E=1];
+
+
+	OXXXXOOXO	[X=1];
+
+
+	".X.XXOOXO"	[X=1];
+
+
+	"X.OXXOOXO"	[O=1];
+
+
+	".XOXX.OXO"	[X=1];
+
+
+	"OX.XX.OXO"	[X=1];
+
+
+	".XX.XOOXO"	[X=1];
+
+
+	XXXOXOOXO	[X=1];
+
+
+	".XXOX.OXO"	[X=1];
+
+
+	"OXX.X.OXO"	[X=1];
+
+
+	".X..X.OXO"	[X=1];
+
+
+	"XX..XOOXO"	[X=1];
+
+
+	"XX.OX.OXO"	[X=1];
+
+
+	"XXO.X.OXO"	[X=1];
+
+
+	"..OXXO.XO"	[O=1];
+
+
+	"XOOXXO.XO"	[O=1];
+
+
+	"OX.XXO.XO"	[X=1];
+
+
+	".XXOXO.XO"	[X=1];
+
+
+	"OXX.XO.XO"	[X=1];
+
+
+	".X..XO.XO"	[X=1];
+
+
+	"XX.OXO.XO"	[X=1];
+
+
+	"X.O.XO.XO"	[O=1];
+
+
+	"OXXOX..XO"	[X=1];
+
+
+	".X.OX..XO"	[X=1];
+
+
+	"XXOOX..XO"	[X=1];
+
+
+	"OXOXX..XO"	[X=1];
+
+
+	".XO.X..XO"	[X=1];
+
+
+	"OX..X..XO"	[X=1];
+
+
+	XXXXOOOXO	[X=1];
+
+
+	"OXXXO.OXO"	[O=1];
+
+
+	"XXOX.OOXO"	[O=1];
+
+
+	"XXOXO.OXO"	[O=1];
+
+
+	"OXXXOO.XO"	[O=1];
+
+
+	"XXOXOO.XO"	[O=1];
+
+
+	".XOX.O.XO"	[O=1];
+
+
+	"X.OX.O.XO"	[O=1];
+
+
+	"O.XXO..XO"	[O=1];
+
+
+	"OX.XO..XO"	[O=1];
+
+
+	"XXX..OOXO"	[X=1];
+
+
+	"XXX.O.OXO"	[X=1];
+
+
+	"XXXO..OXO"	[X=1];
+
+
+	"XXX.OO.XO"	[X=1];
+
+
+	"XXXO.O.XO"	[X=1];
+
+
+	"XXXOO..XO"	[X=1];
+
+
+	"OXX.O..XO"	[O=1];
+
+
+	"XXO..O.XO"	[O=1];
+
+
+	"..OXOXOX."	[O=1];
+
+
+	"XOOXOXOX."	[O=1];
+
+
+	"OXOXOXOX."	[O=1];
+
+
+	"OXXOOXOX."	[O=1];
+
+
+	"XXOOOXOX."	[O=1];
+
+
+	".XO.OXOX."	[O=1];
+
+
+	"X.O.OXOX."	[O=1];
+
+
+	".XOOXXOX."	[X=1];
+
+
+	"OOXOXXOX."	[O=1];
+
+
+	"O..OXXOX."	[O=1];
+
+
+	"O.XO.XOX."	[O=1];
+
+
+	"OX.O.XOX."	[O=1];
+
+
+	".OOXXXOX."	[X=1];
+
+
+	"O.OXXXOX."	[X=1];
+
+
+	"OXO.XXOX."	[X=1];
+
+
+	"OO.XXXOX."	[X=1];
+
+
+	".XOXXOOX."	[X=1];
+
+
+	"OX.XXOOX."	[X=1];
+
+
+	".XXOXOOX."	[X=1];
+
+
+	"OXX.XOOX."	[X=1];
+
+
+	".X..XOOX."	[X=1];
+
+
+	"XX.OXOOX."	[X=1];
+
+
+	"XXO.XOOX."	[X=1];
+
+
+	"O.XOX.OX."	[O=1];
+
+
+	".X.OX.OX."	[X=1];
+
+
+	"XXOOX.OX."	[X=1];
+
+
+	"OXOXX.OX."	[X=1];
+
+
+	".XO.X.OX."	[X=1];
+
+
+	"OX..X.OX."	[X=1];
+
+
+	"XXOXOOOX."	[O=1];
+
+
+	".XOXO.OX."	[O=1];
+
+
+	"X.OXO.OX."	[O=1];
+
+
+	"XXX.OOOX."	[X=1];
+
+
+	"XXXO.OOX."	[X=1];
+
+
+	"XXXOO.OX."	[X=1];
+
+
+	"OXXO..OX."	[O=1];
+
+
+	"XXO.O.OX."	[O=1];
+
+
+	"X.OXOOXX."	[X=1];
+
+
+	"XO.XOOXX."	[X=1];
+
+
+	"..XOOOXX."	[O=1];
+
+
+	"XOXOOOXX."	[O=1];
+
+
+	"OXXOOOXX."	[O=1];
+
+
+	".X.OOOXX."	[O=1];
+
+
+	"XXOOOOXX."	[O=1];
+
+
+	"X..OOOXX."	[O=1];
+
+
+	".XOOXOXX."	[X=1];
+
+
+	XOOOXOXXX	[X=1];
+
+
+	".OXOXOXX."	[X=1];
+
+
+	"O.XOXOXX."	[X=1];
+
+
+	"OX.OXOXX."	[X=1];
+
+
+	"OOOXXOXX."	[O=1];
+
+
+	"OXO.XOXX."	[X=1];
+
+
+	"XOOX.OXX."	[X=1];
+
+
+	"OOX.XOXX."	[X=1];
+
+
+	"OXXOXO.X."	[X=1];
+
+
+	".X.OXO.X."	[X=1];
+
+
+	"XXOOXO.X."	[X=1];
+
+
+	"OXOXXO.X."	[X=1];
+
+
+	".XO.XO.X."	[X=1];
+
+
+	"OX..XO.X."	[X=1];
+
+
+	".XXOOO.X."	[O=1];
+
+
+	"X.XOOO.X."	[O=1];
+
+
+	"XX.OOO.X."	[O=1];
+
+
+	OOXOOXXXX	[X=1];
+
+
+	"OOOXOXXX."	[O=1];
+
+
+	"XOOXO.XX."	[X=1];
+
+
+	"OOOOXXXX."	[O=1];
+
+
+	"OXOOX.XX."	[X=1];
+
+
+	"OOXOX.XX."	[X=1];
+
+
+	"OXOOXX.X."	[X=1];
+
+
+	".XOOX..X."	[X=1];
+
+
+	"OX.OX..X."	[X=1];
+
+
+	"OOO..XXX."	[O=1];
+
+
+	"OOO.X.XX."	[O=1];
+
+
+	"OOOX..XX."	[O=1];
+
+
+	"OOO.XX.X."	[O=1];
+
+
+	"OOOX.X.X."	[O=1];
+
+
+	"OOOXX..X."	[O=1];
+
+
+	"OXO.X..X."	[X=1];
+
+
+	"..XOXXXOO"	[X=1];
+
+
+	XXOOXXXOO	[E=1];
+
+
+	OXXOXXXOO	[X=1];
+
+
+	XOXOXXXOO	[X=1];
+
+
+	"..OXXXXOO"	[X=1];
+
+
+	OXOXXXXOO	[X=1];
+
+
+	XOOXXXXOO	[X=1];
+
+
+	".O.XXXXOO"	[X=1];
+
+
+	".OX.XXXOO"	[X=1];
+
+
+	"O..XXXXOO"	[X=1];
+
+
+	"O.X.XXXOO"	[X=1];
+
+
+	".OXXOXXOO"	[O=1];
+
+
+	"O.XXOXXOO"	[O=1];
+
+
+	XXOXOXXOO	[X=1];
+
+
+	"OX.XOXXOO"	[O=1];
+
+
+	"X..XOXXOO"	[X=1];
+
+
+	"X.OX.XXOO"	[X=1];
+
+
+	OOXXXXXOO	[X=1];
+
+
+	"XO.X.XXOO"	[X=1];
+
+
+	XXXOOXXOO	[X=1];
+
+
+	"OXX.OXXOO"	[O=1];
+
+
+	"XOX.OXXOO"	[O=1];
+
+
+	"OXOXOXX.O"	[O=1];
+
+
+	"X.OXOXX.O"	[X=1];
+
+
+	"OOXXOXX.O"	[O=1];
+
+
+	"XO.XOXX.O"	[X=1];
+
+
+	"O..XOXX.O"	[O=1];
+
+
+	"OXXOOXX.O"	[O=1];
+
+
+	"O.X.OXX.O"	[O=1];
+
+
+	"OX..OXX.O"	[O=1];
+
+
+	".OXOXXX.O"	[X=1];
+
+
+	"O.XOXXX.O"	[X=1];
+
+
+	".OOXXXX.O"	[X=1];
+
+
+	"O.OXXXX.O"	[X=1];
+
+
+	"XOOX.XX.O"	[X=1];
+
+
+	"OO.XXXX.O"	[X=1];
+
+
+	"OOX.XXX.O"	[X=1];
+
+
+	"..XXXOXOO"	[X=1];
+
+
+	".XOXXOXOO"	[O=1];
+
+
+	OXXXXOXOO	[X=1];
+
+
+	"X..XXOXOO"	[X=1];
+
+
+	"X.OXX.XOO"	[X=1];
+
+
+	".OXXX.XOO"	[X=1];
+
+
+	"XO.XX.XOO"	[X=1];
+
+
+	"O.XXX.XOO"	[X=1];
+
+
+	"..X.X.XOO"	[X=1];
+
+
+	".XX.XOXOO"	[X=1];
+
+
+	XXXOXOXOO	[X=1];
+
+
+	"XXO.XOXOO"	[O=1];
+
+
+	".XXOX.XOO"	[X=1];
+
+
+	"OXX.X.XOO"	[X=1];
+
+
+	"X.X.XOXOO"	[X=1];
+
+
+	"X.XOX.XOO"	[X=1];
+
+
+	"XOX.X.XOO"	[X=1];
+
+
+	"..OXXOX.O"	[O=1];
+
+
+	".OXXXOX.O"	[X=1];
+
+
+	"XO.XXOX.O"	[X=1];
+
+
+	"O.XXXOX.O"	[X=1];
+
+
+	"OXOXXOX.O"	[O=1];
+
+
+	"..X.XOX.O"	[X=1];
+
+
+	".XXOXOX.O"	[X=1];
+
+
+	"XXOOXOX.O"	[O=1];
+
+
+	".XO.XOX.O"	[O=1];
+
+
+	"OXX.XOX.O"	[X=1];
+
+
+	"X.XOXOX.O"	[X=1];
+
+
+	"X.O.XOX.O"	[O=1];
+
+
+	"XOX.XOX.O"	[X=1];
+
+
+	"..XOX.X.O"	[X=1];
+
+
+	"OXXOX.X.O"	[X=1];
+
+
+	"XOXOX.X.O"	[X=1];
+
+
+	"XOOXX.X.O"	[X=1];
+
+
+	"OOXXX.X.O"	[X=1];
+
+
+	".OX.X.X.O"	[X=1];
+
+
+	"O.X.X.X.O"	[X=1];
+
+
+	XXXXOOXOO	[X=1];
+
+
+	"X.XX.OXOO"	[X=1];
+
+
+	"OXXXO.XOO"	[O=1];
+
+
+	"X.XXO.XOO"	[X=1];
+
+
+	"XOXX..XOO"	[X=1];
+
+
+	"XX.X.OXOO"	[X=1];
+
+
+	"XX.XO.XOO"	[X=1];
+
+
+	"XXOX..XOO"	[X=1];
+
+
+	"X..X..XOO"	[X=1];
+
+
+	"OXXXOOX.O"	[O=1];
+
+
+	"X.XXOOX.O"	[X=1];
+
+
+	"XOXX.OX.O"	[X=1];
+
+
+	"XX.XOOX.O"	[X=1];
+
+
+	".XOX.OX.O"	[O=1];
+
+
+	"X..X.OX.O"	[X=1];
+
+
+	"XOXXO.X.O"	[X=1];
+
+
+	"O.XXO.X.O"	[O=1];
+
+
+	"XXOXO.X.O"	[X=1];
+
+
+	"OX.XO.X.O"	[O=1];
+
+
+	"X..XO.X.O"	[X=1];
+
+
+	"X.OX..X.O"	[X=1];
+
+
+	"XO.X..X.O"	[X=1];
+
+
+	"XXX..OXOO"	[X=1];
+
+
+	"XXX.O.XOO"	[X=1];
+
+
+	"XXXO..XOO"	[X=1];
+
+
+	"XXX.OOX.O"	[X=1];
+
+
+	"XXXO.OX.O"	[X=1];
+
+
+	"XXXOO.X.O"	[X=1];
+
+
+	"OXX.O.X.O"	[O=1];
+
+
+	"XXO..OX.O"	[O=1];
+
+
+	"X.OXOXXO."	[X=1];
+
+
+	".O.XOXXO."	[O=1];
+
+
+	"OOXXOXXO."	[O=1];
+
+
+	"XOXOOXXO."	[O=1];
+
+
+	".OX.OXXO."	[O=1];
+
+
+	"XO..OXXO."	[O=1];
+
+
+	".OXOXXXO."	[X=1];
+
+
+	"O.XOXXXO."	[X=1];
+
+
+	".OOXXXXO."	[X=1];
+
+
+	"O.OXXXXO."	[X=1];
+
+
+	"XOOX.XXO."	[X=1];
+
+
+	"OO.XXXXO."	[X=1];
+
+
+	"OOX.XXXO."	[X=1];
+
+
+	"X.OXXOXO."	[X=1];
+
+
+	".OXXXOXO."	[X=1];
+
+
+	"XO.XXOXO."	[X=1];
+
+
+	"O.XXXOXO."	[X=1];
+
+
+	"..X.XOXO."	[X=1];
+
+
+	".XXOXOXO."	[X=1];
+
+
+	"OXX.XOXO."	[X=1];
+
+
+	"X.XOXOXO."	[X=1];
+
+
+	"XOX.XOXO."	[X=1];
+
+
+	"..XOX.XO."	[X=1];
+
+
+	"OXXOX.XO."	[X=1];
+
+
+	"XOXOX.XO."	[X=1];
+
+
+	"XOOXX.XO."	[X=1];
+
+
+	"OOXXX.XO."	[X=1];
+
+
+	".OX.X.XO."	[X=1];
+
+
+	"O.X.X.XO."	[X=1];
+
+
+	"X.XXOOXO."	[X=1];
+
+
+	"XOXX.OXO."	[X=1];
+
+
+	"XX.XOOXO."	[X=1];
+
+
+	"XXOX.OXO."	[X=1];
+
+
+	"X..X.OXO."	[X=1];
+
+
+	".OXXO.XO."	[O=1];
+
+
+	"XXOXO.XO."	[X=1];
+
+
+	"X..XO.XO."	[X=1];
+
+
+	"X.OX..XO."	[X=1];
+
+
+	"XO.X..XO."	[X=1];
+
+
+	"XXX.OOXO."	[X=1];
+
+
+	"XXXO.OXO."	[X=1];
+
+
+	"XXXOO.XO."	[X=1];
+
+
+	"XOX.O.XO."	[O=1];
+
+
+	"..XOXOX.."	[X=1];
+
+
+	"OXXOXOX.."	[X=1];
+
+
+	"XOXOXOX.."	[X=1];
+
+
+	"XOOXXOX.."	[X=1];
+
+
+	"OOXXXOX.."	[X=1];
+
+
+	".OX.XOX.."	[X=1];
+
+
+	"O.X.XOX.."	[X=1];
+
+
+	"XOXXOOX.."	[X=1];
+
+
+	"XXOXOOX.."	[X=1];
+
+
+	"X..XOOX.."	[X=1];
+
+
+	"X.OX.OX.."	[X=1];
+
+
+	"XO.X.OX.."	[X=1];
+
+
+	".XXOOOX.."	[O=1];
+
+
+	"X.XOOOX.."	[O=1];
+
+
+	"XX.OOOX.."	[O=1];
+
+
+	"XOOXOXX.."	[X=1];
+
+
+	"X.OXO.X.."	[X=1];
+
+
+	"XO.XO.X.."	[X=1];
+
+
+	"OOXOXXX.."	[X=1];
+
+
+	".OXOX.X.."	[X=1];
+
+
+	"O.XOX.X.."	[X=1];
+
+
+	"OOO.XXX.."	[O=1];
+
+
+	"OOOX.XX.."	[O=1];
+
+
+	"OOOXX.X.."	[O=1];
+
+
+	"XOOX..X.."	[X=1];
+
+
+	"OOX.X.X.."	[X=1];
+
+
+	"...XXX.OO"	[X=1];
+
+
+	"..X.XXOOO"	[O=1];
+
+
+	".XXOXXOOO"	[O=1];
+
+
+	"X.XOXXOOO"	[O=1];
+
+
+	".OXXXX.OO"	[X=1];
+
+
+	"XOX.XXOOO"	[O=1];
+
+
+	"O.XXXX.OO"	[X=1];
+
+
+	"OXX.XXOOO"	[O=1];
+
+
+	".X..XXOOO"	[O=1];
+
+
+	"XX.OXXOOO"	[O=1];
+
+
+	".XOXXX.OO"	[X=1];
+
+
+	"XXO.XXOOO"	[O=1];
+
+
+	"OX.XXX.OO"	[X=1];
+
+
+	"X...XXOOO"	[O=1];
+
+
+	"X.OXXX.OO"	[X=1];
+
+
+	"XO.XXX.OO"	[X=1];
+
+
+	"...XXXO.O"	[X=1];
+
+
+	"OXXOXXO.O"	[O=1];
+
+
+	".OXXXXO.O"	[X=1];
+
+
+	"O.XXXXO.O"	[X=1];
+
+
+	".XOXXXO.O"	[X=1];
+
+
+	"OX.XXXO.O"	[X=1];
+
+
+	"X.OXXXO.O"	[X=1];
+
+
+	"XO.XXXO.O"	[X=1];
+
+
+	"..OXXX..O"	[X=1];
+
+
+	"OXOXXX..O"	[X=1];
+
+
+	"XOOXXX..O"	[X=1];
+
+
+	".O.XXX..O"	[X=1];
+
+
+	"OOXXXX..O"	[X=1];
+
+
+	"O..XXX..O"	[X=1];
+
+
+	"..XX.XOOO"	[O=1];
+
+
+	".XXXOXOOO"	[O=1];
+
+
+	"OXXXOX.OO"	[O=1];
+
+
+	"X.XXOXOOO"	[O=1];
+
+
+	"XOXXOX.OO"	[O=1];
+
+
+	"XOXX.XOOO"	[O=1];
+
+
+	"OXXX.XOOO"	[O=1];
+
+
+	".X.X.XOOO"	[O=1];
+
+
+	"XX.XOXOOO"	[O=1];
+
+
+	"XXOX.XOOO"	[O=1];
+
+
+	"X..X.XOOO"	[O=1];
+
+
+	"OXXXOXO.O"	[O=1];
+
+
+	"XXOXOXO.O"	[O=1];
+
+
+	"O.XXOX..O"	[O=1];
+
+
+	"OX.XOX..O"	[O=1];
+
+
+	".XX..XOOO"	[O=1];
+
+
+	"XXX.OX.OO"	[X=1];
+
+
+	"XXXO.X.OO"	[X=1];
+
+
+	"X.X..XOOO"	[O=1];
+
+
+	"XXX.OXO.O"	[X=1];
+
+
+	"XXXO.XO.O"	[X=1];
+
+
+	"XXXOOX..O"	[X=1];
+
+
+	"OXX.OX..O"	[O=1];
+
+
+	"XX...XOOO"	[O=1];
+
+
+	"...XXXOO."	[X=1];
+
+
+	"OXXOXXOO."	[O=1];
+
+
+	XOXOXXOOX	[X=1];
+
+
+	".OXXXXOO."	[X=1];
+
+
+	"O.XXXXOO."	[X=1];
+
+
+	".XOXXXOO."	[X=1];
+
+
+	"OX.XXXOO."	[X=1];
+
+
+	"X.OXXXOO."	[X=1];
+
+
+	"XO.XXXOO."	[X=1];
+
+
+	"..OXXX.O."	[X=1];
+
+
+	"OXOXXX.O."	[X=1];
+
+
+	"XOOXXX.O."	[X=1];
+
+
+	".O.XXX.O."	[X=1];
+
+
+	"OOXXXX.O."	[X=1];
+
+
+	"O..XXX.O."	[X=1];
+
+
+	"XOXXOXOO."	[O=1];
+
+
+	"XXOXOXOO."	[O=1];
+
+
+	".OXXOX.O."	[O=1];
+
+
+	"XO.XOX.O."	[O=1];
+
+
+	"XXX.OXOO."	[X=1];
+
+
+	"XXXO.XOO."	[X=1];
+
+
+	"XXXOOX.O."	[X=1];
+
+
+	"XOX.OX.O."	[O=1];
+
+
+	"O.XOXXO.."	[O=1];
+
+
+	"OX.OXXO.."	[O=1];
+
+
+	"..OXXXO.."	[X=1];
+
+
+	"OXOXXXO.."	[X=1];
+
+
+	"XOOXXXO.."	[X=1];
+
+
+	".O.XXXO.."	[X=1];
+
+
+	"OOXXXXO.."	[X=1];
+
+
+	"O..XXXO.."	[X=1];
+
+
+	".XOXOXO.."	[O=1];
+
+
+	"X.OXOXO.."	[O=1];
+
+
+	"XXXOOXO.."	[X=1];
+
+
+	"OXXO.XO.."	[O=1];
+
+
+	"XXO.OXO.."	[O=1];
+
+
+	".OOXXX..."	[X=1];
+
+
+	"O.OXXX..."	[X=1];
+
+
+	"OO.XXX..."	[X=1];
+
+
+	"..XXX.OOO"	[O=1];
+
+
+	".XXXXOOOO"	[O=1];
+
+
+	"X.XXXOOOO"	[O=1];
+
+
+	XOXXXOXOO	[X=1];
+
+
+	"XOXXX.OOO"	[O=1];
+
+
+	"OXXXX.OOO"	[O=1];
+
+
+	".X.XX.OOO"	[O=1];
+
+
+	"XX.XXOOOO"	[O=1];
+
+
+	"XXOXXO.OO"	[O=1];
+
+
+	"XXOXX.OOO"	[O=1];
+
+
+	"X..XX.OOO"	[O=1];
+
+
+	"XXOXXOO.O"	[O=1];
+
+
+	".XOXXO..O"	[O=1];
+
+
+	"X.OXXO..O"	[O=1];
+
+
+	".XX.X.OOO"	[O=1];
+
+
+	"XXX.XO.OO"	[X=1];
+
+
+	"XXXOX..OO"	[X=1];
+
+
+	"X.X.X.OOO"	[O=1];
+
+
+	"XXX.XOO.O"	[X=1];
+
+
+	"XXXOX.O.O"	[X=1];
+
+
+	"XXXOXO..O"	[X=1];
+
+
+	"XX..X.OOO"	[O=1];
+
+
+	"XXO.XO..O"	[O=1];
+
+
+	"XXX.XOOO."	[X=1];
+
+
+	"XXXOX.OO."	[X=1];
+
+
+	"XXXOXO.O."	[X=1];
+
+
+	"XXXOXOO.."	[X=1];
+
+
+	"OXXOX.O.."	[O=1];
+
+
+	".XXX..OOO"	[O=1];
+
+
+	"XXXX.O.OO"	[X=1];
+
+
+	"XXXXO..OO"	[X=1];
+
+
+	"X.XX..OOO"	[O=1];
+
+
+	"XXXX.OO.O"	[X=1];
+
+
+	"XXXXO.O.O"	[X=1];
+
+
+	"XXXXOO..O"	[X=1];
+
+
+	"OXXXO...O"	[O=1];
+
+
+	"XX.X..OOO"	[O=1];
+
+
+	"XXOX.O..O"	[O=1];
+
+
+	"XXXX.OOO."	[X=1];
+
+
+	"XXXXO.OO."	[X=1];
+
+
+	"XXXXOO.O."	[X=1];
+
+
+	"XOXXO..O."	[O=1];
+
+
+	"XXXXOOO.."	[X=1];
+
+
+	"XXOXO.O.."	[O=1];
+
+
+	"XXX....OO"	[X=1];
+
+
+	"XXX...O.O"	[X=1];
+
+
+	"XXX..O..O"	[X=1];
+
+
+	"XXX.O...O"	[X=1];
+
+
+	"XXXO....O"	[X=1];
+
+
+	"XXX...OO."	[X=1];
+
+
+	"XXX..O.O."	[X=1];
+
+
+	"XXX.O..O."	[X=1];
+
+
+	"XXXO...O."	[X=1];
+
+
+	"XXX..OO.."	[X=1];
+
+
+	"XXX.O.O.."	[X=1];
+
+
+	"XXXO..O.."	[X=1];
+
+
+	"XXX.OO..."	[X=1];
+
+
+	"XXXO.O..."	[X=1];
+
+
+	"XXXOO...."	[X=1];
+
+
+	"XOXO.OXOX";
+
+
+	"XOX..OXOX";
+
+
+	"XO...OXOX";
+
+
+	"XOOO.XXOX";
+
+
+	"XO.O.XXOX";
+
+
+	"XOXO..XOX";
+
+
+	"XO.O..XOX";
+
+
+	"XOO..XXOX";
+
+
+	"XOO...XOX";
+
+
+	"XO....XOX";
+
+
+	"XOOX.XOOX";
+
+
+	"XO.X.XOOX";
+
+
+	"XO...XOOX";
+
+
+	"XO.O.X.OX";
+
+
+	"XOOX.X.OX";
+
+
+	"XOO..X.OX";
+
+
+	"XO...X.OX";
+
+
+	"XOXX.OOOX";
+
+
+	"XOXX..OOX";
+
+
+	"XO.X..OOX";
+
+
+	"XOXX.O.OX";
+
+
+	"XO.X.O.OX";
+
+
+	"XOOX...OX";
+
+
+	"XO.X...OX";
+
+
+	"XOX...OOX";
+
+
+	"XOX..O.OX";
+
+
+	"XOXO...OX";
+
+
+	"XOX....OX";
+
+
+	"XO.....OX";
+
+
+	"XO.XOOOXX";
+
+
+	"XOOX.OOXX";
+
+
+	"XO.X.OOXX";
+
+
+	"XOX.OOOXX";
+
+
+	"XOXO.OOXX";
+
+
+	"XOX..OOXX";
+
+
+	"XO...OOXX";
+
+
+	"XO.OOXOXX";
+
+
+	"XO..OXOXX";
+
+
+	"XO.XO.OXX";
+
+
+	"XOXOO.OXX";
+
+
+	"XOX.O.OXX";
+
+
+	"XO..O.OXX";
+
+
+	"XOOO.XOXX";
+
+
+	"XO.O.XOXX";
+
+
+	"XOXO..OXX";
+
+
+	"XO.O..OXX";
+
+
+	"XOO..XOXX";
+
+
+	"XOOX..OXX";
+
+
+	"XOO...OXX";
+
+
+	"XO....OXX";
+
+
+	"XO.XOXO.X";
+
+
+	"XO..OXO.X";
+
+
+	"XO.O.XO.X";
+
+
+	"XOOX.XO.X";
+
+
+	"XOO..XO.X";
+
+
+	"XO...XO.X";
+
+
+	"XOXXOOO.X";
+
+
+	"XOXX.OO.X";
+
+
+	"XO.X.OO.X";
+
+
+	"XOXXO.O.X";
+
+
+	"XO.XO.O.X";
+
+
+	"XOOX..O.X";
+
+
+	"XO.X..O.X";
+
+
+	"XOX..OO.X";
+
+
+	"XOX.O.O.X";
+
+
+	"XOXO..O.X";
+
+
+	"XOX...O.X";
+
+
+	"XO....O.X";
+
+
+	"XOOXOO.XX";
+
+
+	"XO.XOO.XX";
+
+
+	"XOX.OO.XX";
+
+
+	"XO..OO.XX";
+
+
+	"XOXO.O.XX";
+
+
+	"XO.O.O.XX";
+
+
+	"XOOX.O.XX";
+
+
+	"XOO..O.XX";
+
+
+	"XO...O.XX";
+
+
+	"XOX.OOX.X";
+
+
+	"XO..OOX.X";
+
+
+	"XOXO.OX.X";
+
+
+	"XO.O.OX.X";
+
+
+	"XOO..OX.X";
+
+
+	"XO...OX.X";
+
+
+	"XOXXOO..X";
+
+
+	"XO.XOO..X";
+
+
+	"XOOX.O..X";
+
+
+	"XO.X.O..X";
+
+
+	"XOX.OO..X";
+
+
+	"XOXO.O..X";
+
+
+	"XOX..O..X";
+
+
+	"XO...O..X";
+
+
+	"XOOOOX.XX";
+
+
+	"XO.OOX.XX";
+
+
+	"XOXOO..XX";
+
+
+	"XO.OO..XX";
+
+
+	"XOO.OX.XX";
+
+
+	"XOOXO..XX";
+
+
+	"XOO.O..XX";
+
+
+	"XO..O..XX";
+
+
+	"XOOOOXX.X";
+
+
+	"XO.OOXX.X";
+
+
+	"XOXOO.X.X";
+
+
+	"XO.OO.X.X";
+
+
+	"XOO.OXX.X";
+
+
+	"XOO.O.X.X";
+
+
+	"XO..O.X.X";
+
+
+	"XO.OOX..X";
+
+
+	"XOOXOX..X";
+
+
+	"XOO.OX..X";
+
+
+	"XO..OX..X";
+
+
+	"XOOXO...X";
+
+
+	"XO.XO...X";
+
+
+	"XOXOO...X";
+
+
+	"XOX.O...X";
+
+
+	"XO..O...X";
+
+
+	"XOOO.X.XX";
+
+
+	"XOOO...XX";
+
+
+	"XO.O...XX";
+
+
+	"XOOO.XX.X";
+
+
+	"XOOO..X.X";
+
+
+	"XO.O..X.X";
+
+
+	"XOOO.X..X";
+
+
+	"XO.O.X..X";
+
+
+	"XOXO....X";
+
+
+	"XO.O....X";
+
+
+	"XOO....XX";
+
+
+	"XOO...X.X";
+
+
+	"XOO..X..X";
+
+
+	"XOOX....X";
+
+
+	"XOO.....X";
+
+
+	"XO......X";
+
+
+	"XO.OXOXXO";
+
+
+	"XO..XOXXO";
+
+
+	"XOX.OOXXO";
+
+
+	"XOXO.OXXO";
+
+
+	"XOX..OXXO";
+
+
+	"XO...OXXO";
+
+
+	"XO.OOXXXO";
+
+
+	"XOO.OXXXO";
+
+
+	"XO..OXXXO";
+
+
+	"XOXOO.XXO";
+
+
+	"XOX.O.XXO";
+
+
+	"XO..O.XXO";
+
+
+	"XOOO.XXXO";
+
+
+	"XO.O.XXXO";
+
+
+	"XOOOX.XXO";
+
+
+	"XO.OX.XXO";
+
+
+	"XOXO..XXO";
+
+
+	"XO.O..XXO";
+
+
+	"XOO..XXXO";
+
+
+	"XOO.X.XXO";
+
+
+	"XOO...XXO";
+
+
+	"XO....XXO";
+
+
+	"XO.OXXOXO";
+
+
+	"XOO.XXOXO";
+
+
+	"XO..XXOXO";
+
+
+	"XO.XOXOXO";
+
+
+	"XOOX.XOXO";
+
+
+	"XO.X.XOXO";
+
+
+	"XOX.OXOXO";
+
+
+	"XOXO.XOXO";
+
+
+	"XOX..XOXO";
+
+
+	"XO...XOXO";
+
+
+	"XOOXOX.XO";
+
+
+	"XO.XOX.XO";
+
+
+	"XOXOOX.XO";
+
+
+	"XOX.OX.XO";
+
+
+	"XO..OX.XO";
+
+
+	"XOOOXX.XO";
+
+
+	"XO.OXX.XO";
+
+
+	"XOXO.X.XO";
+
+
+	"XO.O.X.XO";
+
+
+	"XOO.XX.XO";
+
+
+	"XOOX.X.XO";
+
+
+	"XOO..X.XO";
+
+
+	"XO...X.XO";
+
+
+	"XO.XXOOXO";
+
+
+	"XOOXX.OXO";
+
+
+	"XO.XX.OXO";
+
+
+	"XOX.XOOXO";
+
+
+	"XOXOX.OXO";
+
+
+	"XOX.X.OXO";
+
+
+	"XO..X.OXO";
+
+
+	"XO.XXO.XO";
+
+
+	"XOXOXO.XO";
+
+
+	"XOX.XO.XO";
+
+
+	"XO..XO.XO";
+
+
+	"XOXOX..XO";
+
+
+	"XO.OX..XO";
+
+
+	"XOOXX..XO";
+
+
+	"XOO.X..XO";
+
+
+	"XO..X..XO";
+
+
+	"XOXX.OOXO";
+
+
+	"XOXXO.OXO";
+
+
+	"XOXX..OXO";
+
+
+	"XO.X..OXO";
+
+
+	"XOXXOO.XO";
+
+
+	"XOXX.O.XO";
+
+
+	"XO.X.O.XO";
+
+
+	"XOXXO..XO";
+
+
+	"XO.XO..XO";
+
+
+	"XOOX...XO";
+
+
+	"XO.X...XO";
+
+
+	"XOX...OXO";
+
+
+	"XOX..O.XO";
+
+
+	"XOX.O..XO";
+
+
+	"XOXO...XO";
+
+
+	"XOX....XO";
+
+
+	"XO.....XO";
+
+
+	"XO.XOXOX.";
+
+
+	"XOXOOXOX.";
+
+
+	"XOX.OXOX.";
+
+
+	"XO..OXOX.";
+
+
+	"XOOOXXOX.";
+
+
+	"XO.OXXOX.";
+
+
+	"XOXO.XOX.";
+
+
+	"XO.O.XOX.";
+
+
+	"XOO.XXOX.";
+
+
+	"XOOX.XOX.";
+
+
+	"XOO..XOX.";
+
+
+	"XO...XOX.";
+
+
+	"XOOXXOOX.";
+
+
+	"XO.XXOOX.";
+
+
+	"XOXOXOOX.";
+
+
+	"XOX.XOOX.";
+
+
+	"XO..XOOX.";
+
+
+	"XOXOX.OX.";
+
+
+	"XO.OX.OX.";
+
+
+	"XOOXX.OX.";
+
+
+	"XOO.X.OX.";
+
+
+	"XO..X.OX.";
+
+
+	"XOXXOOOX.";
+
+
+	"XOXX.OOX.";
+
+
+	"XO.X.OOX.";
+
+
+	"XOXXO.OX.";
+
+
+	"XO.XO.OX.";
+
+
+	"XOOX..OX.";
+
+
+	"XO.X..OX.";
+
+
+	"XOX..OOX.";
+
+
+	"XOX.O.OX.";
+
+
+	"XOXO..OX.";
+
+
+	"XOX...OX.";
+
+
+	"XO....OX.";
+
+
+	"XOX.OOXX.";
+
+
+	"XO..OOXX.";
+
+
+	"XOOOXOXX.";
+
+
+	"XO.OXOXX.";
+
+
+	"XOXO.OXX.";
+
+
+	"XO.O.OXX.";
+
+
+	"XOO.XOXX.";
+
+
+	"XOO..OXX.";
+
+
+	"XO...OXX.";
+
+
+	"XOXOXO.X.";
+
+
+	"XO.OXO.X.";
+
+
+	"XOOXXO.X.";
+
+
+	"XOO.XO.X.";
+
+
+	"XO..XO.X.";
+
+
+	"XOXXOO.X.";
+
+
+	"XO.XOO.X.";
+
+
+	"XOOX.O.X.";
+
+
+	"XO.X.O.X.";
+
+
+	"XOX.OO.X.";
+
+
+	"XOXO.O.X.";
+
+
+	"XOX..O.X.";
+
+
+	"XO...O.X.";
+
+
+	"XOOOOXXX.";
+
+
+	"XO.OOXXX.";
+
+
+	"XOXOO.XX.";
+
+
+	"XO.OO.XX.";
+
+
+	"XOO.OXXX.";
+
+
+	"XOO.O.XX.";
+
+
+	"XO..O.XX.";
+
+
+	"XOXOOX.X.";
+
+
+	"XO.OOX.X.";
+
+
+	"XOOXOX.X.";
+
+
+	"XOO.OX.X.";
+
+
+	"XO..OX.X.";
+
+
+	"XOOXO..X.";
+
+
+	"XO.XO..X.";
+
+
+	"XOXOO..X.";
+
+
+	"XOX.O..X.";
+
+
+	"XO..O..X.";
+
+
+	"XOOO.XXX.";
+
+
+	"XOOOX.XX.";
+
+
+	"XOOO..XX.";
+
+
+	"XO.O..XX.";
+
+
+	"XOOOXX.X.";
+
+
+	"XOOO.X.X.";
+
+
+	"XO.O.X.X.";
+
+
+	"XOOOX..X.";
+
+
+	"XO.OX..X.";
+
+
+	"XOXO...X.";
+
+
+	"XO.O...X.";
+
+
+	"XOO...XX.";
+
+
+	"XOO..X.X.";
+
+
+	"XOO.X..X.";
+
+
+	"XOOX...X.";
+
+
+	"XOO....X.";
+
+
+	"XO.....X.";
+
+
+	"XO.OXXXOO";
+
+
+	"XOO.XXXOO";
+
+
+	"XO..XXXOO";
+
+
+	"XOXO.XXOO";
+
+
+	"XOX..XXOO";
+
+
+	"XO...XXOO";
+
+
+	"XOXOOXX.O";
+
+
+	"XOX.OXX.O";
+
+
+	"XO..OXX.O";
+
+
+	"XOOOXXX.O";
+
+
+	"XO.OXXX.O";
+
+
+	"XOXO.XX.O";
+
+
+	"XO.O.XX.O";
+
+
+	"XOO.XXX.O";
+
+
+	"XOO..XX.O";
+
+
+	"XO...XX.O";
+
+
+	"XO..X.XOO";
+
+
+	"XO..XOX.O";
+
+
+	"XO.OX.X.O";
+
+
+	"XOO.X.X.O";
+
+
+	"XO..X.X.O";
+
+
+	"XOX...XOO";
+
+
+	"XOX..OX.O";
+
+
+	"XOX.O.X.O";
+
+
+	"XOXO..X.O";
+
+
+	"XOX...X.O";
+
+
+	"XO....X.O";
+
+
+	"XOOOXXXO.";
+
+
+	"XO.OXXXO.";
+
+
+	"XOXO.XXO.";
+
+
+	"XO.O.XXO.";
+
+
+	"XOO.XXXO.";
+
+
+	"XOO..XXO.";
+
+
+	"XO...XXO.";
+
+
+	"XO..XOXO.";
+
+
+	"XO.OX.XO.";
+
+
+	"XOO.X.XO.";
+
+
+	"XO..X.XO.";
+
+
+	"XOX..OXO.";
+
+
+	"XOXO..XO.";
+
+
+	"XOX...XO.";
+
+
+	"XO....XO.";
+
+
+	"XO.OXOX..";
+
+
+	"XOO.XOX..";
+
+
+	"XO..XOX..";
+
+
+	"XOX.OOX..";
+
+
+	"XOXO.OX..";
+
+
+	"XOX..OX..";
+
+
+	"XO...OX..";
+
+
+	"XOXOOXX..";
+
+
+	"XO.OOXX..";
+
+
+	"XOO.OXX..";
+
+
+	"XO..OXX..";
+
+
+	"XOXOO.X..";
+
+
+	"XOX.O.X..";
+
+
+	"XO..O.X..";
+
+
+	"XOOOXXX..";
+
+
+	"XOOO.XX..";
+
+
+	"XO.O.XX..";
+
+
+	"XOOOX.X..";
+
+
+	"XO.OX.X..";
+
+
+	"XOXO..X..";
+
+
+	"XO.O..X..";
+
+
+	"XOO..XX..";
+
+
+	"XOO.X.X..";
+
+
+	"XOO...X..";
+
+
+	"XO....X..";
+
+
+	"XOXOXX.OO";
+
+
+	"XOX.XX.OO";
+
+
+	"XO..XX.OO";
+
+
+	"XOXOXXO.O";
+
+
+	"XOX.XXO.O";
+
+
+	"XO..XXO.O";
+
+
+	"XOXOXX..O";
+
+
+	"XO.OXX..O";
+
+
+	"XOO.XX..O";
+
+
+	"XO..XX..O";
+
+
+	"XOXX.X.OO";
+
+
+	"XO.X.X.OO";
+
+
+	"XOXXOXO.O";
+
+
+	"XOXX.XO.O";
+
+
+	"XO.X.XO.O";
+
+
+	"XOXXOX..O";
+
+
+	"XO.XOX..O";
+
+
+	"XOOX.X..O";
+
+
+	"XO.X.X..O";
+
+
+	"XOX..X.OO";
+
+
+	"XOX..XO.O";
+
+
+	"XOX.OX..O";
+
+
+	"XOXO.X..O";
+
+
+	"XOX..X..O";
+
+
+	"XO...X..O";
+
+
+	"XOXOXXOO.";
+
+
+	"XOX.XXOO.";
+
+
+	"XO..XXOO.";
+
+
+	"XOXOXX.O.";
+
+
+	"XO.OXX.O.";
+
+
+	"XOO.XX.O.";
+
+
+	"XO..XX.O.";
+
+
+	"XOXX.XOO.";
+
+
+	"XO.X.XOO.";
+
+
+	"XOOX.X.O.";
+
+
+	"XO.X.X.O.";
+
+
+	"XOX..XOO.";
+
+
+	"XOXO.X.O.";
+
+
+	"XOX..X.O.";
+
+
+	"XO...X.O.";
+
+
+	"XOXOXXO..";
+
+
+	"XO.OXXO..";
+
+
+	"XOO.XXO..";
+
+
+	"XO..XXO..";
+
+
+	"XOXXOXO..";
+
+
+	"XO.XOXO..";
+
+
+	"XOOX.XO..";
+
+
+	"XO.X.XO..";
+
+
+	"XOX.OXO..";
+
+
+	"XOXO.XO..";
+
+
+	"XOX..XO..";
+
+
+	"XO...XO..";
+
+
+	"XOOXOX...";
+
+
+	"XO.XOX...";
+
+
+	"XOXOOX...";
+
+
+	"XOX.OX...";
+
+
+	"XO..OX...";
+
+
+	"XOOOXX...";
+
+
+	"XO.OXX...";
+
+
+	"XOXO.X...";
+
+
+	"XO.O.X...";
+
+
+	"XOO.XX...";
+
+
+	"XOOX.X...";
+
+
+	"XOO..X...";
+
+
+	"XO...X...";
+
+
+	"XOXXXO.OO";
+
+
+	"XOXXX..OO";
+
+
+	"XO.XX..OO";
+
+
+	"XOXXXOO.O";
+
+
+	"XOXXX.O.O";
+
+
+	"XO.XX.O.O";
+
+
+	"XOXXXO..O";
+
+
+	"XO.XXO..O";
+
+
+	"XOOXX...O";
+
+
+	"XO.XX...O";
+
+
+	"XOX.X..OO";
+
+
+	"XOX.X.O.O";
+
+
+	"XOX.XO..O";
+
+
+	"XOXOX...O";
+
+
+	"XOX.X...O";
+
+
+	"XO..X...O";
+
+
+	"XOXXXOOO.";
+
+
+	"XOXXX.OO.";
+
+
+	"XO.XX.OO.";
+
+
+	"XOXXXO.O.";
+
+
+	"XO.XXO.O.";
+
+
+	"XOOXX..O.";
+
+
+	"XO.XX..O.";
+
+
+	"XOX.X.OO.";
+
+
+	"XOX.XO.O.";
+
+
+	"XOXOX..O.";
+
+
+	"XOX.X..O.";
+
+
+	"XO..X..O.";
+
+
+	"XOXXXOO..";
+
+
+	"XO.XXOO..";
+
+
+	"XOOXX.O..";
+
+
+	"XO.XX.O..";
+
+
+	"XOX.XOO..";
+
+
+	"XOXOX.O..";
+
+
+	"XOX.X.O..";
+
+
+	"XO..X.O..";
+
+
+	"XOOXXO...";
+
+
+	"XO.XXO...";
+
+
+	"XOXOXO...";
+
+
+	"XOX.XO...";
+
+
+	"XO..XO...";
+
+
+	"XOXOX....";
+
+
+	"XO.OX....";
+
+
+	"XOOXX....";
+
+
+	"XOO.X....";
+
+
+	"XO..X....";
+
+
+	"XOXX...OO";
+
+
+	"XOXX..O.O";
+
+
+	"XOXX.O..O";
+
+
+	"XOXXO...O";
+
+
+	"XOXX....O";
+
+
+	"XO.X....O";
+
+
+	"XOXX..OO.";
+
+
+	"XOXX.O.O.";
+
+
+	"XOXX...O.";
+
+
+	"XO.X...O.";
+
+
+	"XOXX.OO..";
+
+
+	"XOXXO.O..";
+
+
+	"XOXX..O..";
+
+
+	"XO.X..O..";
+
+
+	"XOXXOO...";
+
+
+	"XOXX.O...";
+
+
+	"XO.X.O...";
+
+
+	"XOXXO....";
+
+
+	"XO.XO....";
+
+
+	"XOOX.....";
+
+
+	"XO.X.....";
+
+
+	"XOX.....O";
+
+
+	"XOX....O.";
+
+
+	"XOX...O..";
+
+
+	"XOX..O...";
+
+
+	"XOX.O....";
+
+
+	"XOXO.....";
+
+
+	"XOX......";
+
+
+	"XO.......";
+
+
+	"XXO.OOXOX";
+
+
+	"XXOO.OXOX";
+
+
+	"XXO..OXOX";
+
+
+	"X.O..OXOX";
+
+
+	"X.OOOXXOX";
+
+
+	"X.O.OXXOX";
+
+
+	"XXOOO.XOX";
+
+
+	"XXO.O.XOX";
+
+
+	"X.O.O.XOX";
+
+
+	"X.OO.XXOX";
+
+
+	"XXOO..XOX";
+
+
+	"X.OO..XOX";
+
+
+	"X.O...XOX";
+
+
+	"X.OX.XOOX";
+
+
+	"XXOO.XOOX";
+
+
+	"XXO..XOOX";
+
+
+	"X.O..XOOX";
+
+
+	"X.OXOX.OX";
+
+
+	"XXOOOX.OX";
+
+
+	"XXO.OX.OX";
+
+
+	"X.O.OX.OX";
+
+
+	"XXOO.X.OX";
+
+
+	"X.OO.X.OX";
+
+
+	"X.O..X.OX";
+
+
+	"XXOX.OOOX";
+
+
+	"XXOX..OOX";
+
+
+	"X.OX..OOX";
+
+
+	"XXOXOO.OX";
+
+
+	"XXOX.O.OX";
+
+
+	"X.OX.O.OX";
+
+
+	"XXOXO..OX";
+
+
+	"X.OXO..OX";
+
+
+	"X.OX...OX";
+
+
+	"XXO...OOX";
+
+
+	"XXO..O.OX";
+
+
+	"XXO.O..OX";
+
+
+	"XXOO...OX";
+
+
+	"XXO....OX";
+
+
+	"X.O....OX";
+
+
+	"X.OX.OOXX";
+
+
+	"XXOO.OOXX";
+
+
+	"XXO..OOXX";
+
+
+	"X.O..OOXX";
+
+
+	"X.OO.XOXX";
+
+
+	"XXOO..OXX";
+
+
+	"X.OO..OXX";
+
+
+	"X.O...OXX";
+
+
+	"XXOO.XO.X";
+
+
+	"X.OO.XO.X";
+
+
+	"X.O..XO.X";
+
+
+	"XXOX.OO.X";
+
+
+	"X.OX.OO.X";
+
+
+	"X.OX..O.X";
+
+
+	"XXO..OO.X";
+
+
+	"XXOO..O.X";
+
+
+	"XXO...O.X";
+
+
+	"X.O...O.X";
+
+
+	"X.OXOO.XX";
+
+
+	"XXO.OO.XX";
+
+
+	"X.O.OO.XX";
+
+
+	"XXOO.O.XX";
+
+
+	"X.OO.O.XX";
+
+
+	"X.O..O.XX";
+
+
+	"XXO.OOX.X";
+
+
+	"X.O.OOX.X";
+
+
+	"XXOO.OX.X";
+
+
+	"X.OO.OX.X";
+
+
+	"X.O..OX.X";
+
+
+	"XXOXOO..X";
+
+
+	"X.OXOO..X";
+
+
+	"X.OX.O..X";
+
+
+	"XXO.OO..X";
+
+
+	"XXOO.O..X";
+
+
+	"XXO..O..X";
+
+
+	"X.O..O..X";
+
+
+	"X.OOOX.XX";
+
+
+	"XXOOO..XX";
+
+
+	"X.OOO..XX";
+
+
+	"X.O.O..XX";
+
+
+	"X.OOOXX.X";
+
+
+	"XXOOO.X.X";
+
+
+	"X.OOO.X.X";
+
+
+	"X.O.O.X.X";
+
+
+	"XXOOOX..X";
+
+
+	"X.OOOX..X";
+
+
+	"X.O.OX..X";
+
+
+	"X.OXO...X";
+
+
+	"XXOOO...X";
+
+
+	"XXO.O...X";
+
+
+	"X.O.O...X";
+
+
+	"X.OO...XX";
+
+
+	"X.OO..X.X";
+
+
+	"X.OO.X..X";
+
+
+	"XXOO....X";
+
+
+	"X.OO....X";
+
+
+	"X.O.....X";
+
+
+	"X.OOOXXXO";
+
+
+	"X.O.OXXXO";
+
+
+	"XXOOO.XXO";
+
+
+	"XXO.O.XXO";
+
+
+	"X.O.O.XXO";
+
+
+	"X.OO.XXXO";
+
+
+	"X.OOX.XXO";
+
+
+	"XXOO..XXO";
+
+
+	"X.OO..XXO";
+
+
+	"X.O...XXO";
+
+
+	"X.OOXXOXO";
+
+
+	"X.O.XXOXO";
+
+
+	"X.OX.XOXO";
+
+
+	"XXOO.XOXO";
+
+
+	"XXO..XOXO";
+
+
+	"X.O..XOXO";
+
+
+	"X.OXOX.XO";
+
+
+	"XXOOOX.XO";
+
+
+	"XXO.OX.XO";
+
+
+	"X.O.OX.XO";
+
+
+	"X.OOXX.XO";
+
+
+	"XXOO.X.XO";
+
+
+	"X.OO.X.XO";
+
+
+	"X.O..X.XO";
+
+
+	"X.OXX.OXO";
+
+
+	"X.O.X.OXO";
+
+
+	"X.OOX..XO";
+
+
+	"X.O.X..XO";
+
+
+	"XXOX..OXO";
+
+
+	"X.OX..OXO";
+
+
+	"XXOXO..XO";
+
+
+	"X.OXO..XO";
+
+
+	"X.OX...XO";
+
+
+	"XXO...OXO";
+
+
+	"XXO.O..XO";
+
+
+	"XXOO...XO";
+
+
+	"XXO....XO";
+
+
+	"X.O....XO";
+
+
+	"X.OOXXOX.";
+
+
+	"XXOO.XOX.";
+
+
+	"X.OO.XOX.";
+
+
+	"X.O..XOX.";
+
+
+	"X.OXXOOX.";
+
+
+	"X.O.XOOX.";
+
+
+	"X.OOX.OX.";
+
+
+	"X.O.X.OX.";
+
+
+	"XXOX.OOX.";
+
+
+	"X.OX.OOX.";
+
+
+	"X.OX..OX.";
+
+
+	"XXO..OOX.";
+
+
+	"XXOO..OX.";
+
+
+	"XXO...OX.";
+
+
+	"X.O...OX.";
+
+
+	"XXO.OOXX.";
+
+
+	"X.O.OOXX.";
+
+
+	"X.OOXOXX.";
+
+
+	"XXOO.OXX.";
+
+
+	"X.OO.OXX.";
+
+
+	"X.O..OXX.";
+
+
+	"X.OOXO.X.";
+
+
+	"X.O.XO.X.";
+
+
+	"XXOXOO.X.";
+
+
+	"X.OXOO.X.";
+
+
+	"X.OX.O.X.";
+
+
+	"XXO.OO.X.";
+
+
+	"XXOO.O.X.";
+
+
+	"XXO..O.X.";
+
+
+	"X.O..O.X.";
+
+
+	"X.OOOXXX.";
+
+
+	"XXOOO.XX.";
+
+
+	"X.OOO.XX.";
+
+
+	"X.O.O.XX.";
+
+
+	"XXOOOX.X.";
+
+
+	"X.OOOX.X.";
+
+
+	"X.O.OX.X.";
+
+
+	"X.OXO..X.";
+
+
+	"XXOOO..X.";
+
+
+	"XXO.O..X.";
+
+
+	"X.O.O..X.";
+
+
+	"X.OO..XX.";
+
+
+	"X.OO.X.X.";
+
+
+	"X.OOX..X.";
+
+
+	"XXOO...X.";
+
+
+	"X.OO...X.";
+
+
+	"X.O....X.";
+
+
+	"X.OOXXXOO";
+
+
+	"X.O.XXXOO";
+
+
+	"XXO.OXXOO";
+
+
+	"XXOO.XXOO";
+
+
+	"XXO..XXOO";
+
+
+	"X.O..XXOO";
+
+
+	"XXOOOXX.O";
+
+
+	"XXO.OXX.O";
+
+
+	"X.O.OXX.O";
+
+
+	"X.OOXXX.O";
+
+
+	"XXOO.XX.O";
+
+
+	"X.OO.XX.O";
+
+
+	"X.O..XX.O";
+
+
+	"XXOOX.XOO";
+
+
+	"XXO.X.XOO";
+
+
+	"X.O.X.XOO";
+
+
+	"XXOOX.X.O";
+
+
+	"X.OOX.X.O";
+
+
+	"X.O.X.X.O";
+
+
+	"XXO...XOO";
+
+
+	"XXO.O.X.O";
+
+
+	"XXOO..X.O";
+
+
+	"XXO...X.O";
+
+
+	"X.O...X.O";
+
+
+	"XXOOOXXO.";
+
+
+	"XXO.OXXO.";
+
+
+	"X.O.OXXO.";
+
+
+	"X.OOXXXO.";
+
+
+	"XXOO.XXO.";
+
+
+	"X.OO.XXO.";
+
+
+	"X.O..XXO.";
+
+
+	"XXOOXOXO.";
+
+
+	"XXO.XOXO.";
+
+
+	"X.O.XOXO.";
+
+
+	"XXOOX.XO.";
+
+
+	"X.OOX.XO.";
+
+
+	"X.O.X.XO.";
+
+
+	"XXO..OXO.";
+
+
+	"XXO.O.XO.";
+
+
+	"XXOO..XO.";
+
+
+	"XXO...XO.";
+
+
+	"X.O...XO.";
+
+
+	"XXOOXOX..";
+
+
+	"X.OOXOX..";
+
+
+	"X.O.XOX..";
+
+
+	"XXO.OOX..";
+
+
+	"XXOO.OX..";
+
+
+	"XXO..OX..";
+
+
+	"X.O..OX..";
+
+
+	"XXOOOXX..";
+
+
+	"X.OOOXX..";
+
+
+	"X.O.OXX..";
+
+
+	"XXOOO.X..";
+
+
+	"XXO.O.X..";
+
+
+	"X.O.O.X..";
+
+
+	"X.OO.XX..";
+
+
+	"X.OOX.X..";
+
+
+	"XXOO..X..";
+
+
+	"X.OO..X..";
+
+
+	"X.O...X..";
+
+
+	"XXOOXX.OO";
+
+
+	"XXO.XX.OO";
+
+
+	"X.O.XX.OO";
+
+
+	"XXOOXXO.O";
+
+
+	"XXO.XXO.O";
+
+
+	"X.O.XXO.O";
+
+
+	"XXOOXX..O";
+
+
+	"X.OOXX..O";
+
+
+	"X.O.XX..O";
+
+
+	"XXOXOX.OO";
+
+
+	"XXOX.X.OO";
+
+
+	"X.OX.X.OO";
+
+
+	"XXOX.XO.O";
+
+
+	"X.OX.XO.O";
+
+
+	"XXOXOX..O";
+
+
+	"X.OXOX..O";
+
+
+	"X.OX.X..O";
+
+
+	"XXO..X.OO";
+
+
+	"XXO..XO.O";
+
+
+	"XXO.OX..O";
+
+
+	"XXOO.X..O";
+
+
+	"XXO..X..O";
+
+
+	"X.O..X..O";
+
+
+	"XXOOXXOO.";
+
+
+	"XXO.XXOO.";
+
+
+	"X.O.XXOO.";
+
+
+	"XXOOXX.O.";
+
+
+	"X.OOXX.O.";
+
+
+	"X.O.XX.O.";
+
+
+	"XXOX.XOO.";
+
+
+	"X.OX.XOO.";
+
+
+	"XXOXOX.O.";
+
+
+	"X.OXOX.O.";
+
+
+	"X.OX.X.O.";
+
+
+	"XXO..XOO.";
+
+
+	"XXO.OX.O.";
+
+
+	"XXOO.X.O.";
+
+
+	"XXO..X.O.";
+
+
+	"X.O..X.O.";
+
+
+	"XXOOXXO..";
+
+
+	"X.OOXXO..";
+
+
+	"X.O.XXO..";
+
+
+	"X.OX.XO..";
+
+
+	"XXOO.XO..";
+
+
+	"XXO..XO..";
+
+
+	"X.O..XO..";
+
+
+	"X.OXOX...";
+
+
+	"XXOOOX...";
+
+
+	"XXO.OX...";
+
+
+	"X.O.OX...";
+
+
+	"X.OOXX...";
+
+
+	"XXOO.X...";
+
+
+	"X.OO.X...";
+
+
+	"X.O..X...";
+
+
+	"XXOXX..OO";
+
+
+	"X.OXX..OO";
+
+
+	"XXOXX.O.O";
+
+
+	"X.OXX.O.O";
+
+
+	"X.OXX...O";
+
+
+	"XXO.X..OO";
+
+
+	"XXO.X.O.O";
+
+
+	"XXOOX...O";
+
+
+	"XXO.X...O";
+
+
+	"X.O.X...O";
+
+
+	"XXOXXOOO.";
+
+
+	"XXOXX.OO.";
+
+
+	"X.OXX.OO.";
+
+
+	"XXOXXO.O.";
+
+
+	"X.OXXO.O.";
+
+
+	"X.OXX..O.";
+
+
+	"XXO.X.OO.";
+
+
+	"XXO.XO.O.";
+
+
+	"XXOOX..O.";
+
+
+	"XXO.X..O.";
+
+
+	"X.O.X..O.";
+
+
+	"XXOXXOO..";
+
+
+	"X.OXXOO..";
+
+
+	"X.OXX.O..";
+
+
+	"XXO.XOO..";
+
+
+	"XXOOX.O..";
+
+
+	"XXO.X.O..";
+
+
+	"X.O.X.O..";
+
+
+	"X.OXXO...";
+
+
+	"XXOOXO...";
+
+
+	"XXO.XO...";
+
+
+	"X.O.XO...";
+
+
+	"XXOOX....";
+
+
+	"X.OOX....";
+
+
+	"X.O.X....";
+
+
+	"XXOX...OO";
+
+
+	"XXOX..O.O";
+
+
+	"XXOXO...O";
+
+
+	"XXOX....O";
+
+
+	"X.OX....O";
+
+
+	"XXOX..OO.";
+
+
+	"XXOX.O.O.";
+
+
+	"XXOXO..O.";
+
+
+	"XXOX...O.";
+
+
+	"X.OX...O.";
+
+
+	"XXOX.OO..";
+
+
+	"XXOX..O..";
+
+
+	"X.OX..O..";
+
+
+	"XXOXOO...";
+
+
+	"XXOX.O...";
+
+
+	"X.OX.O...";
+
+
+	"XXOXO....";
+
+
+	"X.OXO....";
+
+
+	"X.OX.....";
+
+
+	"XXO.....O";
+
+
+	"XXO....O.";
+
+
+	"XXO...O..";
+
+
+	"XXO..O...";
+
+
+	"XXO.O....";
+
+
+	"XXOO.....";
+
+
+	"XXO......";
+
+
+	"X.O......";
+
+
+	"X.XO.OXOX";
+
+
+	"XX.O.OXOX";
+
+
+	"X..O.OXOX";
+
+
+	"X..OOXXOX";
+
+
+	"X.XOO.XOX";
+
+
+	"XX.OO.XOX";
+
+
+	"X..OO.XOX";
+
+
+	"X..O..XOX";
+
+
+	"XX.OOXOOX";
+
+
+	"XX.O.XOOX";
+
+
+	"X..O.XOOX";
+
+
+	"XX.OOX.OX";
+
+
+	"X..OOX.OX";
+
+
+	"X..O.X.OX";
+
+
+	"X.XO..OOX";
+
+
+	"X.XO.O.OX";
+
+
+	"X.XOO..OX";
+
+
+	"X.XO...OX";
+
+
+	"XX.O..OOX";
+
+
+	"XX.O.O.OX";
+
+
+	"XX.OO..OX";
+
+
+	"XX.O...OX";
+
+
+	"X..O...OX";
+
+
+	"X.XO.OOXX";
+
+
+	"XX.O.OOXX";
+
+
+	"X..O.OOXX";
+
+
+	"X..OOXOXX";
+
+
+	"X.XOO.OXX";
+
+
+	"XX.OO.OXX";
+
+
+	"X..OO.OXX";
+
+
+	"X..O..OXX";
+
+
+	"XX.OOXO.X";
+
+
+	"X..OOXO.X";
+
+
+	"X..O.XO.X";
+
+
+	"X.XO.OO.X";
+
+
+	"X.XOO.O.X";
+
+
+	"X.XO..O.X";
+
+
+	"XX.O.OO.X";
+
+
+	"XX.OO.O.X";
+
+
+	"XX.O..O.X";
+
+
+	"X..O..O.X";
+
+
+	"X..O.O.XX";
+
+
+	"X..O.OX.X";
+
+
+	"X.XO.O..X";
+
+
+	"XX.O.O..X";
+
+
+	"X..O.O..X";
+
+
+	"X..OO..XX";
+
+
+	"X..OO.X.X";
+
+
+	"X..OOX..X";
+
+
+	"X.XOO...X";
+
+
+	"XX.OO...X";
+
+
+	"X..OO...X";
+
+
+	"X..O....X";
+
+
+	"X..OXOXXO";
+
+
+	"X.XO.OXXO";
+
+
+	"XX.O.OXXO";
+
+
+	"X..O.OXXO";
+
+
+	"X..OOXXXO";
+
+
+	"X.XOO.XXO";
+
+
+	"XX.OO.XXO";
+
+
+	"X..OO.XXO";
+
+
+	"X..O..XXO";
+
+
+	"X..OXXOXO";
+
+
+	"X.XOOXOXO";
+
+
+	"X.XO.XOXO";
+
+
+	"XX.OOXOXO";
+
+
+	"XX.O.XOXO";
+
+
+	"X..O.XOXO";
+
+
+	"X.XOOX.XO";
+
+
+	"XX.OOX.XO";
+
+
+	"X..OOX.XO";
+
+
+	"X..O.X.XO";
+
+
+	"X.XOXOOXO";
+
+
+	"X.XOX.OXO";
+
+
+	"X..OX.OXO";
+
+
+	"X.XOXO.XO";
+
+
+	"X..OXO.XO";
+
+
+	"X..OX..XO";
+
+
+	"X.XO..OXO";
+
+
+	"X.XO.O.XO";
+
+
+	"X.XOO..XO";
+
+
+	"X.XO...XO";
+
+
+	"XX.O..OXO";
+
+
+	"XX.O.O.XO";
+
+
+	"XX.OO..XO";
+
+
+	"XX.O...XO";
+
+
+	"X..O...XO";
+
+
+	"X.XOOXOX.";
+
+
+	"XX.OOXOX.";
+
+
+	"X..OOXOX.";
+
+
+	"X..O.XOX.";
+
+
+	"X.XOXOOX.";
+
+
+	"X..OXOOX.";
+
+
+	"X..OX.OX.";
+
+
+	"X.XO.OOX.";
+
+
+	"X.XOO.OX.";
+
+
+	"X.XO..OX.";
+
+
+	"XX.O.OOX.";
+
+
+	"XX.OO.OX.";
+
+
+	"XX.O..OX.";
+
+
+	"X..O..OX.";
+
+
+	"X..O.OXX.";
+
+
+	"X..OXO.X.";
+
+
+	"X.XO.O.X.";
+
+
+	"XX.O.O.X.";
+
+
+	"X..O.O.X.";
+
+
+	"X..OO.XX.";
+
+
+	"X..OOX.X.";
+
+
+	"X.XOO..X.";
+
+
+	"XX.OO..X.";
+
+
+	"X..OO..X.";
+
+
+	"X..O...X.";
+
+
+	"X..OXXXOO";
+
+
+	"X.XOOXXOO";
+
+
+	"X.XO.XXOO";
+
+
+	"XX.OOXXOO";
+
+
+	"XX.O.XXOO";
+
+
+	"X..O.XXOO";
+
+
+	"X.XOOXX.O";
+
+
+	"XX.OOXX.O";
+
+
+	"X..OOXX.O";
+
+
+	"X..O.XX.O";
+
+
+	"XX.OXOXOO";
+
+
+	"XX.OX.XOO";
+
+
+	"X..OX.XOO";
+
+
+	"XX.OXOX.O";
+
+
+	"X..OXOX.O";
+
+
+	"X..OX.X.O";
+
+
+	"X.XO..XOO";
+
+
+	"X.XO.OX.O";
+
+
+	"X.XOO.X.O";
+
+
+	"X.XO..X.O";
+
+
+	"XX.O..XOO";
+
+
+	"XX.O.OX.O";
+
+
+	"XX.OO.X.O";
+
+
+	"XX.O..X.O";
+
+
+	"X..O..X.O";
+
+
+	"X.XOOXXO.";
+
+
+	"XX.OOXXO.";
+
+
+	"X..OOXXO.";
+
+
+	"X..O.XXO.";
+
+
+	"XX.OXOXO.";
+
+
+	"X..OXOXO.";
+
+
+	"X..OX.XO.";
+
+
+	"X.XO.OXO.";
+
+
+	"X.XOO.XO.";
+
+
+	"X.XO..XO.";
+
+
+	"XX.O.OXO.";
+
+
+	"XX.OO.XO.";
+
+
+	"XX.O..XO.";
+
+
+	"X..O..XO.";
+
+
+	"X..OXOX..";
+
+
+	"X.XO.OX..";
+
+
+	"XX.O.OX..";
+
+
+	"X..O.OX..";
+
+
+	"X..OOXX..";
+
+
+	"X.XOO.X..";
+
+
+	"XX.OO.X..";
+
+
+	"X..OO.X..";
+
+
+	"X..O..X..";
+
+
+	"X.XOXX.OO";
+
+
+	"XX.OXX.OO";
+
+
+	"X..OXX.OO";
+
+
+	"X.XOXXO.O";
+
+
+	"XX.OXXO.O";
+
+
+	"X..OXXO.O";
+
+
+	"X..OXX..O";
+
+
+	"X.XO.X.OO";
+
+
+	"X.XO.XO.O";
+
+
+	"X.XOOX..O";
+
+
+	"X.XO.X..O";
+
+
+	"XX.O.X.OO";
+
+
+	"XX.O.XO.O";
+
+
+	"XX.OOX..O";
+
+
+	"XX.O.X..O";
+
+
+	"X..O.X..O";
+
+
+	"X.XOXXOO.";
+
+
+	"XX.OXXOO.";
+
+
+	"X..OXXOO.";
+
+
+	"X..OXX.O.";
+
+
+	"X.XO.XOO.";
+
+
+	"X.XOOX.O.";
+
+
+	"X.XO.X.O.";
+
+
+	"XX.O.XOO.";
+
+
+	"XX.OOX.O.";
+
+
+	"XX.O.X.O.";
+
+
+	"X..O.X.O.";
+
+
+	"X..OXXO..";
+
+
+	"X.XOOXO..";
+
+
+	"X.XO.XO..";
+
+
+	"XX.OOXO..";
+
+
+	"XX.O.XO..";
+
+
+	"X..O.XO..";
+
+
+	"X.XOOX...";
+
+
+	"XX.OOX...";
+
+
+	"X..OOX...";
+
+
+	"X..O.X...";
+
+
+	"X.XOX..OO";
+
+
+	"X.XOX.O.O";
+
+
+	"X.XOXO..O";
+
+
+	"X.XOX...O";
+
+
+	"XX.OX..OO";
+
+
+	"XX.OX.O.O";
+
+
+	"XX.OXO..O";
+
+
+	"XX.OX...O";
+
+
+	"X..OX...O";
+
+
+	"X.XOX.OO.";
+
+
+	"X.XOXO.O.";
+
+
+	"X.XOX..O.";
+
+
+	"XX.OX.OO.";
+
+
+	"XX.OXO.O.";
+
+
+	"XX.OX..O.";
+
+
+	"X..OX..O.";
+
+
+	"X.XOXOO..";
+
+
+	"X.XOX.O..";
+
+
+	"XX.OXOO..";
+
+
+	"XX.OX.O..";
+
+
+	"X..OX.O..";
+
+
+	"X.XOXO...";
+
+
+	"XX.OXO...";
+
+
+	"X..OXO...";
+
+
+	"X..OX....";
+
+
+	"X.XO....O";
+
+
+	"X.XO...O.";
+
+
+	"X.XO..O..";
+
+
+	"X.XO.O...";
+
+
+	"X.XOO....";
+
+
+	"X.XO.....";
+
+
+	"XX.O....O";
+
+
+	"XX.O...O.";
+
+
+	"XX.O..O..";
+
+
+	"XX.O.O...";
+
+
+	"XX.OO....";
+
+
+	"XX.O.....";
+
+
+	"X..O.....";
+
+
+	"X.X.OOXOX";
+
+
+	"XX..OOXOX";
+
+
+	"X...OOXOX";
+
+
+	"X...O.XOX";
+
+
+	"X..XOXOOX";
+
+
+	"XX..OXOOX";
+
+
+	"X...OXOOX";
+
+
+	"X...OX.OX";
+
+
+	"X.XXOOOOX";
+
+
+	"X.XXO.OOX";
+
+
+	"XX.XOOOOX";
+
+
+	"XX.XO.OOX";
+
+
+	"X..XO.OOX";
+
+
+	"X.XXOO.OX";
+
+
+	"XX.XOO.OX";
+
+
+	"X..XOO.OX";
+
+
+	"X..XO..OX";
+
+
+	"X.X.O.OOX";
+
+
+	"X.X.OO.OX";
+
+
+	"X.X.O..OX";
+
+
+	"XX..O.OOX";
+
+
+	"XX..OO.OX";
+
+
+	"XX..O..OX";
+
+
+	"X...O..OX";
+
+
+	"X..XOOOXX";
+
+
+	"X.X.OOOXX";
+
+
+	"XX..OOOXX";
+
+
+	"X...OOOXX";
+
+
+	"X...O.OXX";
+
+
+	"X...OXO.X";
+
+
+	"X.XXOOO.X";
+
+
+	"XX.XOOO.X";
+
+
+	"X..XOOO.X";
+
+
+	"X..XO.O.X";
+
+
+	"X.X.OOO.X";
+
+
+	"X.X.O.O.X";
+
+
+	"XX..OOO.X";
+
+
+	"XX..O.O.X";
+
+
+	"X...O.O.X";
+
+
+	"X...OO.XX";
+
+
+	"X...OOX.X";
+
+
+	"X..XOO..X";
+
+
+	"X.X.OO..X";
+
+
+	"XX..OO..X";
+
+
+	"X...OO..X";
+
+
+	"X...O...X";
+
+
+	"X.X.OOXXO";
+
+
+	"XX..OOXXO";
+
+
+	"X...OOXXO";
+
+
+	"X...O.XXO";
+
+
+	"X..XOXOXO";
+
+
+	"X.X.OXOXO";
+
+
+	"XX..OXOXO";
+
+
+	"X...OXOXO";
+
+
+	"X...OX.XO";
+
+
+	"X.XXOOOXO";
+
+
+	"X.XXO.OXO";
+
+
+	"XX.XOOOXO";
+
+
+	"XX.XO.OXO";
+
+
+	"X..XO.OXO";
+
+
+	"X.XXOO.XO";
+
+
+	"XX.XOO.XO";
+
+
+	"X..XOO.XO";
+
+
+	"X..XO..XO";
+
+
+	"X.X.O.OXO";
+
+
+	"X.X.OO.XO";
+
+
+	"X.X.O..XO";
+
+
+	"XX..O.OXO";
+
+
+	"XX..OO.XO";
+
+
+	"XX..O..XO";
+
+
+	"X...O..XO";
+
+
+	"X...OXOX.";
+
+
+	"X.XXOOOX.";
+
+
+	"XX.XOOOX.";
+
+
+	"X..XOOOX.";
+
+
+	"X..XO.OX.";
+
+
+	"X.X.OOOX.";
+
+
+	"X.X.O.OX.";
+
+
+	"XX..OOOX.";
+
+
+	"XX..O.OX.";
+
+
+	"X...O.OX.";
+
+
+	"X...OOXX.";
+
+
+	"X..XOO.X.";
+
+
+	"X.X.OO.X.";
+
+
+	"XX..OO.X.";
+
+
+	"X...OO.X.";
+
+
+	"X...O..X.";
+
+
+	"X.X.OXXOO";
+
+
+	"XX..OXXOO";
+
+
+	"X...OXXOO";
+
+
+	"X...OXX.O";
+
+
+	"X.X.O.XOO";
+
+
+	"X.X.OOX.O";
+
+
+	"X.X.O.X.O";
+
+
+	"XX..O.XOO";
+
+
+	"XX..OOX.O";
+
+
+	"XX..O.X.O";
+
+
+	"X...O.X.O";
+
+
+	"X...OXXO.";
+
+
+	"X.X.OOXO.";
+
+
+	"X.X.O.XO.";
+
+
+	"XX..OOXO.";
+
+
+	"XX..O.XO.";
+
+
+	"X...O.XO.";
+
+
+	"X.X.OOX..";
+
+
+	"XX..OOX..";
+
+
+	"X...OOX..";
+
+
+	"X...O.X..";
+
+
+	"X.XXOX.OO";
+
+
+	"XX.XOX.OO";
+
+
+	"X..XOX.OO";
+
+
+	"X.XXOXO.O";
+
+
+	"XX.XOXO.O";
+
+
+	"X..XOXO.O";
+
+
+	"X..XOX..O";
+
+
+	"X.X.OX.OO";
+
+
+	"X.X.OXO.O";
+
+
+	"X.X.OX..O";
+
+
+	"XX..OX.OO";
+
+
+	"XX..OXO.O";
+
+
+	"XX..OX..O";
+
+
+	"X...OX..O";
+
+
+	"X.XXOXOO.";
+
+
+	"XX.XOXOO.";
+
+
+	"X..XOXOO.";
+
+
+	"X..XOX.O.";
+
+
+	"X.X.OXOO.";
+
+
+	"X.X.OX.O.";
+
+
+	"XX..OXOO.";
+
+
+	"XX..OX.O.";
+
+
+	"X...OX.O.";
+
+
+	"X..XOXO..";
+
+
+	"X.X.OXO..";
+
+
+	"XX..OXO..";
+
+
+	"X...OXO..";
+
+
+	"X...OX...";
+
+
+	"X.XXO..OO";
+
+
+	"X.XXO.O.O";
+
+
+	"X.XXOO..O";
+
+
+	"X.XXO...O";
+
+
+	"XX.XO..OO";
+
+
+	"XX.XO.O.O";
+
+
+	"XX.XOO..O";
+
+
+	"XX.XO...O";
+
+
+	"X..XO...O";
+
+
+	"X.XXO.OO.";
+
+
+	"X.XXOO.O.";
+
+
+	"X.XXO..O.";
+
+
+	"XX.XO.OO.";
+
+
+	"XX.XOO.O.";
+
+
+	"XX.XO..O.";
+
+
+	"X..XO..O.";
+
+
+	"X.XXOOO..";
+
+
+	"X.XXO.O..";
+
+
+	"XX.XOOO..";
+
+
+	"XX.XO.O..";
+
+
+	"X..XO.O..";
+
+
+	"X.XXOO...";
+
+
+	"XX.XOO...";
+
+
+	"X..XOO...";
+
+
+	"X..XO....";
+
+
+	"X.X.O...O";
+
+
+	"X.X.O..O.";
+
+
+	"X.X.O.O..";
+
+
+	"X.X.OO...";
+
+
+	"X.X.O....";
+
+
+	"XX..O...O";
+
+
+	"XX..O..O.";
+
+
+	"XX..O.O..";
+
+
+	"XX..OO...";
+
+
+	"XX..O....";
+
+
+	"X...O....";
+
+
+	"X....OXOX";
+
+
+	"X.XX.OOOX";
+
+
+	"XX.X.OOOX";
+
+
+	"X..X.OOOX";
+
+
+	"X..X.O.OX";
+
+
+	"X.X..OOOX";
+
+
+	"X.X..O.OX";
+
+
+	"XX...OOOX";
+
+
+	"XX...O.OX";
+
+
+	"X....O.OX";
+
+
+	"X....OOXX";
+
+
+	"X..X.OO.X";
+
+
+	"X.X..OO.X";
+
+
+	"XX...OO.X";
+
+
+	"X....OO.X";
+
+
+	"X....O..X";
+
+
+	"X....OXXO";
+
+
+	"X..XXOOXO";
+
+
+	"X.X.XOOXO";
+
+
+	"X...XOOXO";
+
+
+	"X...XO.XO";
+
+
+	"X.XX.OOXO";
+
+
+	"XX.X.OOXO";
+
+
+	"X..X.OOXO";
+
+
+	"X..X.O.XO";
+
+
+	"X.X..OOXO";
+
+
+	"X.X..O.XO";
+
+
+	"XX...OOXO";
+
+
+	"XX...O.XO";
+
+
+	"X....O.XO";
+
+
+	"X...XOOX.";
+
+
+	"X..X.OOX.";
+
+
+	"X.X..OOX.";
+
+
+	"XX...OOX.";
+
+
+	"X....OOX.";
+
+
+	"X....O.X.";
+
+
+	"XX..XOXOO";
+
+
+	"X...XOXOO";
+
+
+	"X...XOX.O";
+
+
+	"X.X..OXOO";
+
+
+	"X.X..OX.O";
+
+
+	"XX...OXOO";
+
+
+	"XX...OX.O";
+
+
+	"X....OX.O";
+
+
+	"X...XOXO.";
+
+
+	"X.X..OXO.";
+
+
+	"XX...OXO.";
+
+
+	"X....OXO.";
+
+
+	"X....OX..";
+
+
+	"X.XXXO.OO";
+
+
+	"XX.XXO.OO";
+
+
+	"X..XXO.OO";
+
+
+	"X.XXXOO.O";
+
+
+	"XX.XXOO.O";
+
+
+	"X..XXOO.O";
+
+
+	"X..XXO..O";
+
+
+	"X.X.XO.OO";
+
+
+	"X.X.XOO.O";
+
+
+	"X.X.XO..O";
+
+
+	"XX..XO.OO";
+
+
+	"XX..XOO.O";
+
+
+	"XX..XO..O";
+
+
+	"X...XO..O";
+
+
+	"X.XXXOOO.";
+
+
+	"XX.XXOOO.";
+
+
+	"X..XXOOO.";
+
+
+	"X..XXO.O.";
+
+
+	"X.X.XOOO.";
+
+
+	"X.X.XO.O.";
+
+
+	"XX..XOOO.";
+
+
+	"XX..XO.O.";
+
+
+	"X...XO.O.";
+
+
+	"X..XXOO..";
+
+
+	"X.X.XOO..";
+
+
+	"XX..XOO..";
+
+
+	"X...XOO..";
+
+
+	"X...XO...";
+
+
+	"X.XX.O.OO";
+
+
+	"X.XX.OO.O";
+
+
+	"X.XX.O..O";
+
+
+	"XX.X.O.OO";
+
+
+	"XX.X.OO.O";
+
+
+	"XX.X.O..O";
+
+
+	"X..X.O..O";
+
+
+	"X.XX.OOO.";
+
+
+	"X.XX.O.O.";
+
+
+	"XX.X.OOO.";
+
+
+	"XX.X.O.O.";
+
+
+	"X..X.O.O.";
+
+
+	"X.XX.OO..";
+
+
+	"XX.X.OO..";
+
+
+	"X..X.OO..";
+
+
+	"X..X.O...";
+
+
+	"X.X..O..O";
+
+
+	"X.X..O.O.";
+
+
+	"X.X..OO..";
+
+
+	"X.X..O...";
+
+
+	"XX...O..O";
+
+
+	"XX...O.O.";
+
+
+	"XX...OO..";
+
+
+	"XX...O...";
+
+
+	"X....O...";
+
+
+	"X....XOOX";
+
+
+	"X..X..OOX";
+
+
+	"X.X...OOX";
+
+
+	"XX....OOX";
+
+
+	"X.....OOX";
+
+
+	"X.....O.X";
+
+
+	"X....XOXO";
+
+
+	"X...X.OXO";
+
+
+	"X..X..OXO";
+
+
+	"X.X...OXO";
+
+
+	"XX....OXO";
+
+
+	"X.....OXO";
+
+
+	"X.....OX.";
+
+
+	"X...XXO.O";
+
+
+	"X..X.XO.O";
+
+
+	"X.X..XO.O";
+
+
+	"XX...XO.O";
+
+
+	"X....XO.O";
+
+
+	"X...XXOO.";
+
+
+	"X..X.XOO.";
+
+
+	"X.X..XOO.";
+
+
+	"XX...XOO.";
+
+
+	"X....XOO.";
+
+
+	"X....XO..";
+
+
+	"X..XX.O.O";
+
+
+	"X.X.X.O.O";
+
+
+	"XX..X.O.O";
+
+
+	"X...X.O.O";
+
+
+	"X..XX.OO.";
+
+
+	"X.X.X.OO.";
+
+
+	"XX..X.OO.";
+
+
+	"X...X.OO.";
+
+
+	"X...X.O..";
+
+
+	"X.XX..O.O";
+
+
+	"XX.X..O.O";
+
+
+	"X..X..O.O";
+
+
+	"X.XX..OO.";
+
+
+	"XX.X..OO.";
+
+
+	"X..X..OO.";
+
+
+	"X..X..O..";
+
+
+	"X.X...O.O";
+
+
+	"X.X...OO.";
+
+
+	"X.X...O..";
+
+
+	"XX....O.O";
+
+
+	"XX....OO.";
+
+
+	"XX....O..";
+
+
+	"X.....O..";
+
+
+	"X......OX";
+
+
+	"X....XXOO";
+
+
+	"X...X.XOO";
+
+
+	"X.X...XOO";
+
+
+	"XX....XOO";
+
+
+	"X.....XOO";
+
+
+	"X.....XO.";
+
+
+	"X...XX.OO";
+
+
+	"X..X.X.OO";
+
+
+	"X.X..X.OO";
+
+
+	"XX...X.OO";
+
+
+	"X....X.OO";
+
+
+	"X....X.O.";
+
+
+	"X..XX..OO";
+
+
+	"X.X.X..OO";
+
+
+	"XX..X..OO";
+
+
+	"X...X..OO";
+
+
+	"X...X..O.";
+
+
+	"X.XX...OO";
+
+
+	"XX.X...OO";
+
+
+	"X..X...OO";
+
+
+	"X..X...O.";
+
+
+	"X.X....OO";
+
+
+	"X.X....O.";
+
+
+	"XX.....OO";
+
+
+	"XX.....O.";
+
+
+	"X......O.";
+
+
+	"X......XO";
+
+
+	"X.....X.O";
+
+
+	"X....X..O";
+
+
+	"X...X...O";
+
+
+	"X..X....O";
+
+
+	"X.X.....O";
+
+
+	"XX......O";
+
+
+	"X.......O";
+
+
+	"X........";
+
+
+	"OX.OXOXOX";
+
+
+	"OXO.XOXOX";
+
+
+	"OX..XOXOX";
+
+
+	"OX.XOOXOX";
+
+
+	"OXOX.OXOX";
+
+
+	"OX.X.OXOX";
+
+
+	"OXX.OOXOX";
+
+
+	"OXXO.OXOX";
+
+
+	"OXX..OXOX";
+
+
+	"OX...OXOX";
+
+
+	"OX.OOXXOX";
+
+
+	"OXO.OXXOX";
+
+
+	"OX..OXXOX";
+
+
+	"OXOXO.XOX";
+
+
+	"OX.XO.XOX";
+
+
+	"OXXOO.XOX";
+
+
+	"OXX.O.XOX";
+
+
+	"OX..O.XOX";
+
+
+	"OXOO.XXOX";
+
+
+	"OX.O.XXOX";
+
+
+	"OXOOX.XOX";
+
+
+	"OX.OX.XOX";
+
+
+	"OXXO..XOX";
+
+
+	"OX.O..XOX";
+
+
+	"OXO..XXOX";
+
+
+	"OXO.X.XOX";
+
+
+	"OXOX..XOX";
+
+
+	"OXO...XOX";
+
+
+	"OX....XOX";
+
+
+	"OXO.XXOOX";
+
+
+	"OX..XXOOX";
+
+
+	"OX.XOXOOX";
+
+
+	"OXOX.XOOX";
+
+
+	"OX.X.XOOX";
+
+
+	"OX...XOOX";
+
+
+	"OXOXOX.OX";
+
+
+	"OX.XOX.OX";
+
+
+	"OX..OX.OX";
+
+
+	"OXOOXX.OX";
+
+
+	"OX.OXX.OX";
+
+
+	"OX.O.X.OX";
+
+
+	"OXO.XX.OX";
+
+
+	"OXOX.X.OX";
+
+
+	"OXO..X.OX";
+
+
+	"OX...X.OX";
+
+
+	"OX.XXOOOX";
+
+
+	"OXOXX.OOX";
+
+
+	"OX.XX.OOX";
+
+
+	"OXX.XOOOX";
+
+
+	"OXX.X.OOX";
+
+
+	"OX..X.OOX";
+
+
+	"OXOXXO.OX";
+
+
+	"OX.XXO.OX";
+
+
+	"OXXOXO.OX";
+
+
+	"OXX.XO.OX";
+
+
+	"OX..XO.OX";
+
+
+	"OXXOX..OX";
+
+
+	"OX.OX..OX";
+
+
+	"OXOXX..OX";
+
+
+	"OXO.X..OX";
+
+
+	"OX..X..OX";
+
+
+	"OXXX.OOOX";
+
+
+	"OXXXO.OOX";
+
+
+	"OXXX..OOX";
+
+
+	"OX.X..OOX";
+
+
+	"OXXXOO.OX";
+
+
+	"OXXX.O.OX";
+
+
+	"OX.X.O.OX";
+
+
+	"OXXXO..OX";
+
+
+	"OX.XO..OX";
+
+
+	"OXOX...OX";
+
+
+	"OX.X...OX";
+
+
+	"OXX...OOX";
+
+
+	"OXX..O.OX";
+
+
+	"OXX.O..OX";
+
+
+	"OXXO...OX";
+
+
+	"OXX....OX";
+
+
+	"OX.....OX";
+
+
+	"OX.XOOOXX";
+
+
+	"OXOX.OOXX";
+
+
+	"OX.X.OOXX";
+
+
+	"OXX.OOOXX";
+
+
+	"OXX..OOXX";
+
+
+	"OX...OOXX";
+
+
+	"OX..OXOXX";
+
+
+	"OX.XO.OXX";
+
+
+	"OXX.O.OXX";
+
+
+	"OX..O.OXX";
+
+
+	"OXO..XOXX";
+
+
+	"OXOX..OXX";
+
+
+	"OXO...OXX";
+
+
+	"OX....OXX";
+
+
+	"OX.XOXO.X";
+
+
+	"OX..OXO.X";
+
+
+	"OXO.XXO.X";
+
+
+	"OXOX.XO.X";
+
+
+	"OXO..XO.X";
+
+
+	"OX...XO.X";
+
+
+	"OXOXXOO.X";
+
+
+	"OX.XXOO.X";
+
+
+	"OXX.XOO.X";
+
+
+	"OX..XOO.X";
+
+
+	"OXOXX.O.X";
+
+
+	"OXO.X.O.X";
+
+
+	"OX..X.O.X";
+
+
+	"OXXXOOO.X";
+
+
+	"OXXX.OO.X";
+
+
+	"OX.X.OO.X";
+
+
+	"OXXXO.O.X";
+
+
+	"OX.XO.O.X";
+
+
+	"OXOX..O.X";
+
+
+	"OX.X..O.X";
+
+
+	"OXX..OO.X";
+
+
+	"OXX.O.O.X";
+
+
+	"OXX...O.X";
+
+
+	"OX....O.X";
+
+
+	"OXOXOO.XX";
+
+
+	"OX.XOO.XX";
+
+
+	"OXX.OO.XX";
+
+
+	"OX..OO.XX";
+
+
+	"OXXO.O.XX";
+
+
+	"OX.O.O.XX";
+
+
+	"OXOX.O.XX";
+
+
+	"OXO..O.XX";
+
+
+	"OX...O.XX";
+
+
+	"OXOXOOX.X";
+
+
+	"OX.XOOX.X";
+
+
+	"OXX.OOX.X";
+
+
+	"OX..OOX.X";
+
+
+	"OXOOXOX.X";
+
+
+	"OX.OXOX.X";
+
+
+	"OXXO.OX.X";
+
+
+	"OX.O.OX.X";
+
+
+	"OXO.XOX.X";
+
+
+	"OXOX.OX.X";
+
+
+	"OXO..OX.X";
+
+
+	"OX...OX.X";
+
+
+	"OXXOXO..X";
+
+
+	"OX.OXO..X";
+
+
+	"OXOXXO..X";
+
+
+	"OXO.XO..X";
+
+
+	"OX..XO..X";
+
+
+	"OXXXOO..X";
+
+
+	"OX.XOO..X";
+
+
+	"OXOX.O..X";
+
+
+	"OX.X.O..X";
+
+
+	"OXX.OO..X";
+
+
+	"OXXO.O..X";
+
+
+	"OXX..O..X";
+
+
+	"OX...O..X";
+
+
+	"OXOOOX.XX";
+
+
+	"OX.OOX.XX";
+
+
+	"OXXOO..XX";
+
+
+	"OX.OO..XX";
+
+
+	"OXO.OX.XX";
+
+
+	"OXOXO..XX";
+
+
+	"OXO.O..XX";
+
+
+	"OX..O..XX";
+
+
+	"OXOOOXX.X";
+
+
+	"OX.OOXX.X";
+
+
+	"OXXOO.X.X";
+
+
+	"OX.OO.X.X";
+
+
+	"OXO.OXX.X";
+
+
+	"OXOXO.X.X";
+
+
+	"OXO.O.X.X";
+
+
+	"OX..O.X.X";
+
+
+	"OX.OOX..X";
+
+
+	"OXOXOX..X";
+
+
+	"OXO.OX..X";
+
+
+	"OX..OX..X";
+
+
+	"OXOXO...X";
+
+
+	"OX.XO...X";
+
+
+	"OXXOO...X";
+
+
+	"OXX.O...X";
+
+
+	"OX..O...X";
+
+
+	"OXOO.X.XX";
+
+
+	"OXOO...XX";
+
+
+	"OX.O...XX";
+
+
+	"OXOO.XX.X";
+
+
+	"OXOOX.X.X";
+
+
+	"OXOO..X.X";
+
+
+	"OX.O..X.X";
+
+
+	"OXOOXX..X";
+
+
+	"OXOO.X..X";
+
+
+	"OX.O.X..X";
+
+
+	"OXOOX...X";
+
+
+	"OX.OX...X";
+
+
+	"OXXO....X";
+
+
+	"OX.O....X";
+
+
+	"OXO....XX";
+
+
+	"OXO...X.X";
+
+
+	"OXO..X..X";
+
+
+	"OXO.X...X";
+
+
+	"OXOX....X";
+
+
+	"OXO.....X";
+
+
+	"OX......X";
+
+
+	"OX.X.OXXO";
+
+
+	"OXXO.OXXO";
+
+
+	"OXX..OXXO";
+
+
+	"OX...OXXO";
+
+
+	"OXOO.XXXO";
+
+
+	"OX.O.XXXO";
+
+
+	"OXXO..XXO";
+
+
+	"OX.O..XXO";
+
+
+	"OXO..XXXO";
+
+
+	"OXOX..XXO";
+
+
+	"OXO...XXO";
+
+
+	"OX....XXO";
+
+
+	"OXOX.XOXO";
+
+
+	"OX.X.XOXO";
+
+
+	"OXX..XOXO";
+
+
+	"OX...XOXO";
+
+
+	"OXXO.X.XO";
+
+
+	"OX.O.X.XO";
+
+
+	"OXOX.X.XO";
+
+
+	"OXO..X.XO";
+
+
+	"OX...X.XO";
+
+
+	"OXXX.OOXO";
+
+
+	"OXXX..OXO";
+
+
+	"OX.X..OXO";
+
+
+	"OXXX.O.XO";
+
+
+	"OX.X.O.XO";
+
+
+	"OXOX...XO";
+
+
+	"OX.X...XO";
+
+
+	"OXX...OXO";
+
+
+	"OXX..O.XO";
+
+
+	"OXXO...XO";
+
+
+	"OXX....XO";
+
+
+	"OX.....XO";
+
+
+	"OX.XOXOX.";
+
+
+	"OXX.OXOX.";
+
+
+	"OX..OXOX.";
+
+
+	"OXOX.XOX.";
+
+
+	"OXO..XOX.";
+
+
+	"OX...XOX.";
+
+
+	"OXXXOOOX.";
+
+
+	"OXXX.OOX.";
+
+
+	"OX.X.OOX.";
+
+
+	"OXXXO.OX.";
+
+
+	"OX.XO.OX.";
+
+
+	"OXOX..OX.";
+
+
+	"OX.X..OX.";
+
+
+	"OXX..OOX.";
+
+
+	"OXX.O.OX.";
+
+
+	"OXX...OX.";
+
+
+	"OX....OX.";
+
+
+	"OXOXOOXX.";
+
+
+	"OX.XOOXX.";
+
+
+	"OXX.OOXX.";
+
+
+	"OX..OOXX.";
+
+
+	"OXXO.OXX.";
+
+
+	"OX.O.OXX.";
+
+
+	"OXOX.OXX.";
+
+
+	"OXO..OXX.";
+
+
+	"OX...OXX.";
+
+
+	"OXXXOO.X.";
+
+
+	"OX.XOO.X.";
+
+
+	"OXOX.O.X.";
+
+
+	"OX.X.O.X.";
+
+
+	"OXX.OO.X.";
+
+
+	"OXXO.O.X.";
+
+
+	"OXX..O.X.";
+
+
+	"OX...O.X.";
+
+
+	"OXOOOXXX.";
+
+
+	"OX.OOXXX.";
+
+
+	"OXXOO.XX.";
+
+
+	"OX.OO.XX.";
+
+
+	"OXO.OXXX.";
+
+
+	"OXOXO.XX.";
+
+
+	"OXO.O.XX.";
+
+
+	"OX..O.XX.";
+
+
+	"OXXOOX.X.";
+
+
+	"OX.OOX.X.";
+
+
+	"OXOXOX.X.";
+
+
+	"OXO.OX.X.";
+
+
+	"OX..OX.X.";
+
+
+	"OXOXO..X.";
+
+
+	"OX.XO..X.";
+
+
+	"OXXOO..X.";
+
+
+	"OXX.O..X.";
+
+
+	"OX..O..X.";
+
+
+	"OXOO.XXX.";
+
+
+	"OXOO..XX.";
+
+
+	"OX.O..XX.";
+
+
+	"OXOO.X.X.";
+
+
+	"OX.O.X.X.";
+
+
+	"OXXO...X.";
+
+
+	"OX.O...X.";
+
+
+	"OXO...XX.";
+
+
+	"OXO..X.X.";
+
+
+	"OXOX...X.";
+
+
+	"OXO....X.";
+
+
+	"OX.....X.";
+
+
+	"OX.OXXXOO";
+
+
+	"OXO.XXXOO";
+
+
+	"OX..XXXOO";
+
+
+	"OXOX.XXOO";
+
+
+	"OX.X.XXOO";
+
+
+	"OXXO.XXOO";
+
+
+	"OXX..XXOO";
+
+
+	"OX...XXOO";
+
+
+	"OXOOXXX.O";
+
+
+	"OX.OXXX.O";
+
+
+	"OXXO.XX.O";
+
+
+	"OX.O.XX.O";
+
+
+	"OXO.XXX.O";
+
+
+	"OXOX.XX.O";
+
+
+	"OXO..XX.O";
+
+
+	"OX...XX.O";
+
+
+	"OX.XXOXOO";
+
+
+	"OXOXX.XOO";
+
+
+	"OX.XX.XOO";
+
+
+	"OX..X.XOO";
+
+
+	"OX.XXOX.O";
+
+
+	"OX..XOX.O";
+
+
+	"OX.OX.X.O";
+
+
+	"OXOXX.X.O";
+
+
+	"OXO.X.X.O";
+
+
+	"OX..X.X.O";
+
+
+	"OXXX.OXOO";
+
+
+	"OXXX..XOO";
+
+
+	"OX.X..XOO";
+
+
+	"OXXX.OX.O";
+
+
+	"OX.X.OX.O";
+
+
+	"OXOX..X.O";
+
+
+	"OX.X..X.O";
+
+
+	"OXX...XOO";
+
+
+	"OXX..OX.O";
+
+
+	"OXXO..X.O";
+
+
+	"OXX...X.O";
+
+
+	"OX....X.O";
+
+
+	"OXOXOXXO.";
+
+
+	"OX.XOXXO.";
+
+
+	"OXXOOXXO.";
+
+
+	"OXX.OXXO.";
+
+
+	"OX..OXXO.";
+
+
+	"OXOOXXXO.";
+
+
+	"OX.OXXXO.";
+
+
+	"OXXO.XXO.";
+
+
+	"OX.O.XXO.";
+
+
+	"OXO.XXXO.";
+
+
+	"OXOX.XXO.";
+
+
+	"OXO..XXO.";
+
+
+	"OX...XXO.";
+
+
+	"OXOXXOXO.";
+
+
+	"OX.XXOXO.";
+
+
+	"OX..XOXO.";
+
+
+	"OX.OX.XO.";
+
+
+	"OXOXX.XO.";
+
+
+	"OXO.X.XO.";
+
+
+	"OX..X.XO.";
+
+
+	"OXXXOOXO.";
+
+
+	"OXXX.OXO.";
+
+
+	"OX.X.OXO.";
+
+
+	"OXXXO.XO.";
+
+
+	"OX.XO.XO.";
+
+
+	"OXOX..XO.";
+
+
+	"OX.X..XO.";
+
+
+	"OXX..OXO.";
+
+
+	"OXX.O.XO.";
+
+
+	"OXXO..XO.";
+
+
+	"OXX...XO.";
+
+
+	"OX....XO.";
+
+
+	"OX.OXOX..";
+
+
+	"OXOXXOX..";
+
+
+	"OXO.XOX..";
+
+
+	"OX..XOX..";
+
+
+	"OXXXOOX..";
+
+
+	"OX.XOOX..";
+
+
+	"OXOX.OX..";
+
+
+	"OX.X.OX..";
+
+
+	"OXX.OOX..";
+
+
+	"OXXO.OX..";
+
+
+	"OXX..OX..";
+
+
+	"OX...OX..";
+
+
+	"OXXOOXX..";
+
+
+	"OX.OOXX..";
+
+
+	"OXOXOXX..";
+
+
+	"OXO.OXX..";
+
+
+	"OX..OXX..";
+
+
+	"OXOXO.X..";
+
+
+	"OX.XO.X..";
+
+
+	"OXXOO.X..";
+
+
+	"OXX.O.X..";
+
+
+	"OX..O.X..";
+
+
+	"OXOOXXX..";
+
+
+	"OXOO.XX..";
+
+
+	"OX.O.XX..";
+
+
+	"OXOOX.X..";
+
+
+	"OX.OX.X..";
+
+
+	"OXXO..X..";
+
+
+	"OX.O..X..";
+
+
+	"OXO..XX..";
+
+
+	"OXO.X.X..";
+
+
+	"OXOX..X..";
+
+
+	"OXO...X..";
+
+
+	"OX....X..";
+
+
+	"OXXOXX.OO";
+
+
+	"OXX.XX.OO";
+
+
+	"OX..XX.OO";
+
+
+	"OXX.XXO.O";
+
+
+	"OX..XXO.O";
+
+
+	"OXXOXX..O";
+
+
+	"OX.OXX..O";
+
+
+	"OXO.XX..O";
+
+
+	"OX..XX..O";
+
+
+	"OXXX.X.OO";
+
+
+	"OX.X.X.OO";
+
+
+	"OXXX.XO.O";
+
+
+	"OX.X.XO.O";
+
+
+	"OXOX.X..O";
+
+
+	"OX.X.X..O";
+
+
+	"OXX..X.OO";
+
+
+	"OXX..XO.O";
+
+
+	"OXXO.X..O";
+
+
+	"OXX..X..O";
+
+
+	"OX...X..O";
+
+
+	"OXX.XXOO.";
+
+
+	"OX..XXOO.";
+
+
+	"OXXOXX.O.";
+
+
+	"OX.OXX.O.";
+
+
+	"OXO.XX.O.";
+
+
+	"OX..XX.O.";
+
+
+	"OXXXOXOO.";
+
+
+	"OXXX.XOO.";
+
+
+	"OX.X.XOO.";
+
+
+	"OXXXOX.O.";
+
+
+	"OX.XOX.O.";
+
+
+	"OXOX.X.O.";
+
+
+	"OX.X.X.O.";
+
+
+	"OXX..XOO.";
+
+
+	"OXX.OX.O.";
+
+
+	"OXXO.X.O.";
+
+
+	"OXX..X.O.";
+
+
+	"OX...X.O.";
+
+
+	"OXO.XXO..";
+
+
+	"OX..XXO..";
+
+
+	"OXXXOXO..";
+
+
+	"OX.XOXO..";
+
+
+	"OXOX.XO..";
+
+
+	"OX.X.XO..";
+
+
+	"OXX.OXO..";
+
+
+	"OXX..XO..";
+
+
+	"OX...XO..";
+
+
+	"OXOXOX...";
+
+
+	"OX.XOX...";
+
+
+	"OXXOOX...";
+
+
+	"OXX.OX...";
+
+
+	"OX..OX...";
+
+
+	"OXOOXX...";
+
+
+	"OX.OXX...";
+
+
+	"OXXO.X...";
+
+
+	"OX.O.X...";
+
+
+	"OXO.XX...";
+
+
+	"OXOX.X...";
+
+
+	"OXO..X...";
+
+
+	"OX...X...";
+
+
+	"OXXXXO.OO";
+
+
+	"OXXXX..OO";
+
+
+	"OX.XX..OO";
+
+
+	"OXXXXOO.O";
+
+
+	"OXXXX.O.O";
+
+
+	"OX.XX.O.O";
+
+
+	"OXXXXO..O";
+
+
+	"OX.XXO..O";
+
+
+	"OXOXX...O";
+
+
+	"OX.XX...O";
+
+
+	"OXX.X..OO";
+
+
+	"OXX.X.O.O";
+
+
+	"OXX.XO..O";
+
+
+	"OXXOX...O";
+
+
+	"OXX.X...O";
+
+
+	"OX..X...O";
+
+
+	"OXXXXOOO.";
+
+
+	"OXXXX.OO.";
+
+
+	"OX.XX.OO.";
+
+
+	"OXXXXO.O.";
+
+
+	"OX.XXO.O.";
+
+
+	"OXOXX..O.";
+
+
+	"OX.XX..O.";
+
+
+	"OXX.X.OO.";
+
+
+	"OXX.XO.O.";
+
+
+	"OXXOX..O.";
+
+
+	"OXX.X..O.";
+
+
+	"OX..X..O.";
+
+
+	"OXXXXOO..";
+
+
+	"OX.XXOO..";
+
+
+	"OXOXX.O..";
+
+
+	"OX.XX.O..";
+
+
+	"OXX.XOO..";
+
+
+	"OXX.X.O..";
+
+
+	"OX..X.O..";
+
+
+	"OXOXXO...";
+
+
+	"OX.XXO...";
+
+
+	"OXXOXO...";
+
+
+	"OXX.XO...";
+
+
+	"OX..XO...";
+
+
+	"OXXOX....";
+
+
+	"OX.OX....";
+
+
+	"OXOXX....";
+
+
+	"OXO.X....";
+
+
+	"OX..X....";
+
+
+	"OXXX...OO";
+
+
+	"OXXX..O.O";
+
+
+	"OXXX.O..O";
+
+
+	"OXXX....O";
+
+
+	"OX.X....O";
+
+
+	"OXXX..OO.";
+
+
+	"OXXX.O.O.";
+
+
+	"OXXXO..O.";
+
+
+	"OXXX...O.";
+
+
+	"OX.X...O.";
+
+
+	"OXXX.OO..";
+
+
+	"OXXXO.O..";
+
+
+	"OXXX..O..";
+
+
+	"OX.X..O..";
+
+
+	"OXXXOO...";
+
+
+	"OXXX.O...";
+
+
+	"OX.X.O...";
+
+
+	"OXXXO....";
+
+
+	"OX.XO....";
+
+
+	"OXOX.....";
+
+
+	"OX.X.....";
+
+
+	"OXX.....O";
+
+
+	"OXX....O.";
+
+
+	"OXX...O..";
+
+
+	"OXX..O...";
+
+
+	"OXX.O....";
+
+
+	"OXXO.....";
+
+
+	"OXX......";
+
+
+	"OX.......";
+
+
+	".XOOXOXOX";
+
+
+	".XO.XOXOX";
+
+
+	".XOXOOXOX";
+
+
+	".XOX.OXOX";
+
+
+	".XO..OXOX";
+
+
+	".XOOOXXOX";
+
+
+	".XO.OXXOX";
+
+
+	".XOXO.XOX";
+
+
+	".XO.O.XOX";
+
+
+	".XOO.XXOX";
+
+
+	".XOOX.XOX";
+
+
+	".XOO..XOX";
+
+
+	".XO...XOX";
+
+
+	".XOOXXOOX";
+
+
+	".XO.XXOOX";
+
+
+	".XOX.XOOX";
+
+
+	".XO..XOOX";
+
+
+	".XOXOX.OX";
+
+
+	".XO.OX.OX";
+
+
+	".XOOXX.OX";
+
+
+	".XOO.X.OX";
+
+
+	".XO..X.OX";
+
+
+	".XOXXOOOX";
+
+
+	".XOXX.OOX";
+
+
+	".XO.X.OOX";
+
+
+	".XOXXO.OX";
+
+
+	".XO.XO.OX";
+
+
+	".XOOX..OX";
+
+
+	".XO.X..OX";
+
+
+	".XOX..OOX";
+
+
+	".XOX.O.OX";
+
+
+	".XOXO..OX";
+
+
+	".XOX...OX";
+
+
+	".XO....OX";
+
+
+	".XOX.OOXX";
+
+
+	".XO..OOXX";
+
+
+	".XOO.XOXX";
+
+
+	".XOO..OXX";
+
+
+	".XO...OXX";
+
+
+	".XOOXXO.X";
+
+
+	".XOO.XO.X";
+
+
+	".XO..XO.X";
+
+
+	".XOXXOO.X";
+
+
+	".XO.XOO.X";
+
+
+	".XOOX.O.X";
+
+
+	".XO.X.O.X";
+
+
+	".XOX.OO.X";
+
+
+	".XOX..O.X";
+
+
+	".XO...O.X";
+
+
+	".XOXOO.XX";
+
+
+	".XO.OO.XX";
+
+
+	".XOO.O.XX";
+
+
+	".XO..O.XX";
+
+
+	".XOXOOX.X";
+
+
+	".XO.OOX.X";
+
+
+	".XOOXOX.X";
+
+
+	".XOO.OX.X";
+
+
+	".XO..OX.X";
+
+
+	".XOOXO..X";
+
+
+	".XO.XO..X";
+
+
+	".XOXOO..X";
+
+
+	".XOX.O..X";
+
+
+	".XO..O..X";
+
+
+	".XOOOX.XX";
+
+
+	".XOOO..XX";
+
+
+	".XO.O..XX";
+
+
+	".XOOOXX.X";
+
+
+	".XOOO.X.X";
+
+
+	".XO.O.X.X";
+
+
+	".XOOOX..X";
+
+
+	".XO.OX..X";
+
+
+	".XOXO...X";
+
+
+	".XO.O...X";
+
+
+	".XOO...XX";
+
+
+	".XOO..X.X";
+
+
+	".XOO.X..X";
+
+
+	".XOOX...X";
+
+
+	".XOO....X";
+
+
+	".XO.....X";
+
+
+	".XOOOXXXO";
+
+
+	".XO.OXXXO";
+
+
+	".XOXO.XXO";
+
+
+	".XO.O.XXO";
+
+
+	".XOO.XXXO";
+
+
+	".XOO..XXO";
+
+
+	".XO...XXO";
+
+
+	".XOX.XOXO";
+
+
+	".XO..XOXO";
+
+
+	".XOXOX.XO";
+
+
+	".XO.OX.XO";
+
+
+	".XOO.X.XO";
+
+
+	".XO..X.XO";
+
+
+	".XOX..OXO";
+
+
+	".XOXO..XO";
+
+
+	".XOX...XO";
+
+
+	".XO....XO";
+
+
+	".XOO.XOX.";
+
+
+	".XO..XOX.";
+
+
+	".XOX.OOX.";
+
+
+	".XOX..OX.";
+
+
+	".XO...OX.";
+
+
+	".XOXOOXX.";
+
+
+	".XO.OOXX.";
+
+
+	".XOO.OXX.";
+
+
+	".XO..OXX.";
+
+
+	".XOXOO.X.";
+
+
+	".XOX.O.X.";
+
+
+	".XO..O.X.";
+
+
+	".XOOOXXX.";
+
+
+	".XOOO.XX.";
+
+
+	".XO.O.XX.";
+
+
+	".XOOOX.X.";
+
+
+	".XO.OX.X.";
+
+
+	".XOXO..X.";
+
+
+	".XO.O..X.";
+
+
+	".XOO..XX.";
+
+
+	".XOO.X.X.";
+
+
+	".XOO...X.";
+
+
+	".XO....X.";
+
+
+	".XOOXXXOO";
+
+
+	".XO.XXXOO";
+
+
+	".XOXOXXOO";
+
+
+	".XOX.XXOO";
+
+
+	".XO..XXOO";
+
+
+	".XOXOXX.O";
+
+
+	".XO.OXX.O";
+
+
+	".XOOXXX.O";
+
+
+	".XOO.XX.O";
+
+
+	".XO..XX.O";
+
+
+	".XOXX.XOO";
+
+
+	".XO.X.XOO";
+
+
+	".XOOX.X.O";
+
+
+	".XO.X.X.O";
+
+
+	".XOX..XOO";
+
+
+	".XOXO.X.O";
+
+
+	".XOX..X.O";
+
+
+	".XO...X.O";
+
+
+	".XOXOXXO.";
+
+
+	".XO.OXXO.";
+
+
+	".XOOXXXO.";
+
+
+	".XOO.XXO.";
+
+
+	".XO..XXO.";
+
+
+	".XOXXOXO.";
+
+
+	".XO.XOXO.";
+
+
+	".XOOX.XO.";
+
+
+	".XO.X.XO.";
+
+
+	".XOX.OXO.";
+
+
+	".XOXO.XO.";
+
+
+	".XOX..XO.";
+
+
+	".XO...XO.";
+
+
+	".XOOXOX..";
+
+
+	".XO.XOX..";
+
+
+	".XOXOOX..";
+
+
+	".XOX.OX..";
+
+
+	".XO..OX..";
+
+
+	".XOOOXX..";
+
+
+	".XO.OXX..";
+
+
+	".XOXO.X..";
+
+
+	".XO.O.X..";
+
+
+	".XOO.XX..";
+
+
+	".XOOX.X..";
+
+
+	".XOO..X..";
+
+
+	".XO...X..";
+
+
+	".XO.XX.OO";
+
+
+	".XO.XXO.O";
+
+
+	".XOOXX..O";
+
+
+	".XO.XX..O";
+
+
+	".XOX.X.OO";
+
+
+	".XOX.XO.O";
+
+
+	".XOXOX..O";
+
+
+	".XOX.X..O";
+
+
+	".XO..X..O";
+
+
+	".XO.XXOO.";
+
+
+	".XOOXX.O.";
+
+
+	".XO.XX.O.";
+
+
+	".XOX.XOO.";
+
+
+	".XOXOX.O.";
+
+
+	".XOX.X.O.";
+
+
+	".XO..X.O.";
+
+
+	".XOOXXO..";
+
+
+	".XO.XXO..";
+
+
+	".XOX.XO..";
+
+
+	".XO..XO..";
+
+
+	".XOXOX...";
+
+
+	".XO.OX...";
+
+
+	".XOOXX...";
+
+
+	".XOO.X...";
+
+
+	".XO..X...";
+
+
+	".XOXX..OO";
+
+
+	".XOXX.O.O";
+
+
+	".XOXX...O";
+
+
+	".XO.X...O";
+
+
+	".XOXX.OO.";
+
+
+	".XOXXO.O.";
+
+
+	".XOXX..O.";
+
+
+	".XO.X..O.";
+
+
+	".XOXXOO..";
+
+
+	".XOXX.O..";
+
+
+	".XO.X.O..";
+
+
+	".XOXXO...";
+
+
+	".XO.XO...";
+
+
+	".XOOX....";
+
+
+	".XO.X....";
+
+
+	".XOX....O";
+
+
+	".XOX...O.";
+
+
+	".XOX..O..";
+
+
+	".XOX.O...";
+
+
+	".XOXO....";
+
+
+	".XOX.....";
+
+
+	".XO......";
+
+
+	".X.OXOXOX";
+
+
+	".XXO.OXOX";
+
+
+	".X.O.OXOX";
+
+
+	".X.OOXXOX";
+
+
+	".XXOO.XOX";
+
+
+	".X.OO.XOX";
+
+
+	".X.O..XOX";
+
+
+	".X.OXXOOX";
+
+
+	".X.O.XOOX";
+
+
+	".X.OOX.OX";
+
+
+	".X.O.X.OX";
+
+
+	".XXOXOOOX";
+
+
+	".XXOX.OOX";
+
+
+	".X.OX.OOX";
+
+
+	".XXOXO.OX";
+
+
+	".X.OXO.OX";
+
+
+	".X.OX..OX";
+
+
+	".XXO..OOX";
+
+
+	".XXO.O.OX";
+
+
+	".XXOO..OX";
+
+
+	".XXO...OX";
+
+
+	".X.O...OX";
+
+
+	".XXO.OOXX";
+
+
+	".X.O.OOXX";
+
+
+	".X.OOXOXX";
+
+
+	".XXOO.OXX";
+
+
+	".X.OO.OXX";
+
+
+	".X.O..OXX";
+
+
+	".X.OOXO.X";
+
+
+	".X.O.XO.X";
+
+
+	".XXOXOO.X";
+
+
+	".X.OXOO.X";
+
+
+	".X.OX.O.X";
+
+
+	".XXO.OO.X";
+
+
+	".XXOO.O.X";
+
+
+	".XXO..O.X";
+
+
+	".X.O..O.X";
+
+
+	".X.O.O.XX";
+
+
+	".X.O.OX.X";
+
+
+	".X.OXO..X";
+
+
+	".XXO.O..X";
+
+
+	".X.O.O..X";
+
+
+	".X.OO..XX";
+
+
+	".X.OO.X.X";
+
+
+	".X.OOX..X";
+
+
+	".XXOO...X";
+
+
+	".X.OO...X";
+
+
+	".X.O....X";
+
+
+	".XXO.OXXO";
+
+
+	".X.O.OXXO";
+
+
+	".X.OOXXXO";
+
+
+	".XXOO.XXO";
+
+
+	".X.OO.XXO";
+
+
+	".X.O..XXO";
+
+
+	".XXOOXOXO";
+
+
+	".XXO.XOXO";
+
+
+	".X.O.XOXO";
+
+
+	".XXOOX.XO";
+
+
+	".X.OOX.XO";
+
+
+	".X.O.X.XO";
+
+
+	".XXO..OXO";
+
+
+	".XXO.O.XO";
+
+
+	".XXOO..XO";
+
+
+	".XXO...XO";
+
+
+	".X.O...XO";
+
+
+	".XXOOXOX.";
+
+
+	".X.OOXOX.";
+
+
+	".X.O.XOX.";
+
+
+	".XXO.OOX.";
+
+
+	".XXOO.OX.";
+
+
+	".XXO..OX.";
+
+
+	".X.O..OX.";
+
+
+	".X.O.OXX.";
+
+
+	".XXO.O.X.";
+
+
+	".X.O.O.X.";
+
+
+	".X.OO.XX.";
+
+
+	".X.OOX.X.";
+
+
+	".XXOO..X.";
+
+
+	".X.OO..X.";
+
+
+	".X.O...X.";
+
+
+	".X.OXXXOO";
+
+
+	".XXOOXXOO";
+
+
+	".XXO.XXOO";
+
+
+	".X.O.XXOO";
+
+
+	".XXOOXX.O";
+
+
+	".X.OOXX.O";
+
+
+	".X.O.XX.O";
+
+
+	".X.OX.XOO";
+
+
+	".X.OXOX.O";
+
+
+	".X.OX.X.O";
+
+
+	".XXO..XOO";
+
+
+	".XXO.OX.O";
+
+
+	".XXOO.X.O";
+
+
+	".XXO..X.O";
+
+
+	".X.O..X.O";
+
+
+	".XXOOXXO.";
+
+
+	".X.OOXXO.";
+
+
+	".X.O.XXO.";
+
+
+	".X.OXOXO.";
+
+
+	".X.OX.XO.";
+
+
+	".XXO.OXO.";
+
+
+	".XXOO.XO.";
+
+
+	".XXO..XO.";
+
+
+	".X.O..XO.";
+
+
+	".X.OXOX..";
+
+
+	".XXO.OX..";
+
+
+	".X.O.OX..";
+
+
+	".X.OOXX..";
+
+
+	".XXOO.X..";
+
+
+	".X.OO.X..";
+
+
+	".X.O..X..";
+
+
+	".XXOXX.OO";
+
+
+	".X.OXX.OO";
+
+
+	".XXOXXO.O";
+
+
+	".X.OXXO.O";
+
+
+	".X.OXX..O";
+
+
+	".XXO.X.OO";
+
+
+	".XXO.XO.O";
+
+
+	".XXOOX..O";
+
+
+	".XXO.X..O";
+
+
+	".X.O.X..O";
+
+
+	".XXOXXOO.";
+
+
+	".X.OXXOO.";
+
+
+	".X.OXX.O.";
+
+
+	".XXO.XOO.";
+
+
+	".XXOOX.O.";
+
+
+	".XXO.X.O.";
+
+
+	".X.O.X.O.";
+
+
+	".X.OXXO..";
+
+
+	".XXOOXO..";
+
+
+	".XXO.XO..";
+
+
+	".X.O.XO..";
+
+
+	".XXOOX...";
+
+
+	".X.OOX...";
+
+
+	".X.O.X...";
+
+
+	".XXOX..OO";
+
+
+	".XXOX.O.O";
+
+
+	".XXOXO..O";
+
+
+	".XXOX...O";
+
+
+	".X.OX...O";
+
+
+	".XXOX.OO.";
+
+
+	".XXOXO.O.";
+
+
+	".XXOX..O.";
+
+
+	".X.OX..O.";
+
+
+	".XXOXOO..";
+
+
+	".XXOX.O..";
+
+
+	".X.OX.O..";
+
+
+	".XXOXO...";
+
+
+	".X.OXO...";
+
+
+	".X.OX....";
+
+
+	".XXO....O";
+
+
+	".XXO...O.";
+
+
+	".XXO..O..";
+
+
+	".XXO.O...";
+
+
+	".XXOO....";
+
+
+	".XXO.....";
+
+
+	".X.O.....";
+
+
+	".X.XOOXOX";
+
+
+	".XX.OOXOX";
+
+
+	".X..OOXOX";
+
+
+	".X..O.XOX";
+
+
+	".X.XOXOOX";
+
+
+	".X..OXOOX";
+
+
+	".X..OX.OX";
+
+
+	".XXXOOOOX";
+
+
+	".XXXO.OOX";
+
+
+	".X.XO.OOX";
+
+
+	".XXXOO.OX";
+
+
+	".X.XOO.OX";
+
+
+	".X.XO..OX";
+
+
+	".XX.O.OOX";
+
+
+	".XX.OO.OX";
+
+
+	".XX.O..OX";
+
+
+	".X..O..OX";
+
+
+	".X.XOOOXX";
+
+
+	".XX.OOOXX";
+
+
+	".X..OOOXX";
+
+
+	".X..O.OXX";
+
+
+	".X..OXO.X";
+
+
+	".XXXOOO.X";
+
+
+	".X.XOOO.X";
+
+
+	".X.XO.O.X";
+
+
+	".XX.OOO.X";
+
+
+	".XX.O.O.X";
+
+
+	".X..O.O.X";
+
+
+	".X..OO.XX";
+
+
+	".X..OOX.X";
+
+
+	".X.XOO..X";
+
+
+	".XX.OO..X";
+
+
+	".X..OO..X";
+
+
+	".X..O...X";
+
+
+	".X.XOOXXO";
+
+
+	".XX.OOXXO";
+
+
+	".X..OOXXO";
+
+
+	".X..O.XXO";
+
+
+	".X.XOXOXO";
+
+
+	".XX.OXOXO";
+
+
+	".X..OXOXO";
+
+
+	".X..OX.XO";
+
+
+	".XXXOOOXO";
+
+
+	".XXXO.OXO";
+
+
+	".X.XO.OXO";
+
+
+	".XXXOO.XO";
+
+
+	".X.XOO.XO";
+
+
+	".X.XO..XO";
+
+
+	".XX.O.OXO";
+
+
+	".XX.OO.XO";
+
+
+	".XX.O..XO";
+
+
+	".X..O..XO";
+
+
+	".X..OXOX.";
+
+
+	".XXXOOOX.";
+
+
+	".X.XOOOX.";
+
+
+	".X.XO.OX.";
+
+
+	".XX.OOOX.";
+
+
+	".XX.O.OX.";
+
+
+	".X..O.OX.";
+
+
+	".X..OOXX.";
+
+
+	".X.XOO.X.";
+
+
+	".XX.OO.X.";
+
+
+	".X..OO.X.";
+
+
+	".X..O..X.";
+
+
+	".X.XOXXOO";
+
+
+	".XX.OXXOO";
+
+
+	".X..OXXOO";
+
+
+	".X..OXX.O";
+
+
+	".XXXOOXOO";
+
+
+	".XXXO.XOO";
+
+
+	".X.XO.XOO";
+
+
+	".XXXOOX.O";
+
+
+	".X.XOOX.O";
+
+
+	".X.XO.X.O";
+
+
+	".XX.O.XOO";
+
+
+	".XX.OOX.O";
+
+
+	".XX.O.X.O";
+
+
+	".X..O.X.O";
+
+
+	".X..OXXO.";
+
+
+	".XXXOOXO.";
+
+
+	".X.XOOXO.";
+
+
+	".X.XO.XO.";
+
+
+	".XX.OOXO.";
+
+
+	".XX.O.XO.";
+
+
+	".X..O.XO.";
+
+
+	".X.XOOX..";
+
+
+	".XX.OOX..";
+
+
+	".X..OOX..";
+
+
+	".X..O.X..";
+
+
+	".XXXOX.OO";
+
+
+	".X.XOX.OO";
+
+
+	".XXXOXO.O";
+
+
+	".X.XOXO.O";
+
+
+	".X.XOX..O";
+
+
+	".XX.OX.OO";
+
+
+	".XX.OXO.O";
+
+
+	".XX.OX..O";
+
+
+	".X..OX..O";
+
+
+	".XXXOXOO.";
+
+
+	".X.XOXOO.";
+
+
+	".X.XOX.O.";
+
+
+	".XX.OXOO.";
+
+
+	".XX.OX.O.";
+
+
+	".X..OX.O.";
+
+
+	".X.XOXO..";
+
+
+	".XX.OXO..";
+
+
+	".X..OXO..";
+
+
+	".X..OX...";
+
+
+	".XXXO..OO";
+
+
+	".XXXO.O.O";
+
+
+	".XXXOO..O";
+
+
+	".XXXO...O";
+
+
+	".X.XO...O";
+
+
+	".XXXO.OO.";
+
+
+	".XXXOO.O.";
+
+
+	".XXXO..O.";
+
+
+	".X.XO..O.";
+
+
+	".XXXOOO..";
+
+
+	".XXXO.O..";
+
+
+	".X.XO.O..";
+
+
+	".XXXOO...";
+
+
+	".X.XOO...";
+
+
+	".X.XO....";
+
+
+	".XX.O...O";
+
+
+	".XX.O..O.";
+
+
+	".XX.O.O..";
+
+
+	".XX.OO...";
+
+
+	".XX.O....";
+
+
+	".X..O....";
+
+
+	".X...OXOX";
+
+
+	".X.XXOOOX";
+
+
+	".XX.XOOOX";
+
+
+	".X..XOOOX";
+
+
+	".X..XO.OX";
+
+
+	".XXX.OOOX";
+
+
+	".X.X.OOOX";
+
+
+	".X.X.O.OX";
+
+
+	".XX..OOOX";
+
+
+	".XX..O.OX";
+
+
+	".X...O.OX";
+
+
+	".X...OOXX";
+
+
+	".X..XOO.X";
+
+
+	".X.X.OO.X";
+
+
+	".XX..OO.X";
+
+
+	".X...OO.X";
+
+
+	".X...O..X";
+
+
+	".X...OXXO";
+
+
+	".XXX.OOXO";
+
+
+	".X.X.OOXO";
+
+
+	".X.X.O.XO";
+
+
+	".XX..OOXO";
+
+
+	".XX..O.XO";
+
+
+	".X...O.XO";
+
+
+	".X.X.OOX.";
+
+
+	".XX..OOX.";
+
+
+	".X...OOX.";
+
+
+	".X...O.X.";
+
+
+	".X.XXOXOO";
+
+
+	".X..XOXOO";
+
+
+	".X..XOX.O";
+
+
+	".XXX.OXOO";
+
+
+	".X.X.OXOO";
+
+
+	".X.X.OX.O";
+
+
+	".XX..OXOO";
+
+
+	".XX..OX.O";
+
+
+	".X...OX.O";
+
+
+	".X..XOXO.";
+
+
+	".X.X.OXO.";
+
+
+	".XX..OXO.";
+
+
+	".X...OXO.";
+
+
+	".X...OX..";
+
+
+	".XXXXO.OO";
+
+
+	".X.XXO.OO";
+
+
+	".XXXXOO.O";
+
+
+	".X.XXOO.O";
+
+
+	".X.XXO..O";
+
+
+	".XX.XO.OO";
+
+
+	".XX.XOO.O";
+
+
+	".XX.XO..O";
+
+
+	".X..XO..O";
+
+
+	".XXXXOOO.";
+
+
+	".X.XXOOO.";
+
+
+	".X.XXO.O.";
+
+
+	".XX.XOOO.";
+
+
+	".XX.XO.O.";
+
+
+	".X..XO.O.";
+
+
+	".X.XXOO..";
+
+
+	".XX.XOO..";
+
+
+	".X..XOO..";
+
+
+	".X..XO...";
+
+
+	".XXX.O.OO";
+
+
+	".XXX.OO.O";
+
+
+	".XXX.O..O";
+
+
+	".X.X.O..O";
+
+
+	".XXX.OOO.";
+
+
+	".XXX.O.O.";
+
+
+	".X.X.O.O.";
+
+
+	".XXX.OO..";
+
+
+	".X.X.OO..";
+
+
+	".X.X.O...";
+
+
+	".XX..O..O";
+
+
+	".XX..O.O.";
+
+
+	".XX..OO..";
+
+
+	".XX..O...";
+
+
+	".X...O...";
+
+
+	".X...XOOX";
+
+
+	".X..X.OOX";
+
+
+	".X.X..OOX";
+
+
+	".XX...OOX";
+
+
+	".X....OOX";
+
+
+	".X....O.X";
+
+
+	".X...XOXO";
+
+
+	".X.X..OXO";
+
+
+	".XX...OXO";
+
+
+	".X....OXO";
+
+
+	".X....OX.";
+
+
+	".X..XXO.O";
+
+
+	".X.X.XO.O";
+
+
+	".XX..XO.O";
+
+
+	".X...XO.O";
+
+
+	".X..XXOO.";
+
+
+	".X.X.XOO.";
+
+
+	".XX..XOO.";
+
+
+	".X...XOO.";
+
+
+	".X...XO..";
+
+
+	".X.XX.O.O";
+
+
+	".XX.X.O.O";
+
+
+	".X..X.O.O";
+
+
+	".X.XX.OO.";
+
+
+	".XX.X.OO.";
+
+
+	".X..X.OO.";
+
+
+	".X..X.O..";
+
+
+	".XXX..O.O";
+
+
+	".X.X..O.O";
+
+
+	".XXX..OO.";
+
+
+	".X.X..OO.";
+
+
+	".X.X..O..";
+
+
+	".XX...O.O";
+
+
+	".XX...OO.";
+
+
+	".XX...O..";
+
+
+	".X....O..";
+
+
+	".X.....OX";
+
+
+	".X...XXOO";
+
+
+	".X..X.XOO";
+
+
+	".X.X..XOO";
+
+
+	".XX...XOO";
+
+
+	".X....XOO";
+
+
+	".X....XO.";
+
+
+	".X..XX.OO";
+
+
+	".X.X.X.OO";
+
+
+	".XX..X.OO";
+
+
+	".X...X.OO";
+
+
+	".X...X.O.";
+
+
+	".X.XX..OO";
+
+
+	".XX.X..OO";
+
+
+	".X..X..OO";
+
+
+	".X..X..O.";
+
+
+	".XXX...OO";
+
+
+	".X.X...OO";
+
+
+	".X.X...O.";
+
+
+	".XX....OO";
+
+
+	".XX....O.";
+
+
+	".X.....O.";
+
+
+	".X.....XO";
+
+
+	".X....X.O";
+
+
+	".X...X..O";
+
+
+	".X..X...O";
+
+
+	".X.X....O";
+
+
+	".XX.....O";
+
+
+	".X......O";
+
+
+	".X.......";
+
+
+	"O.XXOOXOX";
+
+
+	"OOXX.OXOX";
+
+
+	"O.XX.OXOX";
+
+
+	"O.X..OXOX";
+
+
+	"O.XXO.XOX";
+
+
+	"O.X.O.XOX";
+
+
+	"O.XO..XOX";
+
+
+	"OOXX..XOX";
+
+
+	"OOX...XOX";
+
+
+	"O.X...XOX";
+
+
+	"O.XXXOOOX";
+
+
+	"OOXXX.OOX";
+
+
+	"O.XXX.OOX";
+
+
+	"O.X.X.OOX";
+
+
+	"OOXXXO.OX";
+
+
+	"O.XXXO.OX";
+
+
+	"O.X.XO.OX";
+
+
+	"O.XOX..OX";
+
+
+	"OOXXX..OX";
+
+
+	"OOX.X..OX";
+
+
+	"O.X.X..OX";
+
+
+	"O.XX..OOX";
+
+
+	"O.XX.O.OX";
+
+
+	"O.XXO..OX";
+
+
+	"OOXX...OX";
+
+
+	"O.XX...OX";
+
+
+	"O.X....OX";
+
+
+	"OOX.XOOXX";
+
+
+	"O.X.XOOXX";
+
+
+	"O.XXOOOXX";
+
+
+	"OOXX.OOXX";
+
+
+	"O.XX.OOXX";
+
+
+	"O.X..OOXX";
+
+
+	"OOXXO.OXX";
+
+
+	"O.XXO.OXX";
+
+
+	"O.X.O.OXX";
+
+
+	"OOX.X.OXX";
+
+
+	"OOXX..OXX";
+
+
+	"OOX...OXX";
+
+
+	"O.X...OXX";
+
+
+	"OOXXXOO.X";
+
+
+	"O.XXXOO.X";
+
+
+	"O.X.XOO.X";
+
+
+	"OOXXX.O.X";
+
+
+	"OOX.X.O.X";
+
+
+	"O.X.X.O.X";
+
+
+	"O.XX.OO.X";
+
+
+	"O.XXO.O.X";
+
+
+	"OOXX..O.X";
+
+
+	"O.XX..O.X";
+
+
+	"O.X...O.X";
+
+
+	"OOXXOO.XX";
+
+
+	"O.XXOO.XX";
+
+
+	"O.X.OO.XX";
+
+
+	"OOXOXO.XX";
+
+
+	"O.XOXO.XX";
+
+
+	"O.XO.O.XX";
+
+
+	"OOX.XO.XX";
+
+
+	"OOXX.O.XX";
+
+
+	"OOX..O.XX";
+
+
+	"O.X..O.XX";
+
+
+	"OOXXOOX.X";
+
+
+	"O.XXOOX.X";
+
+
+	"O.X.OOX.X";
+
+
+	"O.XO.OX.X";
+
+
+	"OOXX.OX.X";
+
+
+	"OOX..OX.X";
+
+
+	"O.X..OX.X";
+
+
+	"O.XOXO..X";
+
+
+	"OOXXXO..X";
+
+
+	"OOX.XO..X";
+
+
+	"O.X.XO..X";
+
+
+	"O.XXOO..X";
+
+
+	"OOXX.O..X";
+
+
+	"O.XX.O..X";
+
+
+	"O.X..O..X";
+
+
+	"O.XOO..XX";
+
+
+	"OOXXO..XX";
+
+
+	"OOX.O..XX";
+
+
+	"O.X.O..XX";
+
+
+	"O.XOO.X.X";
+
+
+	"OOXXO.X.X";
+
+
+	"OOX.O.X.X";
+
+
+	"O.X.O.X.X";
+
+
+	"OOXXO...X";
+
+
+	"O.XXO...X";
+
+
+	"O.X.O...X";
+
+
+	"OOXOX..XX";
+
+
+	"OOXO...XX";
+
+
+	"O.XO...XX";
+
+
+	"OOXO..X.X";
+
+
+	"O.XO..X.X";
+
+
+	"OOXOX...X";
+
+
+	"O.XOX...X";
+
+
+	"O.XO....X";
+
+
+	"OOX....XX";
+
+
+	"OOX...X.X";
+
+
+	"OOX.X...X";
+
+
+	"OOXX....X";
+
+
+	"OOX.....X";
+
+
+	"O.X.....X";
+
+
+	"OOXX.OXXO";
+
+
+	"O.XX.OXXO";
+
+
+	"O.X..OXXO";
+
+
+	"OOXO.XXXO";
+
+
+	"O.XO.XXXO";
+
+
+	"O.XO..XXO";
+
+
+	"OOX..XXXO";
+
+
+	"OOXX..XXO";
+
+
+	"OOX...XXO";
+
+
+	"O.X...XXO";
+
+
+	"OOX.XXOXO";
+
+
+	"O.X.XXOXO";
+
+
+	"OOXX.XOXO";
+
+
+	"O.XX.XOXO";
+
+
+	"O.X..XOXO";
+
+
+	"OOXOXX.XO";
+
+
+	"O.XOXX.XO";
+
+
+	"O.XO.X.XO";
+
+
+	"OOX.XX.XO";
+
+
+	"OOXX.X.XO";
+
+
+	"OOX..X.XO";
+
+
+	"O.X..X.XO";
+
+
+	"O.XXXOOXO";
+
+
+	"OOXXX.OXO";
+
+
+	"O.XXX.OXO";
+
+
+	"O.X.X.OXO";
+
+
+	"OOXXXO.XO";
+
+
+	"O.XXXO.XO";
+
+
+	"O.X.XO.XO";
+
+
+	"O.XOX..XO";
+
+
+	"OOXXX..XO";
+
+
+	"OOX.X..XO";
+
+
+	"O.X.X..XO";
+
+
+	"O.XX..OXO";
+
+
+	"O.XX.O.XO";
+
+
+	"OOXX...XO";
+
+
+	"O.XX...XO";
+
+
+	"O.X....XO";
+
+
+	"OOXXOXOX.";
+
+
+	"O.XXOXOX.";
+
+
+	"O.X.OXOX.";
+
+
+	"OOX.XXOX.";
+
+
+	"OOXX.XOX.";
+
+
+	"OOX..XOX.";
+
+
+	"O.X..XOX.";
+
+
+	"OOXXXOOX.";
+
+
+	"O.XXXOOX.";
+
+
+	"O.X.XOOX.";
+
+
+	"OOXXX.OX.";
+
+
+	"OOX.X.OX.";
+
+
+	"O.X.X.OX.";
+
+
+	"O.XX.OOX.";
+
+
+	"O.XXO.OX.";
+
+
+	"OOXX..OX.";
+
+
+	"O.XX..OX.";
+
+
+	"O.X...OX.";
+
+
+	"OOXXOOXX.";
+
+
+	"O.XXOOXX.";
+
+
+	"O.X.OOXX.";
+
+
+	"O.XO.OXX.";
+
+
+	"OOXX.OXX.";
+
+
+	"OOX..OXX.";
+
+
+	"O.X..OXX.";
+
+
+	"O.XOXO.X.";
+
+
+	"OOXXXO.X.";
+
+
+	"OOX.XO.X.";
+
+
+	"O.X.XO.X.";
+
+
+	"O.XXOO.X.";
+
+
+	"OOXX.O.X.";
+
+
+	"O.XX.O.X.";
+
+
+	"O.X..O.X.";
+
+
+	"OOXOOXXX.";
+
+
+	"O.XOOXXX.";
+
+
+	"O.XOO.XX.";
+
+
+	"OOX.OXXX.";
+
+
+	"OOXXO.XX.";
+
+
+	"OOX.O.XX.";
+
+
+	"O.X.O.XX.";
+
+
+	"O.XOOX.X.";
+
+
+	"OOXXOX.X.";
+
+
+	"OOX.OX.X.";
+
+
+	"O.X.OX.X.";
+
+
+	"OOXXO..X.";
+
+
+	"O.XXO..X.";
+
+
+	"O.X.O..X.";
+
+
+	"OOXO.XXX.";
+
+
+	"OOXO..XX.";
+
+
+	"O.XO..XX.";
+
+
+	"OOXOXX.X.";
+
+
+	"OOXO.X.X.";
+
+
+	"O.XO.X.X.";
+
+
+	"OOXOX..X.";
+
+
+	"O.XOX..X.";
+
+
+	"O.XO...X.";
+
+
+	"OOX...XX.";
+
+
+	"OOX..X.X.";
+
+
+	"OOX.X..X.";
+
+
+	"OOXX...X.";
+
+
+	"OOX....X.";
+
+
+	"O.X....X.";
+
+
+	"OOXX.XXOO";
+
+
+	"O.XX.XXOO";
+
+
+	"O.X..XXOO";
+
+
+	"O.XO.XX.O";
+
+
+	"OOXX.XX.O";
+
+
+	"OOX..XX.O";
+
+
+	"O.X..XX.O";
+
+
+	"O.XX..XOO";
+
+
+	"O.XX.OX.O";
+
+
+	"OOXX..X.O";
+
+
+	"O.XX..X.O";
+
+
+	"O.X...X.O";
+
+
+	"O.XXOXXO.";
+
+
+	"O.X.OXXO.";
+
+
+	"O.XO.XXO.";
+
+
+	"OOXX.XXO.";
+
+
+	"OOX..XXO.";
+
+
+	"O.X..XXO.";
+
+
+	"O.XX.OXO.";
+
+
+	"O.XXO.XO.";
+
+
+	"OOXX..XO.";
+
+
+	"O.XX..XO.";
+
+
+	"O.X...XO.";
+
+
+	"O.XXOOX..";
+
+
+	"OOXX.OX..";
+
+
+	"O.XX.OX..";
+
+
+	"O.X..OX..";
+
+
+	"O.XOOXX..";
+
+
+	"OOXXOXX..";
+
+
+	"OOX.OXX..";
+
+
+	"O.X.OXX..";
+
+
+	"OOXXO.X..";
+
+
+	"O.XXO.X..";
+
+
+	"O.X.O.X..";
+
+
+	"OOXO.XX..";
+
+
+	"O.XO.XX..";
+
+
+	"O.XO..X..";
+
+
+	"OOX..XX..";
+
+
+	"OOXX..X..";
+
+
+	"OOX...X..";
+
+
+	"O.X...X..";
+
+
+	"O.X.XX.OO";
+
+
+	"O.X.XXO.O";
+
+
+	"O.XOXX..O";
+
+
+	"OOX.XX..O";
+
+
+	"O.X.XX..O";
+
+
+	"O.XX.X.OO";
+
+
+	"O.XX.XO.O";
+
+
+	"OOXX.X..O";
+
+
+	"O.XX.X..O";
+
+
+	"O.X..X..O";
+
+
+	"O.X.XXOO.";
+
+
+	"O.XOXX.O.";
+
+
+	"OOX.XX.O.";
+
+
+	"O.X.XX.O.";
+
+
+	"O.XX.XOO.";
+
+
+	"O.XXOX.O.";
+
+
+	"OOXX.X.O.";
+
+
+	"O.XX.X.O.";
+
+
+	"O.X..X.O.";
+
+
+	"OOX.XXO..";
+
+
+	"O.X.XXO..";
+
+
+	"O.XXOXO..";
+
+
+	"OOXX.XO..";
+
+
+	"O.XX.XO..";
+
+
+	"O.X..XO..";
+
+
+	"OOXXOX...";
+
+
+	"O.XXOX...";
+
+
+	"O.X.OX...";
+
+
+	"OOXOXX...";
+
+
+	"O.XOXX...";
+
+
+	"O.XO.X...";
+
+
+	"OOX.XX...";
+
+
+	"OOXX.X...";
+
+
+	"OOX..X...";
+
+
+	"O.X..X...";
+
+
+	"O.XXX..OO";
+
+
+	"O.XXX.O.O";
+
+
+	"O.XXXO..O";
+
+
+	"OOXXX...O";
+
+
+	"O.XXX...O";
+
+
+	"O.X.X...O";
+
+
+	"O.XXX.OO.";
+
+
+	"O.XXXO.O.";
+
+
+	"OOXXX..O.";
+
+
+	"O.XXX..O.";
+
+
+	"O.X.X..O.";
+
+
+	"O.XXXOO..";
+
+
+	"OOXXX.O..";
+
+
+	"O.XXX.O..";
+
+
+	"O.X.X.O..";
+
+
+	"OOXXXO...";
+
+
+	"O.XXXO...";
+
+
+	"O.X.XO...";
+
+
+	"O.XOX....";
+
+
+	"OOXXX....";
+
+
+	"OOX.X....";
+
+
+	"O.X.X....";
+
+
+	"O.XX....O";
+
+
+	"O.XX...O.";
+
+
+	"O.XX..O..";
+
+
+	"O.XX.O...";
+
+
+	"O.XXO....";
+
+
+	"OOXX.....";
+
+
+	"O.XX.....";
+
+
+	"O.X......";
+
+
+	".OXX.OXOX";
+
+
+	".OX..OXOX";
+
+
+	".OXO..XOX";
+
+
+	".OX...XOX";
+
+
+	".OXXXOOOX";
+
+
+	".OXXX.OOX";
+
+
+	".OX.X.OOX";
+
+
+	".OXXXO.OX";
+
+
+	".OX.XO.OX";
+
+
+	".OXOX..OX";
+
+
+	".OX.X..OX";
+
+
+	".OXX..OOX";
+
+
+	".OXX.O.OX";
+
+
+	".OXX...OX";
+
+
+	".OX....OX";
+
+
+	".OXOXOOXX";
+
+
+	".OX.XOOXX";
+
+
+	".OXXOOOXX";
+
+
+	".OXX.OOXX";
+
+
+	".OX..OOXX";
+
+
+	".OXXO.OXX";
+
+
+	".OX.O.OXX";
+
+
+	".OXOX.OXX";
+
+
+	".OXO..OXX";
+
+
+	".OX...OXX";
+
+
+	".OXXXOO.X";
+
+
+	".OX.XOO.X";
+
+
+	".OXOX.O.X";
+
+
+	".OX.X.O.X";
+
+
+	".OXX.OO.X";
+
+
+	".OXXO.O.X";
+
+
+	".OXX..O.X";
+
+
+	".OX...O.X";
+
+
+	".OXXOO.XX";
+
+
+	".OX.OO.XX";
+
+
+	".OXOXO.XX";
+
+
+	".OXO.O.XX";
+
+
+	".OX..O.XX";
+
+
+	".OXXOOX.X";
+
+
+	".OX.OOX.X";
+
+
+	".OXO.OX.X";
+
+
+	".OX..OX.X";
+
+
+	".OXOXO..X";
+
+
+	".OX.XO..X";
+
+
+	".OXXOO..X";
+
+
+	".OXX.O..X";
+
+
+	".OX..O..X";
+
+
+	".OXOO..XX";
+
+
+	".OX.O..XX";
+
+
+	".OXOO.X.X";
+
+
+	".OX.O.X.X";
+
+
+	".OXXO...X";
+
+
+	".OX.O...X";
+
+
+	".OXO...XX";
+
+
+	".OXO..X.X";
+
+
+	".OXOX...X";
+
+
+	".OXO....X";
+
+
+	".OX.....X";
+
+
+	".OXXOOXXO";
+
+
+	".OXX.OXXO";
+
+
+	".OX..OXXO";
+
+
+	".OXOOXXXO";
+
+
+	".OX.OXXXO";
+
+
+	".OXXO.XXO";
+
+
+	".OX.O.XXO";
+
+
+	".OXO.XXXO";
+
+
+	".OXO..XXO";
+
+
+	".OX...XXO";
+
+
+	".OXOXXOXO";
+
+
+	".OX.XXOXO";
+
+
+	".OXXOXOXO";
+
+
+	".OXX.XOXO";
+
+
+	".OX..XOXO";
+
+
+	".OXXOX.XO";
+
+
+	".OX.OX.XO";
+
+
+	".OXOXX.XO";
+
+
+	".OXO.X.XO";
+
+
+	".OX..X.XO";
+
+
+	".OXXXOOXO";
+
+
+	".OXXX.OXO";
+
+
+	".OX.X.OXO";
+
+
+	".OXXXO.XO";
+
+
+	".OX.XO.XO";
+
+
+	".OXOX..XO";
+
+
+	".OX.X..XO";
+
+
+	".OXX..OXO";
+
+
+	".OXX.O.XO";
+
+
+	".OXXO..XO";
+
+
+	".OXX...XO";
+
+
+	".OX....XO";
+
+
+	".OXXOXOX.";
+
+
+	".OX.OXOX.";
+
+
+	".OXOXXOX.";
+
+
+	".OXO.XOX.";
+
+
+	".OX..XOX.";
+
+
+	".OXXXOOX.";
+
+
+	".OX.XOOX.";
+
+
+	".OXOX.OX.";
+
+
+	".OX.X.OX.";
+
+
+	".OXX.OOX.";
+
+
+	".OXXO.OX.";
+
+
+	".OXX..OX.";
+
+
+	".OX...OX.";
+
+
+	".OXXOOXX.";
+
+
+	".OX.OOXX.";
+
+
+	".OXO.OXX.";
+
+
+	".OX..OXX.";
+
+
+	".OXOXO.X.";
+
+
+	".OX.XO.X.";
+
+
+	".OXXOO.X.";
+
+
+	".OXX.O.X.";
+
+
+	".OX..O.X.";
+
+
+	".OXOOXXX.";
+
+
+	".OXOO.XX.";
+
+
+	".OX.O.XX.";
+
+
+	".OXOOX.X.";
+
+
+	".OX.OX.X.";
+
+
+	".OXXO..X.";
+
+
+	".OX.O..X.";
+
+
+	".OXO..XX.";
+
+
+	".OXO.X.X.";
+
+
+	".OXOX..X.";
+
+
+	".OXO...X.";
+
+
+	".OX....X.";
+
+
+	".OXX.XXOO";
+
+
+	".OX..XXOO";
+
+
+	".OXXOXX.O";
+
+
+	".OX.OXX.O";
+
+
+	".OXO.XX.O";
+
+
+	".OX..XX.O";
+
+
+	".OXX..XOO";
+
+
+	".OXX.OX.O";
+
+
+	".OXXO.X.O";
+
+
+	".OXX..X.O";
+
+
+	".OX...X.O";
+
+
+	".OXO.XXO.";
+
+
+	".OX..XXO.";
+
+
+	".OXX.OXO.";
+
+
+	".OXX..XO.";
+
+
+	".OX...XO.";
+
+
+	".OXXOOX..";
+
+
+	".OXX.OX..";
+
+
+	".OX..OX..";
+
+
+	".OXOOXX..";
+
+
+	".OX.OXX..";
+
+
+	".OXXO.X..";
+
+
+	".OX.O.X..";
+
+
+	".OXO.XX..";
+
+
+	".OXO..X..";
+
+
+	".OX...X..";
+
+
+	".OX.XX.OO";
+
+
+	".OX.XXO.O";
+
+
+	".OXOXX..O";
+
+
+	".OX.XX..O";
+
+
+	".OXX.X.OO";
+
+
+	".OXX.XO.O";
+
+
+	".OXXOX..O";
+
+
+	".OXX.X..O";
+
+
+	".OX..X..O";
+
+
+	".OX.XXOO.";
+
+
+	".OXOXX.O.";
+
+
+	".OX.XX.O.";
+
+
+	".OXX.XOO.";
+
+
+	".OXX.X.O.";
+
+
+	".OX..X.O.";
+
+
+	".OXOXXO..";
+
+
+	".OX.XXO..";
+
+
+	".OXXOXO..";
+
+
+	".OXX.XO..";
+
+
+	".OX..XO..";
+
+
+	".OXXOX...";
+
+
+	".OX.OX...";
+
+
+	".OXOXX...";
+
+
+	".OXO.X...";
+
+
+	".OX..X...";
+
+
+	".OXXX..OO";
+
+
+	".OXXX.O.O";
+
+
+	".OXXXO..O";
+
+
+	".OXXX...O";
+
+
+	".OX.X...O";
+
+
+	".OXXX.OO.";
+
+
+	".OXXXO.O.";
+
+
+	".OXXX..O.";
+
+
+	".OX.X..O.";
+
+
+	".OXXXOO..";
+
+
+	".OXXX.O..";
+
+
+	".OX.X.O..";
+
+
+	".OXXXO...";
+
+
+	".OX.XO...";
+
+
+	".OXOX....";
+
+
+	".OX.X....";
+
+
+	".OXX....O";
+
+
+	".OXX...O.";
+
+
+	".OXX..O..";
+
+
+	".OXX.O...";
+
+
+	".OXXO....";
+
+
+	".OXX.....";
+
+
+	".OX......";
+
+
+	"..XO.OXOX";
+
+
+	"..XOO.XOX";
+
+
+	"..XO..XOX";
+
+
+	"..XOX.OOX";
+
+
+	"..XOXO.OX";
+
+
+	"..XOX..OX";
+
+
+	"..XO...OX";
+
+
+	"..XOXOOXX";
+
+
+	"..XO.OOXX";
+
+
+	"..XOO.OXX";
+
+
+	"..XO..OXX";
+
+
+	"..XOXOO.X";
+
+
+	"..XOX.O.X";
+
+
+	"..XO..O.X";
+
+
+	"..XO.O.XX";
+
+
+	"..XO.OX.X";
+
+
+	"..XOXO..X";
+
+
+	"..XO.O..X";
+
+
+	"..XOO..XX";
+
+
+	"..XOO.X.X";
+
+
+	"..XOO...X";
+
+
+	"..XO....X";
+
+
+	"..XO.OXXO";
+
+
+	"..XOOXXXO";
+
+
+	"..XOO.XXO";
+
+
+	"..XO..XXO";
+
+
+	"..XOXXOXO";
+
+
+	"..XO.XOXO";
+
+
+	"..XOOX.XO";
+
+
+	"..XO.X.XO";
+
+
+	"..XOX.OXO";
+
+
+	"..XOXO.XO";
+
+
+	"..XOX..XO";
+
+
+	"..XO...XO";
+
+
+	"..XOOXOX.";
+
+
+	"..XO.XOX.";
+
+
+	"..XOXOOX.";
+
+
+	"..XOX.OX.";
+
+
+	"..XO..OX.";
+
+
+	"..XO.OXX.";
+
+
+	"..XOXO.X.";
+
+
+	"..XO.O.X.";
+
+
+	"..XOO.XX.";
+
+
+	"..XOOX.X.";
+
+
+	"..XOO..X.";
+
+
+	"..XO...X.";
+
+
+	"..XO.XXOO";
+
+
+	"..XOOXX.O";
+
+
+	"..XO.XX.O";
+
+
+	"..XO..X.O";
+
+
+	"..XOOXXO.";
+
+
+	"..XO.XXO.";
+
+
+	"..XO..XO.";
+
+
+	"..XO.OX..";
+
+
+	"..XOOXX..";
+
+
+	"..XOO.X..";
+
+
+	"..XO..X..";
+
+
+	"..XOXX.OO";
+
+
+	"..XOXXO.O";
+
+
+	"..XOXX..O";
+
+
+	"..XO.X..O";
+
+
+	"..XOXXOO.";
+
+
+	"..XOXX.O.";
+
+
+	"..XO.X.O.";
+
+
+	"..XOXXO..";
+
+
+	"..XO.XO..";
+
+
+	"..XOOX...";
+
+
+	"..XO.X...";
+
+
+	"..XOX...O";
+
+
+	"..XOX..O.";
+
+
+	"..XOX.O..";
+
+
+	"..XOXO...";
+
+
+	"..XOX....";
+
+
+	"..XO.....";
+
+
+	"..XXOOXOX";
+
+
+	"..X.OOXOX";
+
+
+	"..X.O.XOX";
+
+
+	"..XXO.OOX";
+
+
+	"..XXOO.OX";
+
+
+	"..XXO..OX";
+
+
+	"..X.O..OX";
+
+
+	"..XXOOOXX";
+
+
+	"..X.OOOXX";
+
+
+	"..X.O.OXX";
+
+
+	"..XXOOO.X";
+
+
+	"..XXO.O.X";
+
+
+	"..X.O.O.X";
+
+
+	"..X.OO.XX";
+
+
+	"..X.OOX.X";
+
+
+	"..XXOO..X";
+
+
+	"..X.OO..X";
+
+
+	"..X.O...X";
+
+
+	"..XXOOXXO";
+
+
+	"..X.OOXXO";
+
+
+	"..X.O.XXO";
+
+
+	"..XXOXOXO";
+
+
+	"..X.OXOXO";
+
+
+	"..X.OX.XO";
+
+
+	"..XXO.OXO";
+
+
+	"..XXOO.XO";
+
+
+	"..XXO..XO";
+
+
+	"..X.O..XO";
+
+
+	"..X.OXOX.";
+
+
+	"..XXOOOX.";
+
+
+	"..XXO.OX.";
+
+
+	"..X.O.OX.";
+
+
+	"..X.OOXX.";
+
+
+	"..XXOO.X.";
+
+
+	"..X.OO.X.";
+
+
+	"..X.O..X.";
+
+
+	"..XXOXXOO";
+
+
+	"..X.OXXOO";
+
+
+	"..X.OXX.O";
+
+
+	"..XXO.XOO";
+
+
+	"..XXOOX.O";
+
+
+	"..XXO.X.O";
+
+
+	"..X.O.X.O";
+
+
+	"..X.OXXO.";
+
+
+	"..XXOOXO.";
+
+
+	"..XXO.XO.";
+
+
+	"..X.O.XO.";
+
+
+	"..XXOOX..";
+
+
+	"..X.OOX..";
+
+
+	"..X.O.X..";
+
+
+	"..XXOX.OO";
+
+
+	"..XXOXO.O";
+
+
+	"..XXOX..O";
+
+
+	"..X.OX..O";
+
+
+	"..XXOXOO.";
+
+
+	"..XXOX.O.";
+
+
+	"..X.OX.O.";
+
+
+	"..XXOXO..";
+
+
+	"..X.OXO..";
+
+
+	"..X.OX...";
+
+
+	"..XXO...O";
+
+
+	"..XXO..O.";
+
+
+	"..XXO.O..";
+
+
+	"..XXOO...";
+
+
+	"..XXO....";
+
+
+	"..X.O....";
+
+
+	"..X..OXOX";
+
+
+	"..XXXOOOX";
+
+
+	"..X.XOOOX";
+
+
+	"..X.XO.OX";
+
+
+	"..XX.OOOX";
+
+
+	"..XX.O.OX";
+
+
+	"..X..O.OX";
+
+
+	"..X..OOXX";
+
+
+	"..X.XOO.X";
+
+
+	"..XX.OO.X";
+
+
+	"..X..OO.X";
+
+
+	"..X..O..X";
+
+
+	"..X..OXXO";
+
+
+	"..XXXOOXO";
+
+
+	"..X.XOOXO";
+
+
+	"..X.XO.XO";
+
+
+	"..XX.OOXO";
+
+
+	"..XX.O.XO";
+
+
+	"..X..O.XO";
+
+
+	"..X.XOOX.";
+
+
+	"..XX.OOX.";
+
+
+	"..X..OOX.";
+
+
+	"..X..O.X.";
+
+
+	"..XX.OXOO";
+
+
+	"..XX.OX.O";
+
+
+	"..X..OX.O";
+
+
+	"..XX.OXO.";
+
+
+	"..X..OXO.";
+
+
+	"..X..OX..";
+
+
+	"..XXXO.OO";
+
+
+	"..XXXOO.O";
+
+
+	"..XXXO..O";
+
+
+	"..X.XO..O";
+
+
+	"..XXXOOO.";
+
+
+	"..XXXO.O.";
+
+
+	"..X.XO.O.";
+
+
+	"..XXXOO..";
+
+
+	"..X.XOO..";
+
+
+	"..X.XO...";
+
+
+	"..XX.O..O";
+
+
+	"..XX.O.O.";
+
+
+	"..XX.OO..";
+
+
+	"..XX.O...";
+
+
+	"..X..O...";
+
+
+	"..X.X.OOX";
+
+
+	"..XX..OOX";
+
+
+	"..X...OOX";
+
+
+	"..X...O.X";
+
+
+	"..X..XOXO";
+
+
+	"..X.X.OXO";
+
+
+	"..XX..OXO";
+
+
+	"..X...OXO";
+
+
+	"..X...OX.";
+
+
+	"..X.XXO.O";
+
+
+	"..XX.XO.O";
+
+
+	"..X..XO.O";
+
+
+	"..X.XXOO.";
+
+
+	"..XX.XOO.";
+
+
+	"..X..XOO.";
+
+
+	"..X..XO..";
+
+
+	"..XXX.O.O";
+
+
+	"..X.X.O.O";
+
+
+	"..XXX.OO.";
+
+
+	"..X.X.OO.";
+
+
+	"..X.X.O..";
+
+
+	"..XX..O.O";
+
+
+	"..XX..OO.";
+
+
+	"..XX..O..";
+
+
+	"..X...O..";
+
+
+	"..X....OX";
+
+
+	"..X..XXOO";
+
+
+	"..XX..XOO";
+
+
+	"..X...XOO";
+
+
+	"..X...XO.";
+
+
+	"..X.XX.OO";
+
+
+	"..XX.X.OO";
+
+
+	"..X..X.OO";
+
+
+	"..X..X.O.";
+
+
+	"..XXX..OO";
+
+
+	"..X.X..OO";
+
+
+	"..X.X..O.";
+
+
+	"..XX...OO";
+
+
+	"..XX...O.";
+
+
+	"..X....O.";
+
+
+	"..X....XO";
+
+
+	"..X...X.O";
+
+
+	"..X..X..O";
+
+
+	"..X.X...O";
+
+
+	"..XX....O";
+
+
+	"..X.....O";
+
+
+	"..X......";
+
+
+	"O.OXXOXOX";
+
+
+	"OO.XXOXOX";
+
+
+	"O..XXOXOX";
+
+
+	"O..X.OXOX";
+
+
+	"O.OXOXXOX";
+
+
+	"O..XOXXOX";
+
+
+	"O..XO.XOX";
+
+
+	"O.OX.XXOX";
+
+
+	"O.OXX.XOX";
+
+
+	"O.OX..XOX";
+
+
+	"OO.X.XXOX";
+
+
+	"OO.XX.XOX";
+
+
+	"OO.X..XOX";
+
+
+	"O..X..XOX";
+
+
+	"O..X.XOOX";
+
+
+	"O..XOX.OX";
+
+
+	"O.OX.X.OX";
+
+
+	"OO.X.X.OX";
+
+
+	"O..X.X.OX";
+
+
+	"O..XX.OOX";
+
+
+	"O..XXO.OX";
+
+
+	"O.OXX..OX";
+
+
+	"OO.XX..OX";
+
+
+	"O..XX..OX";
+
+
+	"O..X...OX";
+
+
+	"O.OXXOOXX";
+
+
+	"OO.XXOOXX";
+
+
+	"O..XXOOXX";
+
+
+	"O..X.OOXX";
+
+
+	"OO.XOXOXX";
+
+
+	"O..XOXOXX";
+
+
+	"O..XO.OXX";
+
+
+	"O.OX.XOXX";
+
+
+	"O.OXX.OXX";
+
+
+	"O.OX..OXX";
+
+
+	"OO.X.XOXX";
+
+
+	"OO.XX.OXX";
+
+
+	"OO.X..OXX";
+
+
+	"O..X..OXX";
+
+
+	"O..XOXO.X";
+
+
+	"O.OX.XO.X";
+
+
+	"OO.X.XO.X";
+
+
+	"O..X.XO.X";
+
+
+	"O..XXOO.X";
+
+
+	"O.OXX.O.X";
+
+
+	"OO.XX.O.X";
+
+
+	"O..XX.O.X";
+
+
+	"O..X..O.X";
+
+
+	"O..XOO.XX";
+
+
+	"O.OXXO.XX";
+
+
+	"O.OX.O.XX";
+
+
+	"OO.XXO.XX";
+
+
+	"OO.X.O.XX";
+
+
+	"O..X.O.XX";
+
+
+	"O..XOOX.X";
+
+
+	"O.OXXOX.X";
+
+
+	"O.OX.OX.X";
+
+
+	"OO.XXOX.X";
+
+
+	"OO.X.OX.X";
+
+
+	"O..X.OX.X";
+
+
+	"O.OXXO..X";
+
+
+	"OO.XXO..X";
+
+
+	"O..XXO..X";
+
+
+	"O..X.O..X";
+
+
+	"O.OXOX.XX";
+
+
+	"O.OXO..XX";
+
+
+	"OO.XOX.XX";
+
+
+	"OO.XO..XX";
+
+
+	"O..XO..XX";
+
+
+	"O.OXOXX.X";
+
+
+	"O.OXO.X.X";
+
+
+	"OO.XOXX.X";
+
+
+	"OO.XO.X.X";
+
+
+	"O..XO.X.X";
+
+
+	"O.OXOX..X";
+
+
+	"OO.XOX..X";
+
+
+	"O..XOX..X";
+
+
+	"O..XO...X";
+
+
+	"O.OX...XX";
+
+
+	"O.OX..X.X";
+
+
+	"O.OX.X..X";
+
+
+	"O.OXX...X";
+
+
+	"O.OX....X";
+
+
+	"OO.X...XX";
+
+
+	"OO.X..X.X";
+
+
+	"OO.X.X..X";
+
+
+	"OO.XX...X";
+
+
+	"OO.X....X";
+
+
+	"O..X....X";
+
+
+	"OO.XXOXXO";
+
+
+	"O..XXOXXO";
+
+
+	"O..X.OXXO";
+
+
+	"O.OX.XXXO";
+
+
+	"O.OXX.XXO";
+
+
+	"O.OX..XXO";
+
+
+	"OO.X.XXXO";
+
+
+	"OO.XX.XXO";
+
+
+	"OO.X..XXO";
+
+
+	"O..X..XXO";
+
+
+	"O..X.XOXO";
+
+
+	"O.OX.X.XO";
+
+
+	"OO.X.X.XO";
+
+
+	"O..X.X.XO";
+
+
+	"O..XX.OXO";
+
+
+	"O..XXO.XO";
+
+
+	"O.OXX..XO";
+
+
+	"OO.XX..XO";
+
+
+	"O..XX..XO";
+
+
+	"O..X...XO";
+
+
+	"O..XOXOX.";
+
+
+	"O.OX.XOX.";
+
+
+	"OO.X.XOX.";
+
+
+	"O..X.XOX.";
+
+
+	"O..XXOOX.";
+
+
+	"O.OXX.OX.";
+
+
+	"OO.XX.OX.";
+
+
+	"O..XX.OX.";
+
+
+	"O..X..OX.";
+
+
+	"O..XOOXX.";
+
+
+	"O.OXXOXX.";
+
+
+	"O.OX.OXX.";
+
+
+	"OO.XXOXX.";
+
+
+	"OO.X.OXX.";
+
+
+	"O..X.OXX.";
+
+
+	"O.OXXO.X.";
+
+
+	"OO.XXO.X.";
+
+
+	"O..XXO.X.";
+
+
+	"O..X.O.X.";
+
+
+	"O.OXOXXX.";
+
+
+	"O.OXO.XX.";
+
+
+	"OO.XOXXX.";
+
+
+	"OO.XO.XX.";
+
+
+	"O..XO.XX.";
+
+
+	"O.OXOX.X.";
+
+
+	"OO.XOX.X.";
+
+
+	"O..XOX.X.";
+
+
+	"O..XO..X.";
+
+
+	"O.OX..XX.";
+
+
+	"O.OX.X.X.";
+
+
+	"O.OXX..X.";
+
+
+	"O.OX...X.";
+
+
+	"OO.X..XX.";
+
+
+	"OO.X.X.X.";
+
+
+	"OO.XX..X.";
+
+
+	"OO.X...X.";
+
+
+	"O..X...X.";
+
+
+	"O..X.XXOO";
+
+
+	"O.OX.XX.O";
+
+
+	"OO.X.XX.O";
+
+
+	"O..X.XX.O";
+
+
+	"O..XX.XOO";
+
+
+	"O..XXOX.O";
+
+
+	"O.OXX.X.O";
+
+
+	"OO.XX.X.O";
+
+
+	"O..XX.X.O";
+
+
+	"O..X..X.O";
+
+
+	"O..XOXXO.";
+
+
+	"O.OX.XXO.";
+
+
+	"OO.X.XXO.";
+
+
+	"O..X.XXO.";
+
+
+	"O..XXOXO.";
+
+
+	"O.OXX.XO.";
+
+
+	"OO.XX.XO.";
+
+
+	"O..XX.XO.";
+
+
+	"O..X..XO.";
+
+
+	"O.OXXOX..";
+
+
+	"OO.XXOX..";
+
+
+	"O..XXOX..";
+
+
+	"O..X.OX..";
+
+
+	"O.OXOXX..";
+
+
+	"OO.XOXX..";
+
+
+	"O..XOXX..";
+
+
+	"O..XO.X..";
+
+
+	"O.OX.XX..";
+
+
+	"O.OXX.X..";
+
+
+	"O.OX..X..";
+
+
+	"OO.X.XX..";
+
+
+	"OO.XX.X..";
+
+
+	"OO.X..X..";
+
+
+	"O..X..X..";
+
+
+	"O..X.X..O";
+
+
+	"O..X.X.O.";
+
+
+	"O..X.XO..";
+
+
+	"O..XOX...";
+
+
+	"O.OX.X...";
+
+
+	"OO.X.X...";
+
+
+	"O..X.X...";
+
+
+	"O..XX...O";
+
+
+	"O..XX..O.";
+
+
+	"O..XX.O..";
+
+
+	"O..XXO...";
+
+
+	"O.OXX....";
+
+
+	"OO.XX....";
+
+
+	"O..XX....";
+
+
+	"O..X.....";
+
+
+	".OOXXOXOX";
+
+
+	".O.XXOXOX";
+
+
+	".O.X.OXOX";
+
+
+	".OOX.XXOX";
+
+
+	".OOXX.XOX";
+
+
+	".OOX..XOX";
+
+
+	".O.X..XOX";
+
+
+	".O.X.XOOX";
+
+
+	".OOX.X.OX";
+
+
+	".O.X.X.OX";
+
+
+	".O.XX.OOX";
+
+
+	".O.XXO.OX";
+
+
+	".OOXX..OX";
+
+
+	".O.XX..OX";
+
+
+	".O.X...OX";
+
+
+	".OOXXOOXX";
+
+
+	".O.XXOOXX";
+
+
+	".O.X.OOXX";
+
+
+	".O.XOXOXX";
+
+
+	".O.XO.OXX";
+
+
+	".OOX.XOXX";
+
+
+	".OOXX.OXX";
+
+
+	".OOX..OXX";
+
+
+	".O.X..OXX";
+
+
+	".O.XOXO.X";
+
+
+	".OOX.XO.X";
+
+
+	".O.X.XO.X";
+
+
+	".O.XXOO.X";
+
+
+	".OOXX.O.X";
+
+
+	".O.XX.O.X";
+
+
+	".O.X..O.X";
+
+
+	".O.XOO.XX";
+
+
+	".OOXXO.XX";
+
+
+	".OOX.O.XX";
+
+
+	".O.X.O.XX";
+
+
+	".O.XOOX.X";
+
+
+	".OOXXOX.X";
+
+
+	".OOX.OX.X";
+
+
+	".O.X.OX.X";
+
+
+	".OOXXO..X";
+
+
+	".O.XXO..X";
+
+
+	".O.X.O..X";
+
+
+	".OOXOX.XX";
+
+
+	".OOXO..XX";
+
+
+	".O.XO..XX";
+
+
+	".OOXOXX.X";
+
+
+	".OOXO.X.X";
+
+
+	".O.XO.X.X";
+
+
+	".OOXOX..X";
+
+
+	".O.XOX..X";
+
+
+	".O.XO...X";
+
+
+	".OOX...XX";
+
+
+	".OOX..X.X";
+
+
+	".OOX.X..X";
+
+
+	".OOXX...X";
+
+
+	".OOX....X";
+
+
+	".O.X....X";
+
+
+	".O.XXOXXO";
+
+
+	".O.X.OXXO";
+
+
+	".OOXOXXXO";
+
+
+	".O.XOXXXO";
+
+
+	".O.XO.XXO";
+
+
+	".OOX.XXXO";
+
+
+	".OOXX.XXO";
+
+
+	".OOX..XXO";
+
+
+	".O.X..XXO";
+
+
+	".O.X.XOXO";
+
+
+	".O.XOX.XO";
+
+
+	".OOX.X.XO";
+
+
+	".O.X.X.XO";
+
+
+	".O.XX.OXO";
+
+
+	".O.XXO.XO";
+
+
+	".OOXX..XO";
+
+
+	".O.XX..XO";
+
+
+	".O.X...XO";
+
+
+	".O.XOXOX.";
+
+
+	".OOX.XOX.";
+
+
+	".O.X.XOX.";
+
+
+	".O.XXOOX.";
+
+
+	".OOXX.OX.";
+
+
+	".O.XX.OX.";
+
+
+	".O.X..OX.";
+
+
+	".O.XOOXX.";
+
+
+	".OOXXOXX.";
+
+
+	".OOX.OXX.";
+
+
+	".O.X.OXX.";
+
+
+	".OOXXO.X.";
+
+
+	".O.XXO.X.";
+
+
+	".O.X.O.X.";
+
+
+	".OOXOXXX.";
+
+
+	".OOXO.XX.";
+
+
+	".O.XO.XX.";
+
+
+	".OOXOX.X.";
+
+
+	".O.XOX.X.";
+
+
+	".O.XO..X.";
+
+
+	".OOX..XX.";
+
+
+	".OOX.X.X.";
+
+
+	".OOXX..X.";
+
+
+	".OOX...X.";
+
+
+	".O.X...X.";
+
+
+	".O.X.XXOO";
+
+
+	".O.XOXX.O";
+
+
+	".OOX.XX.O";
+
+
+	".O.X.XX.O";
+
+
+	".O.XX.XOO";
+
+
+	".O.XXOX.O";
+
+
+	".OOXX.X.O";
+
+
+	".O.XX.X.O";
+
+
+	".O.X..X.O";
+
+
+	".OOX.XXO.";
+
+
+	".O.X.XXO.";
+
+
+	".O.XXOXO.";
+
+
+	".OOXX.XO.";
+
+
+	".O.XX.XO.";
+
+
+	".O.X..XO.";
+
+
+	".OOXXOX..";
+
+
+	".O.XXOX..";
+
+
+	".O.X.OX..";
+
+
+	".OOXOXX..";
+
+
+	".O.XOXX..";
+
+
+	".O.XO.X..";
+
+
+	".OOX.XX..";
+
+
+	".OOXX.X..";
+
+
+	".OOX..X..";
+
+
+	".O.X..X..";
+
+
+	".O.X.X..O";
+
+
+	".O.X.X.O.";
+
+
+	".O.X.XO..";
+
+
+	".O.XOX...";
+
+
+	".OOX.X...";
+
+
+	".O.X.X...";
+
+
+	".O.XX...O";
+
+
+	".O.XX..O.";
+
+
+	".O.XX.O..";
+
+
+	".O.XXO...";
+
+
+	".OOXX....";
+
+
+	".O.XX....";
+
+
+	".O.X.....";
+
+
+	"..OXXOXOX";
+
+
+	"..OX.OXOX";
+
+
+	"..OXOXXOX";
+
+
+	"..OXO.XOX";
+
+
+	"..OX..XOX";
+
+
+	"..OX.XOOX";
+
+
+	"..OXOX.OX";
+
+
+	"..OX.X.OX";
+
+
+	"..OXX.OOX";
+
+
+	"..OXXO.OX";
+
+
+	"..OXX..OX";
+
+
+	"..OX...OX";
+
+
+	"..OXXOOXX";
+
+
+	"..OX.OOXX";
+
+
+	"..OX..OXX";
+
+
+	"..OX.XO.X";
+
+
+	"..OXXOO.X";
+
+
+	"..OXX.O.X";
+
+
+	"..OX..O.X";
+
+
+	"..OXOO.XX";
+
+
+	"..OX.O.XX";
+
+
+	"..OXOOX.X";
+
+
+	"..OX.OX.X";
+
+
+	"..OXXO..X";
+
+
+	"..OX.O..X";
+
+
+	"..OXO..XX";
+
+
+	"..OXO.X.X";
+
+
+	"..OXOX..X";
+
+
+	"..OXO...X";
+
+
+	"..OX....X";
+
+
+	"..OXOXXXO";
+
+
+	"..OXO.XXO";
+
+
+	"..OX..XXO";
+
+
+	"..OX.XOXO";
+
+
+	"..OXOX.XO";
+
+
+	"..OX.X.XO";
+
+
+	"..OXX.OXO";
+
+
+	"..OXX..XO";
+
+
+	"..OX...XO";
+
+
+	"..OX.XOX.";
+
+
+	"..OXXOOX.";
+
+
+	"..OXX.OX.";
+
+
+	"..OX..OX.";
+
+
+	"..OXOOXX.";
+
+
+	"..OX.OXX.";
+
+
+	"..OXXO.X.";
+
+
+	"..OX.O.X.";
+
+
+	"..OXO.XX.";
+
+
+	"..OXOX.X.";
+
+
+	"..OXO..X.";
+
+
+	"..OX...X.";
+
+
+	"..OX.XXOO";
+
+
+	"..OXOXX.O";
+
+
+	"..OX.XX.O";
+
+
+	"..OXX.XOO";
+
+
+	"..OXX.X.O";
+
+
+	"..OX..X.O";
+
+
+	"..OXOXXO.";
+
+
+	"..OX.XXO.";
+
+
+	"..OXXOXO.";
+
+
+	"..OXX.XO.";
+
+
+	"..OX..XO.";
+
+
+	"..OXXOX..";
+
+
+	"..OX.OX..";
+
+
+	"..OXOXX..";
+
+
+	"..OXO.X..";
+
+
+	"..OX..X..";
+
+
+	"..OX.X..O";
+
+
+	"..OX.X.O.";
+
+
+	"..OX.XO..";
+
+
+	"..OXOX...";
+
+
+	"..OX.X...";
+
+
+	"..OXX...O";
+
+
+	"..OXX..O.";
+
+
+	"..OXX.O..";
+
+
+	"..OXXO...";
+
+
+	"..OXX....";
+
+
+	"..OX.....";
+
+
+	"...XOOXOX";
+
+
+	"...XO.XOX";
+
+
+	"...XOXOOX";
+
+
+	"...XOX.OX";
+
+
+	"...XO..OX";
+
+
+	"...XOOOXX";
+
+
+	"...XO.OXX";
+
+
+	"...XOXO.X";
+
+
+	"...XO.O.X";
+
+
+	"...XOO.XX";
+
+
+	"...XOOX.X";
+
+
+	"...XOO..X";
+
+
+	"...XO...X";
+
+
+	"...XOOXXO";
+
+
+	"...XO.XXO";
+
+
+	"...XOXOXO";
+
+
+	"...XOX.XO";
+
+
+	"...XO..XO";
+
+
+	"...XOXOX.";
+
+
+	"...XO.OX.";
+
+
+	"...XOOXX.";
+
+
+	"...XOO.X.";
+
+
+	"...XO..X.";
+
+
+	"...XOXXOO";
+
+
+	"...XOXX.O";
+
+
+	"...XO.X.O";
+
+
+	"...XOXXO.";
+
+
+	"...XO.XO.";
+
+
+	"...XOOX..";
+
+
+	"...XO.X..";
+
+
+	"...XOX..O";
+
+
+	"...XOX.O.";
+
+
+	"...XOXO..";
+
+
+	"...XOX...";
+
+
+	"...XO....";
+
+
+	"...X.OXOX";
+
+
+	"...XXOOOX";
+
+
+	"...XXO.OX";
+
+
+	"...X.O.OX";
+
+
+	"...X.OOXX";
+
+
+	"...XXOO.X";
+
+
+	"...X.OO.X";
+
+
+	"...X.O..X";
+
+
+	"...X.OXXO";
+
+
+	"...XXOOXO";
+
+
+	"...XXO.XO";
+
+
+	"...X.O.XO";
+
+
+	"...XXOOX.";
+
+
+	"...X.OOX.";
+
+
+	"...X.O.X.";
+
+
+	"...XXOXOO";
+
+
+	"...XXOX.O";
+
+
+	"...X.OX.O";
+
+
+	"...XXOXO.";
+
+
+	"...X.OXO.";
+
+
+	"...X.OX..";
+
+
+	"...XXO..O";
+
+
+	"...XXO.O.";
+
+
+	"...XXOO..";
+
+
+	"...XXO...";
+
+
+	"...X.O...";
+
+
+	"...X.XOOX";
+
+
+	"...XX.OOX";
+
+
+	"...X..OOX";
+
+
+	"...X..O.X";
+
+
+	"...X.XOXO";
+
+
+	"...XX.OXO";
+
+
+	"...X..OXO";
+
+
+	"...X..OX.";
+
+
+	"...X.XO.O";
+
+
+	"...X.XOO.";
+
+
+	"...X.XO..";
+
+
+	"...XX.O.O";
+
+
+	"...XX.OO.";
+
+
+	"...XX.O..";
+
+
+	"...X..O..";
+
+
+	"...X...OX";
+
+
+	"...X.XXOO";
+
+
+	"...XX.XOO";
+
+
+	"...X..XOO";
+
+
+	"...X..XO.";
+
+
+	"...X.X.OO";
+
+
+	"...X.X.O.";
+
+
+	"...XX..OO";
+
+
+	"...XX..O.";
+
+
+	"...X...O.";
+
+
+	"...X...XO";
+
+
+	"...X..X.O";
+
+
+	"...X.X..O";
+
+
+	"...XX...O";
+
+
+	"...X....O";
+
+
+	"...X.....";
+
+
+	"O...XOXOX";
+
+
+	"O.OOXXXOX";
+
+
+	"OO.OXXXOX";
+
+
+	"O..OXXXOX";
+
+
+	"O..OX.XOX";
+
+
+	"O.O.XXXOX";
+
+
+	"O.O.X.XOX";
+
+
+	"OO..XXXOX";
+
+
+	"OO..X.XOX";
+
+
+	"O...X.XOX";
+
+
+	"O...XXOOX";
+
+
+	"O..OXX.OX";
+
+
+	"O.O.XX.OX";
+
+
+	"OO..XX.OX";
+
+
+	"O...XX.OX";
+
+
+	"O...X..OX";
+
+
+	"O...XOOXX";
+
+
+	"O.O.XXOXX";
+
+
+	"O.O.X.OXX";
+
+
+	"OO..XXOXX";
+
+
+	"OO..X.OXX";
+
+
+	"O...X.OXX";
+
+
+	"O.O.XXO.X";
+
+
+	"OO..XXO.X";
+
+
+	"O...XXO.X";
+
+
+	"O...X.O.X";
+
+
+	"O..OXO.XX";
+
+
+	"O.O.XO.XX";
+
+
+	"OO..XO.XX";
+
+
+	"O...XO.XX";
+
+
+	"O..OXOX.X";
+
+
+	"O.O.XOX.X";
+
+
+	"OO..XOX.X";
+
+
+	"O...XOX.X";
+
+
+	"O...XO..X";
+
+
+	"O.OOXX.XX";
+
+
+	"O.OOX..XX";
+
+
+	"OO.OXX.XX";
+
+
+	"OO.OX..XX";
+
+
+	"O..OX..XX";
+
+
+	"O.OOXXX.X";
+
+
+	"O.OOX.X.X";
+
+
+	"OO.OXXX.X";
+
+
+	"OO.OX.X.X";
+
+
+	"O..OX.X.X";
+
+
+	"O.OOXX..X";
+
+
+	"OO.OXX..X";
+
+
+	"O..OXX..X";
+
+
+	"O..OX...X";
+
+
+	"O.O.X..XX";
+
+
+	"O.O.X.X.X";
+
+
+	"O.O.XX..X";
+
+
+	"O.O.X...X";
+
+
+	"OO..X..XX";
+
+
+	"OO..X.X.X";
+
+
+	"OO..XX..X";
+
+
+	"OO..X...X";
+
+
+	"O...X...X";
+
+
+	"O...XOXXO";
+
+
+	"O.OOXXXXO";
+
+
+	"OO.OXXXXO";
+
+
+	"O..OXXXXO";
+
+
+	"O..OX.XXO";
+
+
+	"O.O.XXXXO";
+
+
+	"O.O.X.XXO";
+
+
+	"OO..XXXXO";
+
+
+	"OO..X.XXO";
+
+
+	"O...X.XXO";
+
+
+	"O...XXOXO";
+
+
+	"O..OXX.XO";
+
+
+	"O.O.XX.XO";
+
+
+	"OO..XX.XO";
+
+
+	"O...XX.XO";
+
+
+	"O...X..XO";
+
+
+	"O.O.XXOX.";
+
+
+	"OO..XXOX.";
+
+
+	"O...XXOX.";
+
+
+	"O...X.OX.";
+
+
+	"O..OXOXX.";
+
+
+	"O.O.XOXX.";
+
+
+	"OO..XOXX.";
+
+
+	"O...XOXX.";
+
+
+	"O...XO.X.";
+
+
+	"O.OOXXXX.";
+
+
+	"O.OOX.XX.";
+
+
+	"OO.OXXXX.";
+
+
+	"OO.OX.XX.";
+
+
+	"O..OX.XX.";
+
+
+	"O.OOXX.X.";
+
+
+	"OO.OXX.X.";
+
+
+	"O..OXX.X.";
+
+
+	"O..OX..X.";
+
+
+	"O.O.X.XX.";
+
+
+	"O.O.XX.X.";
+
+
+	"O.O.X..X.";
+
+
+	"OO..X.XX.";
+
+
+	"OO..XX.X.";
+
+
+	"OO..X..X.";
+
+
+	"O...X..X.";
+
+
+	"O...XXXOO";
+
+
+	"O..OXXX.O";
+
+
+	"O.O.XXX.O";
+
+
+	"OO..XXX.O";
+
+
+	"O...XXX.O";
+
+
+	"O...X.X.O";
+
+
+	"O..OXXXO.";
+
+
+	"O.O.XXXO.";
+
+
+	"OO..XXXO.";
+
+
+	"O...XXXO.";
+
+
+	"O...X.XO.";
+
+
+	"O...XOX..";
+
+
+	"O.OOXXX..";
+
+
+	"OO.OXXX..";
+
+
+	"O..OXXX..";
+
+
+	"O..OX.X..";
+
+
+	"O.O.XXX..";
+
+
+	"O.O.X.X..";
+
+
+	"OO..XXX..";
+
+
+	"OO..X.X..";
+
+
+	"O...X.X..";
+
+
+	"O...XX..O";
+
+
+	"O...XX.O.";
+
+
+	"O...XXO..";
+
+
+	"O..OXX...";
+
+
+	"O.O.XX...";
+
+
+	"OO..XX...";
+
+
+	"O...XX...";
+
+
+	"O...X....";
+
+
+	".O..XOXOX";
+
+
+	".OOOXXXOX";
+
+
+	".O.OXXXOX";
+
+
+	".O.OX.XOX";
+
+
+	".OO.XXXOX";
+
+
+	".OO.X.XOX";
+
+
+	".O..X.XOX";
+
+
+	".O..XXOOX";
+
+
+	".O.OXX.OX";
+
+
+	".OO.XX.OX";
+
+
+	".O..XX.OX";
+
+
+	".O..X..OX";
+
+
+	".O..XOOXX";
+
+
+	".OOOXXOXX";
+
+
+	".O.OXXOXX";
+
+
+	".O.OX.OXX";
+
+
+	".OO.XXOXX";
+
+
+	".OO.X.OXX";
+
+
+	".O..X.OXX";
+
+
+	".O.OXXO.X";
+
+
+	".OO.XXO.X";
+
+
+	".O..XXO.X";
+
+
+	".O..X.O.X";
+
+
+	".O.OXO.XX";
+
+
+	".OO.XO.XX";
+
+
+	".O..XO.XX";
+
+
+	".O.OXOX.X";
+
+
+	".OO.XOX.X";
+
+
+	".O..XOX.X";
+
+
+	".O..XO..X";
+
+
+	".OOOXX.XX";
+
+
+	".OOOX..XX";
+
+
+	".O.OX..XX";
+
+
+	".OOOXXX.X";
+
+
+	".OOOX.X.X";
+
+
+	".O.OX.X.X";
+
+
+	".OOOXX..X";
+
+
+	".O.OXX..X";
+
+
+	".O.OX...X";
+
+
+	".OO.X..XX";
+
+
+	".OO.X.X.X";
+
+
+	".OO.XX..X";
+
+
+	".OO.X...X";
+
+
+	".O..X...X";
+
+
+	".O..XOXXO";
+
+
+	".OOOXXXXO";
+
+
+	".O.OXXXXO";
+
+
+	".O.OX.XXO";
+
+
+	".OO.XXXXO";
+
+
+	".OO.X.XXO";
+
+
+	".O..X.XXO";
+
+
+	".O..XXOXO";
+
+
+	".O.OXX.XO";
+
+
+	".OO.XX.XO";
+
+
+	".O..XX.XO";
+
+
+	".O..X..XO";
+
+
+	".O.OXXOX.";
+
+
+	".OO.XXOX.";
+
+
+	".O..XXOX.";
+
+
+	".O..X.OX.";
+
+
+	".O.OXOXX.";
+
+
+	".OO.XOXX.";
+
+
+	".O..XOXX.";
+
+
+	".O..XO.X.";
+
+
+	".OOOXXXX.";
+
+
+	".OOOX.XX.";
+
+
+	".O.OX.XX.";
+
+
+	".OOOXX.X.";
+
+
+	".O.OXX.X.";
+
+
+	".O.OX..X.";
+
+
+	".OO.X.XX.";
+
+
+	".OO.XX.X.";
+
+
+	".OO.X..X.";
+
+
+	".O..X..X.";
+
+
+	".O..XXXOO";
+
+
+	".O.OXXX.O";
+
+
+	".OO.XXX.O";
+
+
+	".O..XXX.O";
+
+
+	".O..X.X.O";
+
+
+	".O.OXXXO.";
+
+
+	".OO.XXXO.";
+
+
+	".O..XXXO.";
+
+
+	".O..X.XO.";
+
+
+	".O..XOX..";
+
+
+	".OOOXXX..";
+
+
+	".O.OXXX..";
+
+
+	".O.OX.X..";
+
+
+	".OO.XXX..";
+
+
+	".OO.X.X..";
+
+
+	".O..X.X..";
+
+
+	".O..XX..O";
+
+
+	".O..XX.O.";
+
+
+	".O..XXO..";
+
+
+	".O.OXX...";
+
+
+	".OO.XX...";
+
+
+	".O..XX...";
+
+
+	".O..X....";
+
+
+	"..O.XOXOX";
+
+
+	"..OOXXXOX";
+
+
+	"..OOX.XOX";
+
+
+	"..O.X.XOX";
+
+
+	"..O.XXOOX";
+
+
+	"..OOXX.OX";
+
+
+	"..O.XX.OX";
+
+
+	"..O.X..OX";
+
+
+	"..O.XOOXX";
+
+
+	"..OOXXOXX";
+
+
+	"..OOX.OXX";
+
+
+	"..O.X.OXX";
+
+
+	"..OOXXO.X";
+
+
+	"..O.XXO.X";
+
+
+	"..O.X.O.X";
+
+
+	"..OOXO.XX";
+
+
+	"..O.XO.XX";
+
+
+	"..OOXOX.X";
+
+
+	"..O.XOX.X";
+
+
+	"..O.XO..X";
+
+
+	"..OOX..XX";
+
+
+	"..OOX.X.X";
+
+
+	"..OOXX..X";
+
+
+	"..OOX...X";
+
+
+	"..O.X...X";
+
+
+	"..OOXXXXO";
+
+
+	"..OOX.XXO";
+
+
+	"..O.X.XXO";
+
+
+	"..O.XXOXO";
+
+
+	"..OOXX.XO";
+
+
+	"..O.XX.XO";
+
+
+	"..O.X..XO";
+
+
+	"..OOXXOX.";
+
+
+	"..O.XXOX.";
+
+
+	"..O.X.OX.";
+
+
+	"..OOXOXX.";
+
+
+	"..O.XOXX.";
+
+
+	"..O.XO.X.";
+
+
+	"..OOX.XX.";
+
+
+	"..OOXX.X.";
+
+
+	"..OOX..X.";
+
+
+	"..O.X..X.";
+
+
+	"..O.XXXOO";
+
+
+	"..OOXXX.O";
+
+
+	"..O.XXX.O";
+
+
+	"..O.X.X.O";
+
+
+	"..OOXXXO.";
+
+
+	"..O.XXXO.";
+
+
+	"..O.X.XO.";
+
+
+	"..O.XOX..";
+
+
+	"..OOXXX..";
+
+
+	"..OOX.X..";
+
+
+	"..O.X.X..";
+
+
+	"..O.XX..O";
+
+
+	"..O.XX.O.";
+
+
+	"..O.XXO..";
+
+
+	"..OOXX...";
+
+
+	"..O.XX...";
+
+
+	"..O.X....";
+
+
+	"...OXOXOX";
+
+
+	"...OX.XOX";
+
+
+	"...OXXOOX";
+
+
+	"...OXX.OX";
+
+
+	"...OX..OX";
+
+
+	"...OXOOXX";
+
+
+	"...OX.OXX";
+
+
+	"...OXXO.X";
+
+
+	"...OX.O.X";
+
+
+	"...OXO.XX";
+
+
+	"...OXOX.X";
+
+
+	"...OXO..X";
+
+
+	"...OX...X";
+
+
+	"...OXOXXO";
+
+
+	"...OX.XXO";
+
+
+	"...OXXOXO";
+
+
+	"...OXX.XO";
+
+
+	"...OX..XO";
+
+
+	"...OXXOX.";
+
+
+	"...OX.OX.";
+
+
+	"...OXOXX.";
+
+
+	"...OXO.X.";
+
+
+	"...OX..X.";
+
+
+	"...OXXXOO";
+
+
+	"...OXXX.O";
+
+
+	"...OX.X.O";
+
+
+	"...OXXXO.";
+
+
+	"...OX.XO.";
+
+
+	"...OXOX..";
+
+
+	"...OX.X..";
+
+
+	"...OXX..O";
+
+
+	"...OXX.O.";
+
+
+	"...OXXO..";
+
+
+	"...OXX...";
+
+
+	"...OX....";
+
+
+	"....XOXOX";
+
+
+	"....XO.OX";
+
+
+	"....XOOXX";
+
+
+	"....XOO.X";
+
+
+	"....XO..X";
+
+
+	"....XOXXO";
+
+
+	"....XO.XO";
+
+
+	"....XOOX.";
+
+
+	"....XO.X.";
+
+
+	"....XOX.O";
+
+
+	"....XOXO.";
+
+
+	"....XOX..";
+
+
+	"....XO...";
+
+
+	"....XXOOX";
+
+
+	"....X.OOX";
+
+
+	"....X.O.X";
+
+
+	"....XXOXO";
+
+
+	"....X.OXO";
+
+
+	"....X.OX.";
+
+
+	"....XXO.O";
+
+
+	"....XXOO.";
+
+
+	"....XXO..";
+
+
+	"....X.O..";
+
+
+	"....X..OX";
+
+
+	"....XXXOO";
+
+
+	"....X.XOO";
+
+
+	"....X.XO.";
+
+
+	"....XX.OO";
+
+
+	"....XX.O.";
+
+
+	"....X..O.";
+
+
+	"....X..XO";
+
+
+	"....X.X.O";
+
+
+	"....XX..O";
+
+
+	"....X...O";
+
+
+	"....X....";
+
+
+	"O...OXXOX";
+
+
+	"O..O.XXOX";
+
+
+	"O.O..XXOX";
+
+
+	"OO...XXOX";
+
+
+	"O....XXOX";
+
+
+	"O....X.OX";
+
+
+	"O...OXOXX";
+
+
+	"O.O..XOXX";
+
+
+	"OO...XOXX";
+
+
+	"O....XOXX";
+
+
+	"O....XO.X";
+
+
+	"O..OOX.XX";
+
+
+	"O.O.OX.XX";
+
+
+	"OO..OX.XX";
+
+
+	"O...OX.XX";
+
+
+	"O..OOXX.X";
+
+
+	"O.O.OXX.X";
+
+
+	"OO..OXX.X";
+
+
+	"O...OXX.X";
+
+
+	"O...OX..X";
+
+
+	"O.OO.X.XX";
+
+
+	"OO.O.X.XX";
+
+
+	"O..O.X.XX";
+
+
+	"O.OO.XX.X";
+
+
+	"OO.O.XX.X";
+
+
+	"O..O.XX.X";
+
+
+	"O..O.X..X";
+
+
+	"O.O..X.XX";
+
+
+	"O.O..XX.X";
+
+
+	"O.O..X..X";
+
+
+	"OO...X.XX";
+
+
+	"OO...XX.X";
+
+
+	"OO...X..X";
+
+
+	"O....X..X";
+
+
+	"O..O.XXXO";
+
+
+	"O.O..XXXO";
+
+
+	"OO...XXXO";
+
+
+	"O....XXXO";
+
+
+	"O....X.XO";
+
+
+	"O....XOX.";
+
+
+	"O..OOXXX.";
+
+
+	"O.O.OXXX.";
+
+
+	"OO..OXXX.";
+
+
+	"O...OXXX.";
+
+
+	"O...OX.X.";
+
+
+	"O.OO.XXX.";
+
+
+	"OO.O.XXX.";
+
+
+	"O..O.XXX.";
+
+
+	"O..O.X.X.";
+
+
+	"O.O..XXX.";
+
+
+	"O.O..X.X.";
+
+
+	"OO...XXX.";
+
+
+	"OO...X.X.";
+
+
+	"O....X.X.";
+
+
+	"O....XX.O";
+
+
+	"O....XXO.";
+
+
+	"O...OXX..";
+
+
+	"O..O.XX..";
+
+
+	"O.O..XX..";
+
+
+	"OO...XX..";
+
+
+	"O....XX..";
+
+
+	"O....X...";
+
+
+	".O.O.XXOX";
+
+
+	".OO..XXOX";
+
+
+	".O...XXOX";
+
+
+	".O...X.OX";
+
+
+	".O..OXOXX";
+
+
+	".O.O.XOXX";
+
+
+	".OO..XOXX";
+
+
+	".O...XOXX";
+
+
+	".O...XO.X";
+
+
+	".O.OOX.XX";
+
+
+	".OO.OX.XX";
+
+
+	".O..OX.XX";
+
+
+	".O.OOXX.X";
+
+
+	".OO.OXX.X";
+
+
+	".O..OXX.X";
+
+
+	".O..OX..X";
+
+
+	".OOO.X.XX";
+
+
+	".O.O.X.XX";
+
+
+	".OOO.XX.X";
+
+
+	".O.O.XX.X";
+
+
+	".O.O.X..X";
+
+
+	".OO..X.XX";
+
+
+	".OO..XX.X";
+
+
+	".OO..X..X";
+
+
+	".O...X..X";
+
+
+	".O..OXXXO";
+
+
+	".O.O.XXXO";
+
+
+	".OO..XXXO";
+
+
+	".O...XXXO";
+
+
+	".O...X.XO";
+
+
+	".O...XOX.";
+
+
+	".O.OOXXX.";
+
+
+	".OO.OXXX.";
+
+
+	".O..OXXX.";
+
+
+	".O..OX.X.";
+
+
+	".OOO.XXX.";
+
+
+	".O.O.XXX.";
+
+
+	".O.O.X.X.";
+
+
+	".OO..XXX.";
+
+
+	".OO..X.X.";
+
+
+	".O...X.X.";
+
+
+	".O...XX.O";
+
+
+	".O...XXO.";
+
+
+	".O..OXX..";
+
+
+	".O.O.XX..";
+
+
+	".OO..XX..";
+
+
+	".O...XX..";
+
+
+	".O...X...";
+
+
+	"..O.OXXOX";
+
+
+	"..OO.XXOX";
+
+
+	"..O..XXOX";
+
+
+	"..O..X.OX";
+
+
+	"..OO.XOXX";
+
+
+	"..O..XOXX";
+
+
+	"..O..XO.X";
+
+
+	"..OOOX.XX";
+
+
+	"..O.OX.XX";
+
+
+	"..OOOXX.X";
+
+
+	"..O.OXX.X";
+
+
+	"..O.OX..X";
+
+
+	"..OO.X.XX";
+
+
+	"..OO.XX.X";
+
+
+	"..OO.X..X";
+
+
+	"..O..X..X";
+
+
+	"..O.OXXXO";
+
+
+	"..OO.XXXO";
+
+
+	"..O..XXXO";
+
+
+	"..O..X.XO";
+
+
+	"..O..XOX.";
+
+
+	"..OOOXXX.";
+
+
+	"..O.OXXX.";
+
+
+	"..O.OX.X.";
+
+
+	"..OO.XXX.";
+
+
+	"..OO.X.X.";
+
+
+	"..O..X.X.";
+
+
+	"..O..XX.O";
+
+
+	"..O..XXO.";
+
+
+	"..O.OXX..";
+
+
+	"..OO.XX..";
+
+
+	"..O..XX..";
+
+
+	"..O..X...";
+
+
+	"...OOXXOX";
+
+
+	"...O.XXOX";
+
+
+	"...O.X.OX";
+
+
+	"...OOXOXX";
+
+
+	"...O.XOXX";
+
+
+	"...O.XO.X";
+
+
+	"...OOX.XX";
+
+
+	"...OOXX.X";
+
+
+	"...OOX..X";
+
+
+	"...O.X..X";
+
+
+	"...OOXXXO";
+
+
+	"...O.XXXO";
+
+
+	"...O.X.XO";
+
+
+	"...O.XOX.";
+
+
+	"...OOXXX.";
+
+
+	"...OOX.X.";
+
+
+	"...O.X.X.";
+
+
+	"...O.XX.O";
+
+
+	"...O.XXO.";
+
+
+	"...OOXX..";
+
+
+	"...O.XX..";
+
+
+	"...O.X...";
+
+
+	"....OXXOX";
+
+
+	"....OX.OX";
+
+
+	"....OXOXX";
+
+
+	"....OXO.X";
+
+
+	"....OX..X";
+
+
+	"....OXXXO";
+
+
+	"....OX.XO";
+
+
+	"....OXOX.";
+
+
+	"....OX.X.";
+
+
+	"....OXX.O";
+
+
+	"....OXXO.";
+
+
+	"....OXX..";
+
+
+	"....OX...";
+
+
+	".....XOOX";
+
+
+	".....XO.X";
+
+
+	".....XOXO";
+
+
+	".....XOX.";
+
+
+	".....XO..";
+
+
+	".....X.OX";
+
+
+	".....XXOO";
+
+
+	".....XXO.";
+
+
+	".....X.O.";
+
+
+	".....X.XO";
+
+
+	".....XX.O";
+
+
+	".....X..O";
+
+
+	".....X...";
+
+
+	"O.....XOX";
+
+
+	"O....OX.X";
+
+
+	"O...O.X.X";
+
+
+	"O..O..X.X";
+
+
+	"O.O...X.X";
+
+
+	"OO....X.X";
+
+
+	"O.....X.X";
+
+
+	"O.....XXO";
+
+
+	"O....OXX.";
+
+
+	"O...O.XX.";
+
+
+	"O..O..XX.";
+
+
+	"O.O...XX.";
+
+
+	"OO....XX.";
+
+
+	"O.....XX.";
+
+
+	"O.....X..";
+
+
+	".O....XOX";
+
+
+	".O...OX.X";
+
+
+	".O..O.X.X";
+
+
+	".O.O..X.X";
+
+
+	".OO...X.X";
+
+
+	".O....X.X";
+
+
+	".O....XXO";
+
+
+	".O...OXX.";
+
+
+	".O..O.XX.";
+
+
+	".O.O..XX.";
+
+
+	".OO...XX.";
+
+
+	".O....XX.";
+
+
+	".O....X..";
+
+
+	"..O...XOX";
+
+
+	"..O..OX.X";
+
+
+	"..O.O.X.X";
+
+
+	"..OO..X.X";
+
+
+	"..O...X.X";
+
+
+	"..O...XXO";
+
+
+	"..O..OXX.";
+
+
+	"..O.O.XX.";
+
+
+	"..OO..XX.";
+
+
+	"..O...XX.";
+
+
+	"..O...X..";
+
+
+	"...O..XOX";
+
+
+	"...O.OX.X";
+
+
+	"...OO.X.X";
+
+
+	"...O..X.X";
+
+
+	"...O..XXO";
+
+
+	"...O.OXX.";
+
+
+	"...OO.XX.";
+
+
+	"...O..XX.";
+
+
+	"...O..X..";
+
+
+	"....O.XOX";
+
+
+	"....OOX.X";
+
+
+	"....O.X.X";
+
+
+	"....O.XXO";
+
+
+	"....OOXX.";
+
+
+	"....O.XX.";
+
+
+	"....O.X..";
+
+
+	".....OXOX";
+
+
+	".....OX.X";
+
+
+	".....OXXO";
+
+
+	".....OXX.";
+
+
+	".....OX..";
+
+
+	"......XOX";
+
+
+	"......XO.";
+
+
+	"......XXO";
+
+
+	"......X.O";
+
+
+	"......X..";
+
+
+	"O.....OXX";
+
+
+	"O....O.XX";
+
+
+	"O...O..XX";
+
+
+	"O..O...XX";
+
+
+	"O.O....XX";
+
+
+	"OO.....XX";
+
+
+	"O......XX";
+
+
+	"O......X.";
+
+
+	".O....OXX";
+
+
+	".O...O.XX";
+
+
+	".O..O..XX";
+
+
+	".O.O...XX";
+
+
+	".OO....XX";
+
+
+	".O.....XX";
+
+
+	".O.....X.";
+
+
+	"..O...OXX";
+
+
+	"..O..O.XX";
+
+
+	"..O.O..XX";
+
+
+	"..OO...XX";
+
+
+	"..O....XX";
+
+
+	"..O....X.";
+
+
+	"...O..OXX";
+
+
+	"...O.O.XX";
+
+
+	"...OO..XX";
+
+
+	"...O...XX";
+
+
+	"...O...X.";
+
+
+	"....O.OXX";
+
+
+	"....OO.XX";
+
+
+	"....O..XX";
+
+
+	"....O..X.";
+
+
+	".....OOXX";
+
+
+	".....O.XX";
+
+
+	".....O.X.";
+
+
+	"......OXX";
+
+
+	"......OX.";
+
+
+	".......XO";
+
+
+	".......X.";
+
+
+	"O.......X";
+
+
+	".O......X";
+
+
+	"..O.....X";
+
+
+	"...O....X";
+
+
+	"....O...X";
+
+
+	".....O..X";
+
+
+	"......O.X";
+
+
+	".......OX";
+
+
+	"........X";
+
+
+	".........";
+
+}

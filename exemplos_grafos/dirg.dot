@@ -1,0 +1,7 @@
+strict digraph dirg {
+	A -> B
+	B -> C
+	C -> A
+	C -> D
+	D -> E
+}

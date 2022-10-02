@@ -1,0 +1,18 @@
+strict digraph clrs {
+
+a -> b -> c -> a;
+
+a -> d;
+c -> d;
+
+d -> e -> d;
+
+f -> e;
+f -> f;
+
+f -> g;
+e -> g;
+
+g -> h -> i -> g;
+
+}

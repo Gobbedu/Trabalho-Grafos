@@ -1,0 +1,12 @@
+strict digraph dirg_componentes {
+	E;
+
+
+	D;
+
+
+	A -> B;
+	B -> C;
+	C -> A;
+
+}

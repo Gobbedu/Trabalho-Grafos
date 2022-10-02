@@ -456,12 +456,20 @@ grafo decompoe(grafo g) {
 			sub[i] = agsubg(g, NULL, TRUE);				
 
 			// monta subgrafo com 'tam' vertices no componente forte
+			printf("size of subset is %d contains nodes:\n", tam);
 			for(int j = 0; j < tam; j++)
 			{	// adiciona vertices componente
+				printf("\t%s\n", agnameof(component[j]));
 				agsubnode(sub[i], component[j], TRUE);
 				// adiciona aresta sse vizinho pertence ao componente
-				for(Agedge_t *e = agfstout(g, component[j]); e && pertenceA(aghead(e), component, tam); e = agnxtout(g, e))
-					agsubedge(sub[i], e, TRUE);												
+				// if(agedge(g, component[j], component[j], NULL, FALSE)) agedge(sub[i], component[j], component[j], NULL, TRUE);
+				for(vertice x = agfstnode(g); x && pertenceA(x, component, tam); x = agnxtnode(g, x))
+				{
+					if(agedge(g, component[j], x, NULL, FALSE)) agsubedge(sub[i], agedge(g, component[j], x, NULL, FALSE), TRUE);												
+					if(agedge(g, x, component[j], NULL, FALSE)) agsubedge(sub[i], agedge(g, x, component[j], NULL, FALSE), TRUE);
+
+				}
+				// for(Agedge_t *e = agfstout(g, component[j]); e && pertenceA(aghead(e), component, tam); e = agnxtout(g, e))
 			}
 		}
 	}
